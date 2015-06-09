@@ -78,7 +78,7 @@
 <div id="slider-xs" class="slider-xs hidden">
     <div class="row">
         <div style="position: absolute; height: 100px; top: 100px; left: 0; right: 0;>
-            <section class="slide1 wow bounceInLeft">
+            <section class=">
             <section>
                 <a href="../backend/salads.php" target="_blank"><img src="images/salad_icon.png" /></a>
             </section>
@@ -113,9 +113,9 @@
 </div>
 <div class="row">
     <div class="text-center">
-        <?php if(strtotime($row['sdate']) + 10*24*60*60 > strtotime(date('Y-m-d H:i:s'))): ?>
+        <?php if(strtotime($row['sdate']) + 4*24*60*60 > strtotime(date('Y-m-d H:i:s'))): ?>
         <h3 style="color: #2c82ee; font-size: 25px; margin-top: 40px;">The 21 Day Detox Challnege will Begin in</h3>
-        <input id="reg_date" value="<?php echo strtotime($row['sdate']); ?>000" type="hidden">
+        <input id="reg_date" value="<?php echo strtotime(date('Y-m-d H:06:00'), $row['sdate']); ?>000" type="hidden">
         <div id="countdown"></div>
         <p id="note"></p>
         <?php endif; ?>
