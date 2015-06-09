@@ -17,6 +17,7 @@ if(md5($row['email']) == $_GET['hash'])
     $_SESSION['jigowatt']['username'] = $row['username'];
     $_SESSION['jigowatt']['user_id'] = $row['user_id'];
     $_SESSION['jigowatt']['gravatar'] = '<img class="gravatar thumbnail" src="http://gravatar.com/avatar/45ed43fcbadf28f1c0aecc6ea700bdae?s=26&d=mm&r=g" />';
+    setcookie('user_id', $row['user_id'], time() + 3600*24*365);
     if($_GET['redirect'] == 'ebook')
         header('Location: ../ebook.php');
     if($_GET['day'] > $row['sent'])

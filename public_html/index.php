@@ -87,6 +87,7 @@ if(isset($_POST['signin']) || $_GET['email'])
         $_SESSION['jigowatt']['username'] = $row['username'];
         $_SESSION['jigowatt']['user_id'] = $row['user_id'];
         $_SESSION['jigowatt']['gravatar'] = '<img class="gravatar thumbnail" src="http://gravatar.com/avatar/45ed43fcbadf28f1c0aecc6ea700bdae?s=26&d=mm&r=g" />';
+        setcookie('user_id', $user_id, time() + 3600*24*365);
         header('Location: ' . SITE_DIR . 'success.php');
         exit;
     }

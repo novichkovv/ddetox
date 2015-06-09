@@ -1,39 +1,57 @@
 <?php include_once('classes/check.class.php'); ?>
 <?php include_once('header.php'); ?>
-
+<?php require_once('../detox/model.php'); ?>
+<?php require_once('../detox/mailing_data.php'); ?>
+<?php
+if(isset($_SESSION['jigowatt']['user_id']) && $_SESSION['jigowatt']['user_id'] != 9183) {
+    $model = new model('login_users');
+    $user = $model->getByField('user_id',$_SESSION['jigowatt']['user_id']);
+}
+if(isset($_COOKIE['user_id'])) {
+    $model = new model('login_users');
+    $user = $model->getByField('user_id',$_COOKIE['user_id']);
+}
+?>
 <?php if( protectThis("1,2,3, 4") ) : ?>
-
 <br>
-<div class="alert alert-success">You have successfully signed up for the 21 Day Detox!</div>
-
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
+    <link rel="stylesheet" href="<?php echo SITE_DIR; ?>css/jquery.countdown.css" />
+    <link rel="stylesheet" href="<?php echo SITE_DIR; ?>css/count-style.css" />
+    <script type="text/javascript" src="<?php echo SITE_DIR; ?>js/jquery.js"></script>
+    <script type="text/javascript" src="<?php echo SITE_DIR; ?>js/jquery.countdown.js"></script>
+    <script type="text/javascript" src="<?php echo SITE_DIR; ?>js/count-script.js"></script>
+<!--<div class="alert alert-success">You have successfully signed up for the 21 Day Detox!</div>-->
 <div class="features">
-
-
 <!--Header Text-->
 <div class="row">
 <div class="span12">
-
 <center>
 <a href="http://www.drcolbert.com/21-day-detox-package-759.html"><img src="../img/detoxpromobanner.jpg" /></a>
 </center>
-
 <h1 style="font-size: 50px; font-weight: bold;">Welcome to the <img src="assets/img/logo.png" alt="21 Day Detox" /></h1>
 <center>
 <h3>Questions? Call: 407.732.6952</h3>
 <a href="/backend/ebook.php"><img src="/img/ebooklet.png" alt="Dr. Colbert's 21 Day Detox E-Booklet" /></a></center>
 </div>
 </div>
-
 <br><hr><br>
-
+<div class="row">
+    <div class="span12">
+        <?php if(strtotime($user['sdate']) + 4*24*60*60 > strtotime(date('Y-m-d H:i:s'))): ?>
+            <h3 style="color: #2c82ee; font-size: 25px; margin-top: 40px; text-align: center;">The 21 Day Detox Challnege will Begin in</h3>
+            <input id="reg_date" value="<?php echo strtotime(date('Y-m-d H:06:00'), $user['sdate']); ?>000" type="hidden">
+            <div id="countdown"></div>
+            <p id="note"></p>
+        <?php endif; ?>
+        <!--        <center><iframe src="../basic.html" width="410" height="170" frameborder="0" scrolling="no"></iframe><h3>Until the 21 Day Detox Program Begins!</h3></center>-->
+        <br><br><hr>
+    </div>
+</div>
 <!--Start-->
-
-
-
-
-
+    <div class="span1">
+        &nbsp;
+    </div>
 	<div class="span4">
-		
 		<h1 class="box_title">Detox Tip</h1>
 		<div class="tip_box">
 		<img src="assets/img/alkalize_tip.jpg" width="350" />
@@ -42,85 +60,90 @@
 		<h1 class="box_title">Latest Video</h1>
 		<div class="vid_box">
 		<?php
+        $video = str_replace('https://www.youtube.com/watch?v=','',$videos[$user['sent']]);
+        $video = str_replace('&list=UUxObFUbx4nYwWVCelOUQtKA','',$video);
 		  //GET START DATE
-			$DBH = new PDO("mysql:host=localhost;dbname=ddetox_backend", 'ddetox_admin', 'Starcraft12');
-			$statement = $DBH->query("select setting_value from detox_settings where setting_name='startDate'");
-			$row = $statement->fetch(PDO::FETCH_ASSOC);	
-			$startDate=date_create($row['setting_value']);
-			
-			$today = date_create(date("Y-m-d"));
-			$diff=date_diff($startDate,$today);
-			$day = date_interval_format($diff, '%R%a');
-			//DAY MUST BE SET 1 LESS THAN DAY (EXAMPLE: +1 is for Day 2)
-
-		   switch ($day)
-			{
-			case "+0":
-			  $video = "Oa4wm2ftna4";
-			  break;
-			case "+1":
-			  $video = "LC9rk3RRBs";
-			  break;
-			case "+2":
-			  $video = "8hbQ_p0FBUU";
-			  break;
-			case "+3":
-			  $video = "GQiACiMUoo0";
-			  break;
-			case "+4":
-			$video = "idhtN-E2nvM";
-			  break;
-			case "+5":
-			$video = "jpSL_ZeB_Dg";
-			  break;
-			case "+6":
-			$video = "kDmUVntfk6A";
-			  break;
-			case "+7":
-			$video = "kDmUVntfk6A";
-			  break;
-			  case "+8":
-			$video = "kDmUVntfk6A";
-			  break;
-			  case "+9":
-			$video = "_Oq15UjDit8";
-			  break;
-			  case "+10":
-			$video = "umWufE8HYUs";
-			  break;
-			  case "+11":
-			$video = "umWufE8HYUs";
-			  break;
-			  case "+12":
-			$video = "umWufE8HYUs";
-			  break;
-			  case "+13":
-			$video = "4N3mkO2tWRg";
-			  break;
-			  case "+14":
-			$video = "4N3mkO2tWRg";
-			  break;
-			  case "+15":
-			$video = "4N3mkO2tWRg";
-			  break;
-			  case "+16":
-			$video = "Yk0wwPwj2OY";
-			  break;
-			  case "+17":
-			$video = "Yk0wwPwj2OY";
-			  break;
-			  case "+18":
-			$video = "Yk0wwPwj2OY";
-			  break;
-			  case "+19":
-			$video = "D6mrUPrnbIQ";
-			  break;
-			  case "+20":
-			$video = "3iYxBBeKmQE";
-			  break;
-			default:
-			$video = "Zrw39vnRTOk";
-			}
+//			$DBH = new PDO("mysql:host=localhost;dbname=ddetox_backend", 'ddetox_admin', 'Starcraft12');
+//			$statement = $DBH->query("select setting_value from detox_settings where setting_name='startDate'");
+//			$row = $statement->fetch(PDO::FETCH_ASSOC);
+//			$startDate=date_create($row['setting_value']);
+//			if($startDate) {
+//
+//            }
+//        echo date('Y-m-d', strtotime($user['sdate']));
+//			$today = date_create(date("Y-m-d"));
+//			$diff = date_diff(date('Y-m-d', strtotime($user['sdate'])),$today);
+//			$day = date_interval_format($diff, '%R%a');
+//			//DAY MUST BE SET 1 LESS THAN DAY (EXAMPLE: +1 is for Day 2)
+//
+//		   switch ($day)
+//			{
+//			case "+0":
+//			  $video = "Oa4wm2ftna4";
+//			  break;
+//			case "+1":
+//			  $video = "LC9rk3RRBs";
+//			  break;
+//			case "+2":
+//			  $video = "8hbQ_p0FBUU";
+//			  break;
+//			case "+3":
+//			  $video = "GQiACiMUoo0";
+//			  break;
+//			case "+4":
+//			$video = "idhtN-E2nvM";
+//			  break;
+//			case "+5":
+//			$video = "jpSL_ZeB_Dg";
+//			  break;
+//			case "+6":
+//			$video = "kDmUVntfk6A";
+//			  break;
+//			case "+7":
+//			$video = "kDmUVntfk6A";
+//			  break;
+//			  case "+8":
+//			$video = "kDmUVntfk6A";
+//			  break;
+//			  case "+9":
+//			$video = "_Oq15UjDit8";
+//			  break;
+//			  case "+10":
+//			$video = "umWufE8HYUs";
+//			  break;
+//			  case "+11":
+//			$video = "umWufE8HYUs";
+//			  break;
+//			  case "+12":
+//			$video = "umWufE8HYUs";
+//			  break;
+//			  case "+13":
+//			$video = "4N3mkO2tWRg";
+//			  break;
+//			  case "+14":
+//			$video = "4N3mkO2tWRg";
+//			  break;
+//			  case "+15":
+//			$video = "4N3mkO2tWRg";
+//			  break;
+//			  case "+16":
+//			$video = "Yk0wwPwj2OY";
+//			  break;
+//			  case "+17":
+//			$video = "Yk0wwPwj2OY";
+//			  break;
+//			  case "+18":
+//			$video = "Yk0wwPwj2OY";
+//			  break;
+//			  case "+19":
+//			$video = "D6mrUPrnbIQ";
+//			  break;
+//			  case "+20":
+//			$video = "3iYxBBeKmQE";
+//			  break;
+//			default:
+//			$video = "Zrw39vnRTOk";
+//			}
 		   ?>
 				<iframe width="352" height="198" src="//www.youtube.com/embed/<?php echo $video; ?>" frameborder="0" allowfullscreen></iframe>
 		</div>
@@ -136,7 +159,7 @@
         
         <div class="span3 " style="text-align:center; margin-top: 100px;">
         
-        <iframe src="http://divinehealthdetox.com/backend/advpoll/polls/view/2" frameborder="0" width="390" height="800" scrolling="no"></iframe>
+<!--        <iframe src="http://divinehealthdetox.com/backend/advpoll/polls/view/2" frameborder="0" width="390" height="800" scrolling="no"></iframe>-->
         
         
          </div>
@@ -161,16 +184,8 @@
 
 
 
-    
-    <div class="row">
-        <div class="span12">
-        <center><iframe src="../basic.html" width="410" height="170" frameborder="0" scrolling="no"></iframe><h3>Until the 21 Day Detox Program Begins!</h3></center>
-        
-                <br><br><hr>
 
-        
-        </div>
-        </div>
+
         
         
         <div class="row">
@@ -289,6 +304,6 @@
      <?php endif; ?>   
 	<?php endif; ?>
 
+<?php exit; ?>
 
 
-<?php include_once('footer.php'); ?>
