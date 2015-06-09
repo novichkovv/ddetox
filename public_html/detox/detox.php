@@ -112,7 +112,7 @@
     </div>
 </div>
 <div class="row">
-    <div class="text-center">
+    <div class="text-center" style="max-width: 100%;">
         <?php if(strtotime($row['sdate']) + 4*24*60*60 > strtotime(date('Y-m-d H:i:s'))): ?>
         <h3 style="color: #2c82ee; font-size: 25px; margin-top: 40px;">The 21 Day Detox Challnege will Begin in</h3>
         <input id="reg_date" value="<?php echo strtotime(date('Y-m-d H:06:00'), $row['sdate']); ?>000" type="hidden">
