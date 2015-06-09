@@ -1,0 +1,15 @@
+[22-May-2015 14:25:40 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/ddetox/public_html/detox/mailer.php on line 21
+[22-May-2015 14:25:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ddetox/public_html/detox/mailer.php on line 25
+[22-May-2015 14:25:40 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/ddetox/public_html/detox/mailer.php on line 29
+[22-May-2015 14:36:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/ddetox/public_html/detox/mailer.php on line 21
+[22-May-2015 14:36:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ddetox/public_html/detox/mailer.php on line 25
+[22-May-2015 14:36:12 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/ddetox/public_html/detox/mailer.php on line 29
+[22-May-2015 15:10:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/ddetox/public_html/detox/mailer.php on line 21
+[22-May-2015 15:10:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ddetox/public_html/detox/mailer.php on line 25
+[22-May-2015 15:10:19 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/ddetox/public_html/detox/mailer.php on line 29
+[22-May-2015 15:10:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/ddetox/public_html/detox/model.php:16
+Stack trace:
+#0 /home/ddetox/public_html/detox/model.php(16): PDO->__construct('mysql:host=loca...', 'ddetox_admin', 'Starcraft12')
+#1 /home/ddetox/public_html/detox/home.php(10): model->__construct('login_users')
+#2 {main}
+  thrown in /home/ddetox/public_html/detox/model.php on line 16

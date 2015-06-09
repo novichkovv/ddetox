@@ -1,0 +1,1946 @@
+# Jigowatt translation strings
+# Copyright (C) 2011-2012
+# This file is distributed under the same license as the Jigowatt package.
+# Last Updated: July 28, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: Jigowatt v1.0.1\n"
+"Report-Msgid-Bugs-To: Jigowatt <info@jigowatt.co.uk>\n"
+"POT-Creation-Date: 2013-01-12 12:50-0500\n"
+"PO-Revision-Date: 2013-01-12 12:50-0500\n"
+"Last-Translator: Matt Gates <info@mgates.me>\n"
+"Language-Team: Jigowatt <info@jigowatt.co.uk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: activate.php:49
+msgid "Your activation link is incorrect."
+msgstr "Il tuo link di attivazione non è valido."
+
+#: activate.php:50
+#: activate.php:67
+#: activate.php:116
+#: activate.php:131
+#: activate.php:135
+#: classes\generic.class.php:419
+#: install\index.php:314
+msgid "What to do now?"
+msgstr "Cosa fare adesso?"
+
+#: activate.php:51
+#: activate.php:68
+#: activate.php:132
+#, php-format
+msgid "Go to the <a href=\"%s\"> homepage</a>"
+msgstr "Vai alla <a href=\"%s\"> homepage</a>"
+
+#: activate.php:65
+msgid "Your account has been activated!"
+msgstr "Il tuo conto è attivato!"
+
+#: activate.php:65
+msgid "You can now see the default access granted to new users."
+msgstr "Ora puoi vedere l'accesso bases concesso ai nuovi utilizzatori"
+
+#: activate.php:66
+msgid "If you require more access please contact the site admin at"
+msgstr "Se hai bisogno di più accesso contatta l'amministratore del sito"
+
+#: activate.php:98
+msgid "You do not have an activation key!"
+msgstr "Non hai una chiave di attivazione!"
+
+#: activate.php:99
+msgid "Please contact an admin: "
+msgstr "Ti prego di contattare un amministratore:"
+
+#: activate.php:115
+msgid "Activation link resent to email."
+msgstr "Link di attivazione inviato di nuovo via email."
+
+#: activate.php:117
+msgid "Click the link in your email to activate your account."
+msgstr "Clicca sul link nella tua email per attivare il tuo conto."
+
+#: activate.php:118
+#: admin\classes\add_user.class.php:163
+#: admin\classes\edit_user.class.php:230
+#: admin\classes\send_email.class.php:71
+#: classes\forgot.class.php:204
+#: classes\profile.class.php:209
+#: classes\profile.class.php:254
+#: classes\signup.class.php:385
+#: classes\signup.class.php:422
+msgid "ERROR. Mail not sent"
+msgstr "Errore. Mail non inviato."
+
+#: activate.php:130
+msgid "Your account has already been activated."
+msgstr "Il tuo conto è già attivato."
+
+#: activate.php:134
+msgid "You have not activated your account yet."
+msgstr "Non hai ancora attivato il tuo conto."
+
+#: activate.php:136
+msgid "Please follow the link in your email to activate your account."
+msgstr "Ti prego di seguire il link sulla email per attivare il tuo conto"
+
+#: activate.php:137
+#, php-format
+msgid "Would you like us to <a href=\"%s\">resend</a> the link?"
+msgstr "Vuoi che ti <a href=\"%s\">rispediamo</a> il link?"
+
+#: disabled.php:31
+#: classes\signup.class.php:170
+msgid "You must enter your name."
+msgstr "Devi inserire il tuo nome"
+
+#: disabled.php:33
+msgid "Please enter a valid email address."
+msgstr "Per favore inserisci un indirizzo email valido."
+
+#: disabled.php:35
+msgid "You have enter an invalid e-mail address, try again."
+msgstr "Hai inserito un indirizzo email non valido, prova di nuovo"
+
+#: disabled.php:39
+msgid "Please enter a subject."
+msgstr "Prego inserire un soggetto"
+
+#: disabled.php:41
+msgid "Please enter your message."
+msgstr "Prego scrivere il tuo messaggio"
+
+#: disabled.php:43
+msgid "Please enter the verification code."
+msgstr "Prego inserire il codice di verifica."
+
+#: disabled.php:45
+msgid "The verification code you entered is incorrect."
+msgstr "Il codice di verifica non è corretto."
+
+#: disabled.php:62
+msgid "You've been contacted by"
+msgstr "Sei stato contattato da"
+
+#: disabled.php:69
+msgid "You have been contacted by $name with regards to $subject, their additional message is as follows."
+msgstr "Sei stato contattato da $name a proposito di $subject, il suo messaggio è come di seguito"
+
+#: disabled.php:72
+#, php-format
+msgid "You can contact %s via email, %s"
+msgstr "Puoi contattare %s via email, %s"
+
+#: disabled.php:80
+msgid "Email Sent Successfully"
+msgstr "Email inviato"
+
+#: disabled.php:81
+msgid "Thank you"
+msgstr "Grazie"
+
+#: disabled.php:81
+msgid "your message has been submitted to us."
+msgstr "il tuo messaggio ci è stato spedito."
+
+#: disabled.php:91
+msgid "Oops, Access Denied"
+msgstr "Accesso Proibito"
+
+#: disabled.php:92
+msgid "Sorry, your username or user group has been disabled!"
+msgstr "Mi dispiace, il tuo nome di utilizzatore or gruppo è stato annulato!"
+
+#: disabled.php:93
+msgid "We have detected that your username or user group has been disabled; so you cannot view internal pages."
+msgstr "Abbiamo rilevato che il tuo nome di utente o di gruppo è stato disabilitato; non puoi vedere le pagine interne."
+
+#: disabled.php:94
+msgid "Fill out this form if you feel this is in error"
+msgstr "Riempi questo formulario se credi che ci sia un errore"
+
+#: disabled.php:102
+#: profile.php:49
+#: admin\levels.php:17
+#: admin\users.php:33
+#: admin\classes\functions.php:89
+#: admin\classes\functions.php:140
+#: admin\classes\functions.php:184
+#: admin\page\level-create.php:8
+#: admin\page\user-add.php:8
+msgid "Name"
+msgstr "Nome"
+
+#: disabled.php:109
+#: profile.php:55
+#: sign_up.php:26
+#: sign_up.php:28
+#: admin\users.php:51
+#: admin\classes\functions.php:90
+#: admin\classes\functions.php:141
+#: admin\page\user-add.php:22
+msgid "Email"
+msgstr "Email"
+
+#: disabled.php:116
+#: admin\page\emails-acct-update.php:10
+#: admin\page\emails-acct-update.php:28
+#: admin\page\emails-activate.php:9
+#: admin\page\emails-activate.php:27
+#: admin\page\emails-add-user.php:9
+#: admin\page\emails-forgot.php:9
+#: admin\page\emails-forgot.php:27
+#: admin\page\emails-welcome.php:9
+#: admin\page\emails-welcome.php:28
+#: admin\page\send-email.php:17
+msgid "Subject"
+msgstr "Soggetto"
+
+#: disabled.php:119
+msgid "Disabled Message"
+msgstr "Messaggio Disabilitato"
+
+#: disabled.php:120
+msgid "Report a bug"
+msgstr "Segnalarci un bug"
+
+#: disabled.php:126
+msgid "Your comments"
+msgstr "I tuoi commenti"
+
+#: disabled.php:133
+msgid "What colour is the sky?"
+msgstr "Di quale colore è il cielo?"
+
+#: disabled.php:139
+#: login.php:22
+#: admin\page\reports.php:16
+msgid "Submit"
+msgstr "Inserire"
+
+#: header.php:42
+#: install\header.php:39
+msgid "Jigowatt"
+msgstr "Jigowatt"
+
+#: header.php:45
+#: admin\header.php:54
+#: install\header.php:42
+msgid "Home"
+msgstr "Home"
+
+#: header.php:46
+#: admin\header.php:55
+#: install\header.php:43
+msgid "Secure page"
+msgstr "Pagina sicura"
+
+#: header.php:47
+#: admin\header.php:56
+#: install\header.php:44
+msgid "Admin panel"
+msgstr "Pannello amministratore"
+
+#: header.php:59
+#: admin\header.php:64
+msgid "Control Panel"
+msgstr "Pannello di Controllo"
+
+#: header.php:60
+#: admin\header.php:65
+#: admin\index.php:18
+msgid "Settings"
+msgstr "Impostaizioni"
+
+#: header.php:61
+#: admin\header.php:66
+msgid "My Account"
+msgstr "Il mio account"
+
+#: header.php:62
+#: admin\header.php:67
+msgid "Help"
+msgstr "Aiuto"
+
+#: header.php:64
+#: admin\header.php:69
+#: admin\page\general-options.php:109
+msgid "Sign out"
+msgstr "Disconnetti"
+
+#: header.php:70
+#: admin\header.php:75
+#: install\header.php:47
+msgid "Have an account?"
+msgstr "Hai un conto?"
+
+#: header.php:70
+#: admin\header.php:75
+#: install\header.php:47
+msgid "Sign in!"
+msgstr "Connettiti"
+
+#: home.php:4
+msgid "Let's talk about the future."
+msgstr "Parliamo del futuro"
+
+#: home.php:5
+msgid "Easy user management and a comprehensive admin panel. All, for you :3"
+msgstr "Gestione utenti facile e pannello di amministrazione completo. Tutto quest per te :3"
+
+#: home.php:7
+msgid "Purchase this script"
+msgstr "Acquista il programma"
+
+#: home.php:8
+msgid "Subscribe to updates"
+msgstr "Abbonati agli aggiornamenti"
+
+#: home.php:11
+msgid "Documentation"
+msgstr "Documentazione"
+
+#: home.php:12
+msgid "Support"
+msgstr "Supporto"
+
+#: home.php:20
+msgid "Stupendously exciting login and user management."
+msgstr "Login e gestione di utenti fantastica"
+
+#: home.php:21
+msgid "Just the right amount of tools to get your job done."
+msgstr "Giusto gli arnesi che servono per fare il lavoro"
+
+#: home.php:23
+msgid "Installation"
+msgstr "Installazione"
+
+#: home.php:25
+msgid "Complete"
+msgstr "Completo"
+
+#: home.php:27
+msgid "Not complete"
+msgstr "Non completo"
+
+#: home.php:30
+msgid "Get setup in minutes! Enjoy the super easy installation wizard to walk you through the setup process."
+msgstr "Mettiti in azione in alcuni minuti! Facile wizard di installazione per guidarti attraverso l'installazione."
+
+#: home.php:32
+msgid "Start your installation by clicking the button below!"
+msgstr "Comincia l'installazione cliccando il bottone sotto!"
+
+#: home.php:33
+#: classes\connect.class.php:40
+msgid "Begin Install"
+msgstr "Inizia Installazione"
+
+#: home.php:38
+#: admin\index.php:16
+msgid "Reports"
+msgstr "Rapporti"
+
+#: home.php:39
+msgid "Keep track of how your site is doing with dynamic graphs to aid you."
+msgstr "Monitora il tuo sito con grafici dinamici per aiutarti."
+
+#: home.php:45
+msgid "Security"
+msgstr "Sicurezza"
+
+#: home.php:46
+msgid "Our script has a couple default secure pages to get you started."
+msgstr "Il nostro programma ha un paio di pagine sicure come esempi di come iniziare."
+
+#: home.php:50
+msgid "Admin tools"
+msgstr "Arnesi di amministrazione"
+
+#: home.php:51
+msgid "Enjoy the luxury of having control over every aspect of your website."
+msgstr "Beneficiate del lusso di avere il controllo di ogni aspetto del vostro sito."
+
+#: home.php:60
+msgid "Demo credentials."
+msgstr "Credenziali per demo."
+
+#: home.php:61
+msgid "Whatcha waiting for? Login and check out the site!"
+msgstr "Che cerchi? Connettiti e dai un'occhiata al sito!"
+
+#: home.php:64
+msgid "Administrator"
+msgstr "Amministratore"
+
+#: home.php:65
+msgid "Username: admin"
+msgstr "Nome utilizzatore: admin"
+
+#: home.php:66
+msgid "Password: admin"
+msgstr "Password: admin"
+
+#: home.php:70
+msgid "Special user"
+msgstr "Utilizzatore speciale"
+
+#: home.php:71
+msgid "Username: special"
+msgstr "Nome utilizzatore: special"
+
+#: home.php:72
+msgid "Password: special"
+msgstr "Password: special"
+
+#: home.php:76
+msgid "Default privileges"
+msgstr "Privilegi predefiniti"
+
+#: home.php:77
+msgid "Username: user"
+msgstr "Nome utilizzatore: utilizzatore"
+
+#: home.php:78
+msgid "Password: user"
+msgstr "Password: utilizzatore"
+
+#: login.php:7
+#: classes\forgot.class.php:118
+#: classes\forgot.class.php:134
+msgid "Account Recovery"
+msgstr "Recupero dell'account"
+
+#: login.php:13
+msgid "Username or Email Address"
+msgstr "Nome di utilizzatore o indirizzo email"
+
+#: login.php:22
+msgid "Done"
+msgstr "Fatto"
+
+#: login.php:23
+msgid "It'll be easy, I promise."
+msgstr "Sarà facile, lo prometto"
+
+#: login.php:31
+msgid "Sign in to Jigowatt"
+msgstr "Accedi a Jigowatt"
+
+#: login.php:33
+#, fuzzy
+msgid "Email address"
+msgstr "Indirizzo sito"
+
+#: login.php:33
+#: sign_up.php:18
+#: admin\classes\functions.php:88
+#: admin\classes\functions.php:139
+#: admin\page\reports.php:62
+#: admin\page\user-add.php:15
+#: install\index.php:346
+#: install\index.php:380
+msgid "Username"
+msgstr "Nome utilizzatore"
+
+#: login.php:36
+msgid "Trouble signing in"
+msgstr "Problemi con l'accesso"
+
+#: login.php:41
+#: sign_up.php:33
+#: admin\users.php:39
+#: install\index.php:352
+#: install\index.php:386
+msgid "Password"
+msgstr "Password"
+
+#: login.php:49
+#: admin\page\general-options.php:120
+msgid "Sign in"
+msgstr "Accedi"
+
+#: login.php:52
+msgid "Stay signed in"
+msgstr "Rimani connesso"
+
+#: login.php:55
+msgid "New to Jigowatt? <strong>Join today!</strong>"
+msgstr "Nuovo con Jigowatt? <strong>Unisciti a noi!</strong>"
+
+#: profile.php:6
+msgid "Change your avatar at Gravatar.com"
+msgstr "Cambia il tuo avatar au Gravatar.com"
+
+#: profile.php:21
+#: profile.php:41
+#: admin\settings.php:17
+#: admin\users.php:20
+#: admin\users.php:31
+msgid "General"
+msgstr "Generale"
+
+#: profile.php:26
+#: admin\users.php:23
+#: admin\page\user-profiles.php:16
+msgid "Access logs"
+msgstr "Log di accessi"
+
+#: profile.php:30
+#: profile.php:100
+#: admin\settings.php:30
+msgid "Integration"
+msgstr "Integrazione"
+
+#: profile.php:43
+msgid "Current password"
+msgstr "Password attuale"
+
+#: profile.php:61
+#: classes\forgot.class.php:136
+msgid "New password"
+msgstr "Nuovo password"
+
+#: profile.php:63
+msgid "Leave blank for no change"
+msgstr "Lasciare vuoto per non cambiare nulla"
+
+#: profile.php:67
+msgid "New password again"
+msgstr "Nuovo password ancora"
+
+#: profile.php:75
+msgid "Your public link"
+msgstr "Il tuo link pubblico"
+
+#: profile.php:91
+#: admin\users.php:96
+msgid "Access Logs"
+msgstr "Log di Accessi"
+
+#: profile.php:102
+msgid "Use your preferred social method to login the next time you visit our site."
+msgstr "Usa il tuo social network preferito per connetterti alla prossima visita al nostro sito"
+
+#: profile.php:112
+msgid "Link"
+msgstr "Link"
+
+#: profile.php:113
+msgid "Unlink"
+msgstr "Togliere il link"
+
+#: profile.php:126
+#: admin\settings.php:114
+msgid "Save changes"
+msgstr "Memorizza i cambiamenti"
+
+#: protected.php:8
+msgid "Admin only text <small>User level: 1</small>"
+msgstr "Testo solo per admin <small>Livello utente: 1</small>"
+
+#: protected.php:9
+msgid "You will only be able to see this content if you have an <span class=\"label label-important\">administrator</span> user level. "
+msgstr "Puoi vedere questo contenuto solamente se hai un livello di utente <span class=\"label label-important\">amministratore</span>. "
+
+#: protected.php:12
+msgid "Only admins can view this content."
+msgstr "Solamente amministratori possono vedere questo contenuto."
+
+#: protected.php:18
+msgid "Why hello, special user! <small>User level: 2</small>"
+msgstr "Ciao utilizzatore speciale! <small>Livello utente: 2</small>"
+
+#: protected.php:19
+msgid "You will only be able to see this content if you have a <span class=\"label label-info\">special</span> user level. "
+msgstr "Puoi vedere questo contenuto solamente se hai un livello di utente <span class=\"label label-info\">special</span>"
+
+#: protected.php:21
+msgid "Only admins or special users can view this content."
+msgstr "Solamente amministratori o utilizzatori speciali possono vedere questo contenuto"
+
+#: protected.php:31
+msgid "All registered users <small>User level: * </small>"
+msgstr "Tutti gli utenti regitrati <small>Livello utente: * </small>"
+
+#: protected.php:32
+msgid "Any user level in the entire world can see this! All that matters is that you're logged in."
+msgstr "Qualsiasi livello di utente nel mondo ha accesso a questo! Basta essere connessi."
+
+#: protected.php:35
+msgid "Only signed in users can view what's hidden here!"
+msgstr "Solo utenti connessi possono vedere cioè che è nascosto qui!"
+
+#: protected.php:40
+msgid "Public content. <small>No sign in required.</small>"
+msgstr "Contenuto pubblico. <small>Nessuna connessione necessaria.</small>"
+
+#: protected.php:41
+msgid "When visiting this page, anyone that is not signed in will be able to view your markup. "
+msgstr "Quando visiti questa pagina, un utente non connesso potrà vedere il tuo contenuto."
+
+#: sign_up.php:9
+#: sign_up.php:11
+msgid "Full name"
+msgstr "Nome completo"
+
+#: sign_up.php:20
+msgid "Choose your username"
+msgstr "Scegli is tuo nome di utente"
+
+#: sign_up.php:35
+msgid "Create a password"
+msgstr "Creare una password"
+
+#: sign_up.php:39
+#: admin\users.php:45
+msgid "Password again"
+msgstr "Password di nuovo"
+
+#: sign_up.php:41
+msgid "Confirm your password"
+msgstr "Conferma la tua password"
+
+#: sign_up.php:55
+msgid "Create my account"
+msgstr "Creare il mio account"
+
+#: sign_up.php:59
+msgid "Create a new account"
+msgstr "Creare un nuovo account"
+
+#: sign_up.php:60
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus rhoncus tristique. Mauris ornare ipsum a leo molestie id porttitor justo bibendum. Pellentesque magna augue, sollicitudin ut ornare pretium, mattis imperdiet augue. Morbi semper sapien sit amet velit interdum eu commodo erat fringilla. Nulla et ipsum orci, ac varius nulla. Nam vehicula, mi quis euismod consectetur, magna dui porttitor sem, vel venenatis felis nunc eu diam. Integer vitae est at nunc varius viverra sit amet at magna. Vestibulum mi diam, pharetra id malesuada ac, venenatis nec turpis. Vestibulum metus nisl, pharetra non laoreet eu, laoreet a eros. Suspendisse ut arcu in mauris dapibus sodales. Vestibulum commodo congue elit at mollis. Fusce semper auctor odio, ut pharetra justo faucibus blandit. Fusce in pellentesque elit. Nunc adipiscing neque eu odio tincidunt ac mollis erat porta."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus rhoncus tristique. Mauris ornare ipsum a leo molestie id porttitor justo bibendum. Pellentesque magna augue, sollicitudin ut ornare pretium, mattis imperdiet augue. Morbi semper sapien sit amet velit interdum eu commodo erat fringilla. Nulla et ipsum orci, ac varius nulla. Nam vehicula, mi quis euismod consectetur, magna dui porttitor sem, vel venenatis felis nunc eu diam. Integer vitae est at nunc varius viverra sit amet at magna. Vestibulum mi diam, pharetra id malesuada ac, venenatis nec turpis. Vestibulum metus nisl, pharetra non laoreet eu, laoreet a eros. Suspendisse ut arcu in mauris dapibus sodales. Vestibulum commodo congue elit at mollis. Fusce semper auctor odio, ut pharetra justo faucibus blandit. Fusce in pellentesque elit. Nunc adipiscing neque eu odio tincidunt ac mollis erat porta."
+
+#: sign_up.php:61
+msgid "Features"
+msgstr "Caratteristiche"
+
+#: sign_up.php:62
+msgid "Cras placerat scelerisque vehicula. Fusce eu ipsum vel mi convallis dapibus. Cras ut nibh metus, quis malesuada augue. Aenean a nisi nec sem accumsan gravida in in turpis. Nulla euismod lorem non sem imperdiet vestibulum. Donec blandit aliquet turpis sed dapibus. Duis fermentum facilisis diam, sit amet ultrices neque dictum eget."
+msgstr "Cras placerat scelerisque vehicula. Fusce eu ipsum vel mi convallis dapibus. Cras ut nibh metus, quis malesuada augue. Aenean a nisi nec sem accumsan gravida in in turpis. Nulla euismod lorem non sem imperdiet vestibulum. Donec blandit aliquet turpis sed dapibus. Duis fermentum facilisis diam, sit amet ultrices neque dictum eget."
+
+#: admin\index.php:14
+#: admin\page\reports.php:217
+msgid "Users"
+msgstr "Utilizzatore"
+
+#: admin\index.php:15
+msgid "Levels"
+msgstr "Livelli"
+
+#: admin\index.php:17
+#: admin\page\send-email.php:5
+msgid "Send email"
+msgstr "Invia una email"
+
+#: admin\levels.php:15
+msgid "level control"
+msgstr "controllo livelli"
+
+#: admin\levels.php:24
+#: admin\classes\functions.php:185
+#: admin\page\level-create.php:14
+msgid "Level"
+msgstr "Livello"
+
+#: admin\levels.php:31
+#: admin\classes\functions.php:187
+#: admin\page\level-create.php:20
+msgid "Redirect"
+msgstr "Ridirezione"
+
+#: admin\levels.php:31
+#: admin\page\level-create.php:20
+msgid "When logging in, this user will be redirected to the URL you specify. Leave blank to redirect to the referring page."
+msgstr "Quando è connesso, questo utente sarà ridiretto alla URL specificata. Lasciare vuoto per ridirigere alla pagina riferente."
+
+#: admin\levels.php:38
+#: admin\page\emails-welcome.php:3
+msgid "Welcome email"
+msgstr "Email di benvenuto"
+
+#: admin\levels.php:38
+msgid "When a user is manually added to this level, that user will receive the standard welcome email automatically."
+msgstr "Quando un utente viene aggiunto manualmente a questo livello, riceverà il messaggio email di benvenuto standard automaticamente."
+
+#: admin\levels.php:42
+msgid "Send welcome email when users join this level"
+msgstr "Spedisci email di benvenuto quando l'utente si iscrive a questo livello"
+
+#: admin\levels.php:48
+msgid "Disable"
+msgstr "Disabilitare"
+
+#: admin\levels.php:52
+msgid "Prevent this level from accessing any secure content"
+msgstr "Impedire a questo livello di accedere a contenuti sicuri"
+
+#: admin\levels.php:58
+#: admin\page\user-profiles.php:37
+msgid "Delete"
+msgstr "Sopprimere"
+
+#: admin\levels.php:62
+msgid "Remove this level from the database"
+msgstr "Togli questo livello dalla database"
+
+#: admin\levels.php:70
+#: admin\settings.php:31
+#: admin\page\update.php:4
+msgid "Update"
+msgstr "Aggiornare"
+
+#: admin\levels.php:80
+msgid "existing users"
+msgstr "utenti esistenti"
+
+#: admin\settings.php:18
+#: admin\page\denied.php:8
+msgid "Denied"
+msgstr "Rifiutato"
+
+#: admin\settings.php:20
+msgid "Emails"
+msgstr "Email"
+
+#: admin\settings.php:22
+#: admin\page\emails-welcome.php:5
+msgid "Welcome"
+msgstr "Benvenuto"
+
+#: admin\settings.php:23
+msgid "Activate"
+msgstr "Attiva"
+
+#: admin\settings.php:24
+msgid "Forgot"
+msgstr "Dimenticato"
+
+#: admin\settings.php:25
+#: admin\page\emails-add-user.php:3
+#: admin\page\emails-add-user.php:5
+#: admin\page\user-add.php:30
+msgid "Add user"
+msgstr "Aggiunta utilizzatore"
+
+#: admin\settings.php:26
+#: admin\page\emails-acct-update.php:3
+msgid "'My Account' changes"
+msgstr "Cambiamenti al 'Mio Account'"
+
+#: admin\settings.php:29
+msgid "Profiles"
+msgstr "Profili"
+
+#: admin\settings.php:31
+msgid "new"
+msgstr "nuovo"
+
+#: admin\settings.php:114
+msgid "saving..."
+msgstr "memorizzando..."
+
+#: admin\settings.php:114
+msgid "Changes saved"
+msgstr "Cambiamenti memorizzati"
+
+#: admin\users.php:57
+msgid "User levels"
+msgstr "Livelli di utente"
+
+#: admin\users.php:65
+msgid "Profile link"
+msgstr "Link al profilo"
+
+#: admin\users.php:76
+msgid "Restrict user?"
+msgstr "Limitare l'utente?"
+
+#: admin\users.php:84
+msgid "Delete user? (Can not be undone)"
+msgstr "Sopprimere l'utente? (non si può annullare)"
+
+#: admin\users.php:103
+msgid "Update user"
+msgstr "Aggiornare l'utente"
+
+#: admin\classes\add_level.class.php:72
+#: admin\classes\add_user.class.php:80
+msgid "No suggestions"
+msgstr "Nessun suggerimento"
+
+#: admin\classes\add_level.class.php:73
+msgid "Try searching by name, level, or redirect url."
+msgstr "Prova a cercare il nome, livello, o la url di ridirezione."
+
+#: admin\classes\add_level.class.php:77
+#: admin\classes\add_user.class.php:85
+msgid "Suggestions"
+msgstr "Suggerimenti"
+
+#: admin\classes\add_level.class.php:96
+#: admin\classes\edit_level.class.php:103
+msgid "You must enter a level name."
+msgstr "Devi inserire un nome di utente"
+
+#: admin\classes\add_level.class.php:101
+msgid "Auth level has to be a number."
+msgstr "Livello di autorizzaxione deve essere un numero."
+
+#: admin\classes\add_level.class.php:115
+msgid "Auth level"
+msgstr "Livello di autorizzazione"
+
+#: admin\classes\add_level.class.php:115
+msgid "already exists"
+msgstr "Esiste già"
+
+#: admin\classes\add_level.class.php:127
+#, php-format
+msgid "Successfully added level <b>%s</b> to the database."
+msgstr "Livello <b>%s</b> aggiunto alla database."
+
+#: admin\classes\add_user.class.php:81
+msgid "Try searching by username, name, or user id."
+msgstr "Prova a cercare il nome di utente, nome o id di utente."
+
+#: admin\classes\add_user.class.php:104
+#: classes\profile.class.php:133
+msgid "You must enter a name."
+msgstr "Devi inserire un nome"
+
+#: admin\classes\add_user.class.php:109
+#: classes\login.class.php:147
+#: classes\signup.class.php:158
+msgid "You must enter a username."
+msgstr "Devi inserire un nome di utilizzatore"
+
+#: admin\classes\add_user.class.php:114
+#: admin\classes\edit_user.class.php:124
+#: admin\classes\settings.class.php:72
+#: classes\profile.class.php:136
+#: classes\signup.class.php:195
+msgid "You have entered an invalid e-mail address, try again."
+msgstr "Ha inserito una email invalda, prova di nuovo."
+
+#: admin\classes\add_user.class.php:122
+#: classes\signup.class.php:191
+msgid "That email address has already been taken."
+msgstr "Quell'indirizzo email è già in uso."
+
+#: admin\classes\add_user.class.php:130
+msgid "Sorry, username already taken."
+msgstr "Mi dispiace, il nome di utilizzatore esiste già."
+
+#: admin\classes\add_user.class.php:165
+#, php-format
+msgid "Successfully added user <b>%s</b> to the database. Credentials sent to user."
+msgstr "Aggiunto utente <b>%s</b> alla database. Credenziali inviate all'utente."
+
+#: admin\classes\edit_level.class.php:73
+msgid "Level doesn't exist!"
+msgstr "Il livello non esiste!"
+
+#: admin\classes\edit_level.class.php:108
+msgid "You must enter an auth level."
+msgstr "Devi inserire un livello di autorizzazione."
+
+#: admin\classes\edit_level.class.php:116
+#, php-format
+msgid "Auth level %s already exists"
+msgstr "Il livello di autorizzazione %s esiste già"
+
+#: admin\classes\edit_level.class.php:137
+msgid "This level still has users in it!"
+msgstr "Questo livello contiene ancora utenti!"
+
+#: admin\classes\edit_level.class.php:143
+#, php-format
+msgid "Level <b>%s</b> removed from database."
+msgstr "Livello <b>%s</b> soppresso dalla database."
+
+#: admin\classes\edit_level.class.php:157
+#, php-format
+msgid "Information updated for level <b>%s</b>."
+msgstr "Informazioni aggiornate per livello <b>%s</b>."
+
+#: admin\classes\edit_user.class.php:28
+msgid "No user selected!"
+msgstr "Nessun utente selezionato!"
+
+#: admin\classes\edit_user.class.php:57
+msgid "No such user!"
+msgstr "Utente inesistente!"
+
+#: admin\classes\edit_user.class.php:122
+msgid "You must enter name."
+msgstr "Devi inserire il nome"
+
+#: admin\classes\edit_user.class.php:126
+msgid "No user level has been selected."
+msgstr "Nessun livello di utente selezionato."
+
+#: admin\classes\edit_user.class.php:132
+#: classes\profile.class.php:141
+#: classes\signup.class.php:198
+msgid "Your passwords did not match."
+msgstr "La password non corrisponde."
+
+#: admin\classes\edit_user.class.php:134
+#: classes\forgot.class.php:58
+#: classes\profile.class.php:144
+#: classes\signup.class.php:201
+msgid "Your password must be at least 5 characters."
+msgstr "La tua password deve contenere almeno 5 caratteri."
+
+#: admin\classes\edit_user.class.php:149
+#, php-format
+msgid "User removed from the database:"
+msgstr "Utente soppresso dalla database:"
+
+#: admin\classes\edit_user.class.php:165
+#, php-format
+msgid "User information (and password) updated for"
+msgstr "Informazioni utente (e password) aggiornate per"
+
+#: admin\classes\edit_user.class.php:190
+#: classes\profile.class.php:221
+#, php-format
+msgid "User information updated for"
+msgstr "Informazioni dell' utilizzatore aggiornato per"
+
+#: admin\classes\functions.php:37
+#: install\index.php:382
+#: install\index.php:388
+msgid "admin"
+msgstr "admin"
+
+#: admin\classes\functions.php:42
+msgid "restricted"
+msgstr "limitato"
+
+#: admin\classes\functions.php:47
+#: admin\classes\functions.php:54
+#: classes\generic.class.php:394
+msgid "at"
+msgstr "a"
+
+#: admin\classes\functions.php:91
+#: admin\classes\functions.php:142
+msgid "Registered Date"
+msgstr "Data di Iscrizione"
+
+#: admin\classes\functions.php:92
+#: admin\classes\functions.php:143
+#: classes\generic.class.php:386
+msgid "Last Login"
+msgstr "Ultima connessione"
+
+#: admin\classes\functions.php:106
+msgid "Sorry, there are no recently registered users."
+msgstr "Spiacente, nessun utente iscritto recentemente."
+
+#: admin\classes\functions.php:130
+msgid "No users found!"
+msgstr "Nessun utente trovato!"
+
+#: admin\classes\functions.php:186
+msgid "Active Users"
+msgstr "Utilizzatore attivo"
+
+#: admin\classes\functions.php:210
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#: admin\classes\functions.php:282
+msgid "Previous"
+msgstr "Precedente"
+
+#: admin\classes\functions.php:336
+msgid "Next"
+msgstr "Seguente"
+
+#: admin\classes\send_email.class.php:46
+msgid "Please select a user group"
+msgstr "Per favore selezionare un gruppo di utenti"
+
+#: admin\classes\send_email.class.php:73
+msgid "Email sent!"
+msgstr "Email inviato!"
+
+#: admin\classes\send_email.class.php:82
+#: admin\classes\settings.class.php:287
+msgid "Select your levels"
+msgstr "Seleziona i tuoi livelli"
+
+#: admin\classes\settings.class.php:69
+msgid "You must enter a default session (numeric value only)."
+msgstr "Devi inserire una sessione predeterminata (valore numerico)."
+
+#: admin\classes\settings.class.php:75
+msgid "Please enter your site address."
+msgstr "Ti prego di scrivere l'indirizzo per il tuo sito"
+
+#: admin\classes\settings.class.php:174
+msgid "Settings updated."
+msgstr "Impostazioni aggiornate."
+
+#: admin\classes\settings.class.php:181
+msgid "Text Input"
+msgstr "Text Input"
+
+#: admin\classes\settings.class.php:182
+#: admin\page\user-profiles.php:58
+msgid "Textarea"
+msgstr "Textarea"
+
+#: admin\classes\settings.class.php:183
+#: admin\page\user-profiles.php:59
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: admin\classes\settings.class.php:187
+#: admin\page\user-profiles.php:63
+msgid "Hide"
+msgstr "Nascondere"
+
+#: admin\classes\settings.class.php:188
+#: admin\page\user-profiles.php:64
+msgid "Require"
+msgstr "Obbligatorio"
+
+#: admin\classes\settings.class.php:189
+#: admin\page\user-profiles.php:65
+msgid "Optional"
+msgstr "Facoltativo"
+
+#: admin\classes\settings.class.php:201
+#: admin\page\user-profiles.php:55
+msgid "Section name"
+msgstr "Nome sezione"
+
+#: admin\classes\settings.class.php:210
+#: admin\page\user-profiles.php:61
+msgid "Field name"
+msgstr "Nome di campo"
+
+#: admin\classes\settings.class.php:226
+msgid "Add field"
+msgstr "Aggiungi campo"
+
+#: admin\page\denied.php:10
+msgid "Registered users"
+msgstr "Utenti Iscritti"
+
+#: admin\page\denied.php:10
+msgid "This controls the message a <strong>signed in</strong> user sees when accessing a protected page."
+msgstr "Questo controlla il messaggio che riceve un utente <strong>connesso</strong> quando accede a una pagina protetta."
+
+#: admin\page\denied.php:14
+#: admin\page\denied.php:28
+msgid "Display message"
+msgstr "Visualizzare messaggio"
+
+#: admin\page\denied.php:24
+#: admin\page\general-options.php:93
+msgid "Guests"
+msgstr "Ospiti"
+
+#: admin\page\denied.php:24
+msgid "Show this error after a user is redirected to the login page (user is <strong>logged out</strong>)."
+msgstr "Mostra questo errore dopo che un utente è stato ridiretto alla pagina di connessione (l'utente è <strong>disconnesso</strong>)."
+
+#: admin\page\emails-acct-update.php:4
+msgid "<b>Note:</b> Only sent when a user changes his or her Email / Password."
+msgstr "<b>Nota:</b> Inviato solo quando un utente cambia la sua Email/Password."
+
+#: admin\page\emails-acct-update.php:6
+msgid "Verify change"
+msgstr "Verifica cambiamento"
+
+#: admin\page\emails-acct-update.php:6
+msgid "The email a user receives when updating an email or password."
+msgstr "La email che un utente riceve quando aggiorna la email o password."
+
+#: admin\page\emails-acct-update.php:14
+#: admin\page\emails-acct-update.php:32
+#: admin\page\emails-activate.php:13
+#: admin\page\emails-activate.php:31
+#: admin\page\emails-add-user.php:13
+#: admin\page\emails-forgot.php:13
+#: admin\page\emails-forgot.php:31
+#: admin\page\emails-welcome.php:13
+#: admin\page\emails-welcome.php:32
+msgid "Message body"
+msgstr "Corpo del messaggio"
+
+#: admin\page\emails-acct-update.php:15
+#: admin\page\emails-acct-update.php:33
+#: admin\page\emails-activate.php:14
+#: admin\page\emails-activate.php:32
+#: admin\page\emails-add-user.php:14
+#: admin\page\emails-forgot.php:14
+#: admin\page\emails-forgot.php:32
+#: admin\page\emails-welcome.php:14
+#: admin\page\emails-welcome.php:33
+msgid "Shortcodes:"
+msgstr "Codici brevi:"
+
+#: admin\page\emails-acct-update.php:16
+#: admin\page\emails-acct-update.php:34
+#: admin\page\emails-activate.php:15
+#: admin\page\emails-activate.php:33
+#: admin\page\emails-add-user.php:15
+#: admin\page\emails-forgot.php:15
+#: admin\page\emails-forgot.php:33
+#: admin\page\emails-welcome.php:15
+#: admin\page\emails-welcome.php:34
+msgid "Site address:"
+msgstr "Indirizzo del sito:"
+
+#: admin\page\emails-acct-update.php:17
+#: admin\page\emails-acct-update.php:35
+#: admin\page\emails-activate.php:16
+#: admin\page\emails-activate.php:34
+#: admin\page\emails-add-user.php:16
+#: admin\page\emails-forgot.php:16
+#: admin\page\emails-forgot.php:34
+#: admin\page\emails-welcome.php:16
+#: admin\page\emails-welcome.php:35
+msgid "Full name:"
+msgstr "Nome completo:"
+
+#: admin\page\emails-acct-update.php:18
+#: admin\page\emails-acct-update.php:36
+#: admin\page\emails-activate.php:17
+#: admin\page\emails-activate.php:35
+#: admin\page\emails-add-user.php:17
+#: admin\page\emails-forgot.php:17
+#: admin\page\emails-forgot.php:35
+#: admin\page\emails-welcome.php:17
+#: admin\page\emails-welcome.php:36
+msgid "Username:"
+msgstr "Nome utilizzatore:"
+
+#: admin\page\emails-acct-update.php:19
+msgid "Confirmation link:"
+msgstr "Link di conferma:"
+
+#: admin\page\emails-acct-update.php:24
+msgid "Updated"
+msgstr "Aggiornato"
+
+#: admin\page\emails-acct-update.php:24
+msgid "The email a user receives after confirming the account change."
+msgstr "La email che riceve un utente dopo aver confermato il cambiamento all suo conto."
+
+#: admin\page\emails-activate.php:3
+msgid "Activation emails"
+msgstr "Email di attivazione"
+
+#: admin\page\emails-activate.php:5
+msgid "Resend link"
+msgstr "Rispedisci il link"
+
+#: admin\page\emails-activate.php:5
+msgid "The email a user receives when requesting an activation link."
+msgstr "La email che riceve un utente quando richiede un link di attivazione."
+
+#: admin\page\emails-activate.php:18
+#: admin\page\emails-welcome.php:19
+msgid "Activation link:"
+msgstr "Link di attivazione:"
+
+#: admin\page\emails-activate.php:23
+msgid "Activated"
+msgstr "Attivato"
+
+#: admin\page\emails-activate.php:23
+msgid "The email a user receives after activating their account."
+msgstr "La email che riceve un utente dopo aver attivato il suo account."
+
+#: admin\page\emails-add-user.php:5
+msgid "When the admin creates a new user through the admin panel, the user will receive this email."
+msgstr "Quando l'admin crea un nuovo utente attraverso il pannello di amministrazione, l'utente riceve questa email."
+
+#: admin\page\emails-add-user.php:18
+msgid "Password:"
+msgstr "Password:"
+
+#: admin\page\emails-add-user.php:20
+msgid "Note:"
+msgstr "Nota:"
+
+#: admin\page\emails-add-user.php:20
+msgid "The password is randomly generated and should be included in the email"
+msgstr "La password è genrata aleatoriamente e dovrebbe essere inclusa nella email"
+
+#: admin\page\emails-forgot.php:3
+msgid "Account recovery emails"
+msgstr "Email di recupero di account"
+
+#: admin\page\emails-forgot.php:5
+msgid "Recover request"
+msgstr "Richiesta di recupero"
+
+#: admin\page\emails-forgot.php:5
+msgid "The email a user receives when requesting their username / password."
+msgstr "La email che riceve un utente quando richiede un nome di utente / password."
+
+#: admin\page\emails-forgot.php:18
+msgid "Reset link:"
+msgstr "Resettare il link"
+
+#: admin\page\emails-forgot.php:23
+msgid "Recovered"
+msgstr "Recuperato"
+
+#: admin\page\emails-forgot.php:23
+msgid "The email a user receives after successfully resetting their password."
+msgstr "La email che riceve un utente dopo essere riuscito a resettare la password."
+
+#: admin\page\emails-welcome.php:5
+msgid "The email a user receives after registering for your site."
+msgstr "La email che riceve un utente dopo essersi iscritto al tuo sito."
+
+#: admin\page\emails-welcome.php:18
+#: admin\page\emails-welcome.php:37
+msgid "Email:"
+msgstr "Email:"
+
+#: admin\page\emails-welcome.php:24
+msgid "Notification"
+msgstr "Notifica"
+
+#: admin\page\emails-welcome.php:24
+msgid "A user group can receive notifications on new registrations if enabled in Settings > General."
+msgstr "Un gruppo di utenti può ricevere notifiche di nuove iscrizioni se abilitato in Regolazioni > Generale."
+
+#: admin\page\general-options.php:3
+msgid "General Options"
+msgstr "Opzioni Generali"
+
+#: admin\page\general-options.php:5
+#: install\index.php:369
+msgid "Admin email"
+msgstr "Email amministratore"
+
+#: admin\page\general-options.php:5
+msgid "This email will be used to send all emails."
+msgstr "Questo indirizzo email verrà usato per spedire tutte le email."
+
+#: admin\page\general-options.php:11
+#: install\index.php:362
+msgid "Site address"
+msgstr "Indirizzo sito"
+
+#: admin\page\general-options.php:11
+msgid "This path should be set to where activate.php is located."
+msgstr "Questo path deve essere dove si trova activate.php"
+
+#: admin\page\general-options.php:17
+msgid "Default session"
+msgstr "Sessione predeterminata"
+
+#: admin\page\general-options.php:17
+msgid "Default time in minutes a user can be logged in. Enter 0 to log the user out when they close their browser."
+msgstr "Tempo predeterminato in minuti che un utente può rimanere connesso. Inserire 0 per disconnettere l'utente quande chiude il suo browser."
+
+#: admin\page\general-options.php:23
+msgid "Default level"
+msgstr "Livello predeterminato"
+
+#: admin\page\general-options.php:23
+msgid "The default level a new user will have when signing up, or by being created through the admin panel."
+msgstr "Il livello predeterminato assegnato a un utente nuovo quando si iscrive, o quando viene creato tramite il pannello di amministrazione."
+
+#: admin\page\general-options.php:29
+#, fuzzy
+msgid "Site control"
+msgstr "controllo livelli"
+
+#: admin\page\general-options.php:33
+#, fuzzy
+msgid "Use email addresses instead of usernames"
+msgstr "Questa email sarà visibile per i tuoi utilizzatori"
+
+#: admin\page\general-options.php:37
+msgid "Disable registrations"
+msgstr "Disabilitare le iscrizioni"
+
+#: admin\page\general-options.php:41
+#, fuzzy
+msgid "Disable logins"
+msgstr "Abilita la connessione"
+
+#: admin\page\general-options.php:46
+#: admin\page\general-options.php:101
+#: admin\page\reports.php:100
+msgid "New users"
+msgstr "Nuovo utilizzatore"
+
+#: admin\page\general-options.php:50
+msgid "Require email activation for new users"
+msgstr "Esigere l'attivazione via email per i nuovi utenti."
+
+#: admin\page\general-options.php:54
+#, fuzzy
+msgid "Do not send the welcome email when a new user registers"
+msgstr "Spedisci email di benvenuto quando l'utente si iscrive a questo livello"
+
+#: admin\page\general-options.php:58
+#, fuzzy
+msgid "Notify a user group on new registrations"
+msgstr "Notificare quando c'è una nuova iscrizione"
+
+#: admin\page\general-options.php:68
+msgid "Restrict email domains"
+msgstr ""
+
+#: admin\page\general-options.php:68
+msgid "Restrict registrations to the emails specified."
+msgstr ""
+
+#: admin\page\general-options.php:74
+msgid "Password encryption"
+msgstr "Crittografia della password"
+
+#: admin\page\general-options.php:78
+msgid "Force user to update password if not using selected encryption method"
+msgstr "Obbligare l'utente ad aggiornare la password se la password attuale non usa il metodo di crittografia selezionato"
+
+#: admin\page\general-options.php:90
+msgid "Redirect Options"
+msgstr "Opzioni di Ridirezione"
+
+#: admin\page\general-options.php:93
+msgid "Where to redirect guests when attempting to access a secured page."
+msgstr "Dove ridirigere gli ospiti che tentano di accedere a pagine protette."
+
+#: admin\page\general-options.php:96
+msgid "Default: <code>login.php?e=1</code>"
+msgstr "Default: <code>login.php?e=1</code>"
+
+#: admin\page\general-options.php:101
+msgid "After a new user registers, where should the user be redirected to? By default the user is sent to the My Account page."
+msgstr "Dopo l'iscrizione di un nuovo utente, dove ridirigerlo? Normalmente viene mandato alla pagina Mio Conto."
+
+#: admin\page\general-options.php:104
+msgid "Default: <code>profile.php</code>"
+msgstr "Default: <code>profile.php</code>"
+
+#: admin\page\general-options.php:109
+msgid "When the user logs out of your site through logout.php."
+msgstr "Quando l'utente si disconnette dal tuo sito atraverso logout.php."
+
+#: admin\page\general-options.php:113
+#: admin\page\general-options.php:124
+msgid "Redirect to referring page"
+msgstr "Ridirigere alla pagina riferente"
+
+#: admin\page\general-options.php:120
+msgid "The default page to load when a user logs in."
+msgstr "La pagina predeterminata che si carica quando un utente si iscrive."
+
+#: admin\page\general-options.php:130
+msgid "<b>Note:</b> Level specific redirects can be set on their respective level edit page and will override the options configured above."
+msgstr "<b>Nota:</b> Ridirezioni specifiche a un livello possono essere imposte sulle rispettive pagine di modifica di livello, le quali avranno priorità sulle impostazioni configurate sopra."
+
+#: admin\page\integration.php:3
+msgid "Social login"
+msgstr "Connessione sociale"
+
+#: admin\page\integration.php:5
+msgid "Enable any of these methods to permit your users logging in with them."
+msgstr "Abilita uno di questi metodi per permettere agli utenti di connettersi."
+
+#: admin\page\integration.php:8
+msgid "Twitter"
+msgstr "Twitter"
+
+#: admin\page\integration.php:13
+#: admin\page\integration.php:41
+#: admin\page\integration.php:106
+#: admin\page\integration.php:134
+msgid "Enable"
+msgstr "Abilita"
+
+#: admin\page\integration.php:20
+msgid "Consumer key"
+msgstr "Consumer key"
+
+#: admin\page\integration.php:25
+msgid "Consumer secret"
+msgstr "Consumer secret"
+
+#: admin\page\integration.php:28
+#, php-format
+msgid "You must first <a href=\"%s\">setup a Twitter App</a>."
+msgstr "Devi prima <a href=\"%s\">impostare una App Twitter</a>."
+
+#: admin\page\integration.php:29
+#, php-format
+msgid "When setting up your app, for <i>Callback URL</i>, use <code>%s</code>"
+msgstr "Quando imposti la tua app, per la <i>Callback URL</i>, usa <code>%s</code>"
+
+#: admin\page\integration.php:36
+msgid "Facebook"
+msgstr "Facebook"
+
+#: admin\page\integration.php:48
+msgid "App ID"
+msgstr "App ID"
+
+#: admin\page\integration.php:53
+msgid "App Secret"
+msgstr "App Secret"
+
+#: admin\page\integration.php:56
+#, php-format
+msgid "You must first <a href=\"%s\">setup a Facebook App</a>."
+msgstr "Devi prima <a href=\"%s\">impostare una App Facebook</a>."
+
+#: admin\page\integration.php:64
+msgid "OpenID Networks"
+msgstr "OpenID Networks"
+
+#: admin\page\integration.php:69
+msgid "Google"
+msgstr "Google"
+
+#: admin\page\integration.php:74
+msgid "Yahoo"
+msgstr "Yahoo"
+
+#: admin\page\integration.php:83
+msgid "Captcha signup"
+msgstr "Iscrizione con captcha"
+
+#: admin\page\integration.php:86
+msgid "Require human verification on the registration form."
+msgstr "Esigi verifica umana del formulario di iscrizione."
+
+#: admin\page\integration.php:89
+msgid "Disable captcha"
+msgstr "Disabilita captcha"
+
+#: admin\page\integration.php:101
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: admin\page\integration.php:113
+msgid "Public key"
+msgstr "Chiave pubblica"
+
+#: admin\page\integration.php:118
+msgid "Private key"
+msgstr "Chiave privata"
+
+#: admin\page\integration.php:121
+#, php-format
+msgid "You must first <a href=\"%s\">create a reCAPTCHA key</a>."
+msgstr "Devi prima <a href=\"%s\">creare una reCAPTCHA key</a>."
+
+#: admin\page\integration.php:129
+msgid "PlayThru"
+msgstr "PlayThru"
+
+#: admin\page\integration.php:141
+msgid "Publisher key"
+msgstr "Publisher key"
+
+#: admin\page\integration.php:146
+msgid "Scoring key"
+msgstr "Scoring key"
+
+#: admin\page\integration.php:149
+#, php-format
+msgid "You must first <a href=\"%s\">signup to get a site key</a>."
+msgstr "Devi prima <a href=\"%s\">iscriverti per ottenere una site key</a>."
+
+#: admin\page\level-control.php:4
+msgid "Modify levels"
+msgstr "Modifica livelli"
+
+#: admin\page\level-control.php:10
+msgid "Create new level"
+msgstr "Creare un nuovo livello"
+
+#: admin\page\level-control.php:11
+#: admin\page\user-control.php:11
+msgid "Show"
+msgstr "Mostra"
+
+#: admin\page\level-control.php:13
+msgid "Search by Name, Level, ID, or Redirect URL."
+msgstr "Ricerca per Nome, Livello, ID, o URL di Ridirezione."
+
+#: admin\page\level-control.php:15
+msgid "Level search"
+msgstr "Ricerca di livelli"
+
+#: admin\page\level-create.php:26
+msgid "Create level"
+msgstr "Creare un livello"
+
+#: admin\page\reports.php:9
+msgid "Registered Users"
+msgstr "Utenti Iscritti"
+
+#: admin\page\reports.php:14
+msgid "From:"
+msgstr "Da:"
+
+#: admin\page\reports.php:15
+msgid "To:"
+msgstr "A:"
+
+#: admin\page\reports.php:16
+msgid "submitting..."
+msgstr "trasmettendo..."
+
+#: admin\page\reports.php:23
+msgid "Total"
+msgstr "Totale"
+
+#: admin\page\reports.php:24
+#: admin\page\reports.php:32
+msgid "Registered"
+msgstr "Iscritto"
+
+#: admin\page\reports.php:31
+msgid "Range"
+msgstr "Fascia"
+
+#: admin\page\reports.php:41
+msgid "<strong>Tip:</strong> Hover over the points on the graph!"
+msgstr "<strong>Consiglio:</strong> Passa il mouse sui punti del grafico!"
+
+#: admin\page\reports.php:54
+msgid "Most Frequent Users"
+msgstr "Utenti Più Frequenti"
+
+#: admin\page\reports.php:58
+msgid "Top 10"
+msgstr "Top 10"
+
+#: admin\page\reports.php:63
+msgid "Logins"
+msgstr "Connessioni"
+
+#: admin\page\send-email.php:10
+msgid "To"
+msgstr "A"
+
+#: admin\page\send-email.php:10
+msgid "Select the user groups that will receive your email. (This will send as BCC)"
+msgstr "Seleziona il gruppo di utenti che riceverà la tua email. (Mandato come BCC)"
+
+#: admin\page\send-email.php:24
+msgid "Message"
+msgstr "Messaggio"
+
+#: admin\page\send-email.php:33
+msgid "Send now!"
+msgstr "Invia subito!"
+
+#: admin\page\update.php:7
+msgid "Updates disabled"
+msgstr "Aggiornamenti diabilitati"
+
+#: admin\page\update.php:8
+msgid "Two thing may have happened:"
+msgstr "Due cose possono essere successe:"
+
+#: admin\page\update.php:10
+msgid "Update checking is disabled"
+msgstr "Verifica aggiornamenti disabilitata"
+
+#: admin\page\update.php:11
+msgid "Could not connect to server to fetch latest update details. Please make sure the PHP setting `allow_url_fopen` is enabled."
+msgstr "Impossibile connettersi al server per ottenere gli ultimi aggiornamenti. Verifica che l'impostazione PHP `allow_url_fopen` sia abilitata."
+
+#: admin\page\update.php:15
+msgid "Update available!"
+msgstr "Aggiornamento disponibile"
+
+#: admin\page\update.php:16
+msgid "There's a new update available! Please visit your CodeCanyon profile to download the new version."
+msgstr "C'è un nuovo aggiornamento! Per favore visita il tuo profilo CodeCanyon per scaricare la versione nuova."
+
+#: admin\page\update.php:18
+msgid "You're up to date!"
+msgstr "Sei aggiornato!"
+
+#: admin\page\update.php:19
+msgid "There are no new updates available. When a new update is released this message will change accordingly."
+msgstr "Non ci sono aggiornamenti disponibili. Quando un nuovo aggiornamento sarà introdotto questo messaggio cambierà."
+
+#: admin\page\update.php:24
+msgid "Check for updates"
+msgstr "Verifica aggiornamenti"
+
+#: admin\page\update.php:24
+msgid "Disabling this may improve speed on the Settings page"
+msgstr "Disabilitando questa opzione può migliorare la velocità della pagina Impostazioni"
+
+#: admin\page\update.php:28
+msgid "Enable to automatically check for updates each time you load this page"
+msgstr "Abilitare per verificare automaticamente gli aggiornamenti ogni volta che carichi questa pagina"
+
+#: admin\page\update.php:33
+msgid "Current version"
+msgstr "Versione attuale"
+
+#: admin\page\update.php:39
+msgid "Latest version"
+msgstr "Ultima versione"
+
+#: admin\page\update.php:45
+msgid "Latest changelog"
+msgstr "Ultimo changelog"
+
+#: admin\page\user-add.php:27
+msgid "<b>Note</b>: A random password will be generated and emailed to the user."
+msgstr "<b>Nota</b>: Una password aleatoria sarà generata e mandata via email all'utente."
+
+#: admin\page\user-control.php:5
+msgid "Control users"
+msgstr "Controlla utenti"
+
+#: admin\page\user-control.php:10
+msgid "Add new user"
+msgstr "Aggiunti nuovo utilizzatore"
+
+#: admin\page\user-control.php:13
+msgid "Search by Username, Name, or ID!"
+msgstr "Ricerca per Nome di Utente, Nome o ID!"
+
+#: admin\page\user-control.php:15
+msgid "User search"
+msgstr "Cerca utilizzatori"
+
+#: admin\page\user-profiles.php:3
+msgid "User profiles"
+msgstr "Profili utilizzatori"
+
+#: admin\page\user-profiles.php:6
+msgid "Profile Control"
+msgstr "Controllo Profilo"
+
+#: admin\page\user-profiles.php:10
+msgid "Make all profiles public"
+msgstr "Rendi tutti i profili pubblici"
+
+#: admin\page\user-profiles.php:16
+msgid "Log a timestamp + IP address for when a user signs in."
+msgstr "Logga l'ora e l'indirizzo IP quando un utente si iscrive."
+
+#: admin\page\user-profiles.php:20
+msgid "Enable logging"
+msgstr "Abilita la connessione"
+
+#: admin\page\user-profiles.php:24
+msgid "Viewable to admin only"
+msgstr "Visibile solo all'admin"
+
+#: admin\page\user-profiles.php:32
+msgid "Section"
+msgstr "Sezione"
+
+#: admin\page\user-profiles.php:32
+msgid "Group your fields by assinging sections to them."
+msgstr "Raggruppa i tuoi campi assegnandoli a sezioni."
+
+#: admin\page\user-profiles.php:33
+msgid "Input type"
+msgstr "Input type"
+
+#: admin\page\user-profiles.php:34
+msgid "Input label"
+msgstr "Input label"
+
+#: admin\page\user-profiles.php:35
+msgid "Sign Up"
+msgstr "Iscrizione"
+
+#: admin\page\user-profiles.php:36
+msgid "Public"
+msgstr "Pubblico"
+
+#: admin\page\user-profiles.php:36
+msgid "Show this field on a user's public profile."
+msgstr "Mostra questo campo sul profilo pubblico dell'utente"
+
+#: admin\page\user-profiles.php:57
+msgid "Text input"
+msgstr "Text input"
+
+#: classes\connect.class.php:37
+msgid "Installation has not yet been ran!"
+msgstr "L'installazione non è stata ancora effettuata!"
+
+#: classes\connect.class.php:38
+msgid "Woops!"
+msgstr "Ooops!"
+
+#: classes\connect.class.php:39
+msgid "You're missing a config.php file preventing a database connection from being made."
+msgstr "Manca un file config.php quindi connessione alla database impossibile."
+
+#: classes\connect.class.php:40
+msgid "Please click"
+msgstr "Clicca"
+
+#: classes\connect.class.php:40
+msgid "on the home page to create a config file."
+msgstr "sulla home page per creare un file di config."
+
+#: classes\connect.class.php:62
+#: install\index.php:86
+msgid "Database error: "
+msgstr "Errore di database:"
+
+#: classes\forgot.class.php:56
+msgid "Your passwords did not match, try again."
+msgstr "La tua password non corrisponde, riprova."
+
+#: classes\forgot.class.php:77
+msgid "Verification failed."
+msgstr "Verifica fallita."
+
+#: classes\forgot.class.php:117
+msgid "Successfully reset your password"
+msgstr "Password riazzerata"
+
+#: classes\forgot.class.php:119
+msgid "If you need any further assistance please contact the website administrator:"
+msgstr "Se hai bisogno di assistenza contatta l'amministrtore del sito:"
+
+#: classes\forgot.class.php:142
+msgid "Confirm password"
+msgstr "Conferma password"
+
+#: classes\forgot.class.php:149
+msgid "Reset Password"
+msgstr "Azzerare password"
+
+#: classes\forgot.class.php:165
+msgid "Please enter your username or email address."
+msgstr "Per favore inserisci nome di utente o email."
+
+#: classes\forgot.class.php:206
+msgid "We've emailed you password reset instructions. Check your email."
+msgstr "Ti abbiamo mandato una email di istruzioni per riazzerare la password. Verifica la tua email."
+
+#: classes\forgot.class.php:208
+msgid "Hank, I searched for you high and low but couldn't find you :("
+msgstr "Giovanni, ti ho cercato dappertutto ma non ti trovo :("
+
+#: classes\generic.class.php:387
+msgid "Location"
+msgstr "Localizzazione"
+
+#: classes\generic.class.php:400
+msgid "Has not logged in yet"
+msgstr "Non ancora connesso"
+
+#: classes\generic.class.php:418
+msgid "You're already logged in."
+msgstr "Sei già connesso."
+
+#: classes\generic.class.php:420
+#, php-format
+msgid "Go <a href=\"%s\">back</a> to the page you were viewing before this."
+msgstr "Torna <a href=\"%s\">indietro</a> alla pagina che visualizzavi prima di questa."
+
+#: classes\integration.class.php:122
+#, php-format
+msgid "Your account is already linked with %s!"
+msgstr "Il tuo account è già linkato con %s!"
+
+#: classes\integration.class.php:168
+msgid "Successfully linked with "
+msgstr "Linkato con"
+
+#: classes\integration.class.php:178
+#, php-format
+msgid "You are not yet linked with %s"
+msgstr "Non sei ancora linkato con %s"
+
+#: classes\integration.class.php:188
+#, php-format
+msgid "Successfully unlinked from %s"
+msgstr "Rimosso il link con %s"
+
+#: classes\login.class.php:40
+msgid "The admin has disabled logins."
+msgstr ""
+
+#: classes\login.class.php:131
+msgid "Invalid login attempt"
+msgstr "Tentativo di connessione invalido"
+
+#: classes\login.class.php:147
+#, fuzzy
+msgid "You must enter an email address."
+msgstr "Devi inserire un nome di utente"
+
+#: classes\login.class.php:152
+msgid "You forgot your password, silly."
+msgstr "Hai dimenticato la password..."
+
+#: classes\login.class.php:165
+#, fuzzy, php-format
+msgid "Incorrect %s or password."
+msgstr "Nome di utente o password errata"
+
+#: classes\profile.class.php:38
+msgid "<strong>Alert</strong>: The administrator has requested all users to update their passwords."
+msgstr "<strong>Avvertimento</strong>: L'amministratore ha richiesto agli utenti di aggiornare le password."
+
+#: classes\profile.class.php:41
+#: classes\profile.class.php:82
+msgid "Guest"
+msgstr "Ospite"
+
+#: classes\profile.class.php:95
+msgid "Sorry, that user does not exist."
+msgstr "Scusi, quest' utilizzatore non esiste."
+
+#: classes\profile.class.php:118
+msgid "You must enter the current password to make changes."
+msgstr "Devi inserire la password attuale per fare cambiamenti"
+
+#: classes\profile.class.php:128
+msgid "You entered the wrong current password."
+msgstr "Hai sbagliato la password attuale."
+
+#: classes\profile.class.php:256
+msgid "Check your email to confirm this change."
+msgstr "Verifica la tua email per confermare il cambiamento."
+
+#: classes\signup.class.php:38
+msgid "<h4 class=\"alert-heading\">Registrations disabled.</h4><p>Already have an account? <a href=\"login.php\">Sign in here</a>!</p>"
+msgstr "<h4 class=\"alert-heading\">Iscrizioni disabilitate.</h4><p>Hai già un account? <a href=\"login.php\">Conettiti qui</a>!</p>"
+
+#: classes\signup.class.php:63
+msgid "We don't see you as a registered user. Perhaps you'd like to sign up :)"
+msgstr "Non ti riconosciamo come utente iscritto. Forse vuoi iscriverti :)"
+
+#: classes\signup.class.php:141
+msgid "Invalid signup attempt"
+msgstr "Tentativo di iscrizione invalido"
+
+#: classes\signup.class.php:165
+msgid "Your username must be under 11 characters"
+msgstr "Il nome di utente deve essere di meno di 11 caratteri"
+
+#: classes\signup.class.php:182
+#, fuzzy
+msgid "That email address is not allowed."
+msgstr "Quell'indirizzo email è già in uso."
+
+#: classes\signup.class.php:204
+msgid "Please enter the correct captcha!"
+msgstr "Per favore inserisci il captcha corretto!"
+
+#: classes\signup.class.php:225
+msgid "Attention!"
+msgstr "Attenzione"
+
+#: classes\upgrade.class.php:51
+msgid "Database update required"
+msgstr "Aggiornamento della database necessario"
+
+#: install\index.php:62
+msgid "Password must be at least 5 characters."
+msgstr "La password deve essere di almeno 5 caratteri."
+
+#: install\index.php:67
+msgid "Fill out all the details please"
+msgstr "Inserisci tutti i dettagli per favore"
+
+#: install\index.php:283
+msgid "Could not create <code>/classes/config.php</code>, please confirm you have permission to create the file."
+msgstr "Impossibile creare <code>/classes/config.php</code>, per favore conferma che hai il diritto di creare questo file."
+
+#: install\index.php:310
+msgid "Hooray ! Installation is all done :)"
+msgstr "Evviva! Installazione completata :)"
+
+#: install\index.php:311
+msgid "Important"
+msgstr "Importante"
+
+#: install\index.php:311
+msgid "Please delete or rename the install folder to prevent intrustion"
+msgstr "Per favore sopprimi o cambia il nome del folder pre evitare intrusioni"
+
+#: install\index.php:315
+msgid "Check out your"
+msgstr "Verifica la tua"
+
+#: install\index.php:315
+msgid "home"
+msgstr "home"
+
+#: install\index.php:315
+msgid "page."
+msgstr "pagina."
+
+#: install\index.php:321
+msgid "Installation is not complete."
+msgstr "Installazione incompleta."
+
+#: install\index.php:332
+msgid "Database Info"
+msgstr "Info Database"
+
+#: install\index.php:334
+msgid "Host"
+msgstr "Host"
+
+#: install\index.php:340
+msgid "Database name"
+msgstr "Nome Database"
+
+#: install\index.php:342
+msgid "database_name"
+msgstr "database_name"
+
+#: install\index.php:348
+msgid "db username"
+msgstr "nome utente db"
+
+#: install\index.php:354
+msgid "db password"
+msgstr "password db"
+
+#: install\index.php:360
+msgid "Site Settings"
+msgstr "Impostazioni sito"
+
+#: install\index.php:365
+msgid "This path should be set to where activate.php is located"
+msgstr "Questo deve essere il path di activate.php"
+
+#: install\index.php:372
+msgid "This email address will be visible to your users"
+msgstr "Questa email sarà visibile per i tuoi utilizzatori"
+
+#: install\index.php:378
+msgid "Admin Account"
+msgstr "Conto amministratore"
+
+#: install\index.php:394
+msgid "Install"
+msgstr "Installare"
+

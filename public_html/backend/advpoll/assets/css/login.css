@@ -1,0 +1,102 @@
+/**
+ * @copyright	Copyright (c) 2013 Skyline Technology Ltd (http://extstore.com). All rights reserved.
+ * @license		http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU/GPL version 2
+ */
+
+body {
+	background: #555555; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #555555 0%, #111111 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #555555), color-stop(100%, #111111)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, #555555 0%, #111111 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, #555555 0%, #111111 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, #555555 0%, #111111 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, #555555 0%, #111111 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#555555', endColorstr='#111111', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.view {
+	background: none;
+	margin-top: 8%;
+}
+
+.login-container {
+	max-width: 320px;
+	margin: 0 auto;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 1);
+}
+
+.login-container .thumbnail.company-logo {
+	background: #222 url(../images/logo.png) no-repeat center center;
+	background-size: contain;
+	display: block;
+	height: 50px;
+	min-width: 144px;
+	margin: 0;
+	border-radius: 0;
+	/*border:1px solid #1a1a1a;*/
+	border: none;
+}
+
+button.btn-primary {
+	background: #D05B2B !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	top: 5px;
+}
+
+.login-box {
+	/*border-radius: 0 0 3px 3px;*/
+	/*border:1px solid #1a1a1a;*/
+	background: #fff;
+	/*border-top:2px solid #D05B2B;*/
+	padding: 15px 0 20px 0;
+}
+
+.login-box header {
+	background: #F0F0F0;
+}
+
+.login-box header h1 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #555;
+	text-shadow: 1px 1px 0 #fff;
+	line-height: 34px;
+	padding: 15px 20px;
+	margin: 0;
+	font-weight: bold;
+	text-align: center;
+}
+
+.login-box header .links {
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #555;
+	text-shadow: 1px 1px 0 #fff;
+	line-height: 34px;
+	padding: 10px 20px;
+	font-weight: bold;
+}
+
+.login-box form,
+.login-box .form-actions {
+	margin-bottom: 0;
+}
+
+.login-box form {
+	padding: 10px 20px;
+}
+
+.login-box .form-actions .checkbox {
+	font-size: 12px;
+}
+
+#main-menu nav {
+	font-size: 11px;
+}
+
+.help-block {
+	font-size: 12px;
+}

@@ -1,0 +1,2053 @@
+# Jigowatt translation strings
+# Copyright (C) 2011-2012
+# This file is distributed under the same license as the Jigowatt package.
+# Last Updated: July 28, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: Login\n"
+"Report-Msgid-Bugs-To: Jigowatt <info@jigowatt.co.uk>\n"
+"POT-Creation-Date: 2012-07-28 13:01-0400\n"
+"PO-Revision-Date: 2012-12-06 16:30+0100\n"
+"Last-Translator: Frank <webmaster@clanremedy.net>\n"
+"Language-Team: clanremedy.net <webmaster@clanremedy.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: Norwegian\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: \wp-content\plugins\jigoshop\activate.php:49
+msgid "Your activation link is incorrect."
+msgstr "Aktiveringslinken er feil."
+
+#: \wp-content\plugins\jigoshop\activate.php:50
+#: \wp-content\plugins\jigoshop\activate.php:67
+#: \wp-content\plugins\jigoshop\activate.php:116
+#: \wp-content\plugins\jigoshop\activate.php:130
+#: \wp-content\plugins\jigoshop\activate.php:134
+#: \wp-content\plugins\jigoshop\classes\generic.class.php:400
+#: \wp-content\plugins\jigoshop\install\index.php:314
+msgid "What to do now?"
+msgstr "Hva skal du gjøre nå?"
+
+#: \wp-content\plugins\jigoshop\activate.php:51
+#: \wp-content\plugins\jigoshop\activate.php:68
+#: \wp-content\plugins\jigoshop\activate.php:131
+#, php-format
+msgid "Go to the <a href=\"%s\"> homepage</a>"
+msgstr "Gå til <a href=\"%s\"> hjemmesiden</a>"
+
+#: \wp-content\plugins\jigoshop\activate.php:65
+msgid "Your account has been activated!"
+msgstr "Kontoen din har blitt aktivert!"
+
+#: \wp-content\plugins\jigoshop\activate.php:65
+msgid "You can now see the default access granted to new users."
+msgstr "Du kan nå se standard tilgang gitt til nye brukere."
+
+#: \wp-content\plugins\jigoshop\activate.php:66
+msgid "If you require more access please contact the site admin at"
+msgstr "Hvis du trenger mere tilgang, vennligst kontakt administrator på"
+
+#: \wp-content\plugins\jigoshop\activate.php:98
+msgid "You do not have an activation key!"
+msgstr "Du har ikke en aktiveringsnøkkel"
+
+#: \wp-content\plugins\jigoshop\activate.php:99
+msgid "Please contact an admin: "
+msgstr "Vennligst kontakt administrator:"
+
+#: \wp-content\plugins\jigoshop\activate.php:115
+msgid "Activation link resent to email."
+msgstr "Aktiveringslink sent på nytt til e-post."
+
+#: \wp-content\plugins\jigoshop\activate.php:117
+msgid "Click the link in your email to activate your account."
+msgstr "Klikk på linken i e-posten din for å aktivere kontoen din."
+
+#: \wp-content\plugins\jigoshop\activate.php:118
+#: \wp-content\plugins\jigoshop\admin\classes\add_user.class.php:163
+#: \wp-content\plugins\jigoshop\admin\classes\edit_user.class.php:219
+#: \wp-content\plugins\jigoshop\admin\classes\send_email.class.php:71
+#: \wp-content\plugins\jigoshop\classes\forgot.class.php:204
+#: \wp-content\plugins\jigoshop\classes\profile.class.php:209
+#: \wp-content\plugins\jigoshop\classes\profile.class.php:254
+#: \wp-content\plugins\jigoshop\classes\signup.class.php:356
+#: \wp-content\plugins\jigoshop\classes\signup.class.php:391
+msgid "ERROR. Mail not sent"
+msgstr "FEIL. E-post ikke sent."
+
+#: \wp-content\plugins\jigoshop\activate.php:129
+msgid "Your account has already been activated."
+msgstr "Din konto har allerede blitt aktivert."
+
+#: \wp-content\plugins\jigoshop\activate.php:133
+msgid "You have not activated your account yet."
+msgstr "Du har ikke aktivert kontoen din enda."
+
+#: \wp-content\plugins\jigoshop\activate.php:135
+msgid "Please follow the link in your email to activate your account."
+msgstr "Vennligst følg linken i e-posten for å aktivere kontoen din."
+
+#: \wp-content\plugins\jigoshop\activate.php:136
+#, php-format
+msgid "Would you like us to <a href=\"%s\">resend</a> the link?"
+msgstr "Skal vi <a href=\"%s\">sende</a> linken på nytt?"
+
+#: \wp-content\plugins\jigoshop\disabled.php:31
+#: \wp-content\plugins\jigoshop\classes\signup.class.php:162
+msgid "You must enter your name."
+msgstr "Du må skrive inn ditt navn."
+
+#: \wp-content\plugins\jigoshop\disabled.php:33
+msgid "Please enter a valid email address."
+msgstr "Vennligst skriv inn en godkjent e-post adresse."
+
+#: \wp-content\plugins\jigoshop\disabled.php:35
+msgid "You have enter an invalid e-mail address, try again."
+msgstr "Du har skrevet inn en ugyldig e-post adresse, vennligst prøv igjen."
+
+#: \wp-content\plugins\jigoshop\disabled.php:39
+msgid "Please enter a subject."
+msgstr "Vennligst skriv inn et tema."
+
+#: \wp-content\plugins\jigoshop\disabled.php:41
+msgid "Please enter your message."
+msgstr "Vennligst skriv din beskjed."
+
+#: \wp-content\plugins\jigoshop\disabled.php:43
+msgid "Please enter the verification code."
+msgstr "Vennligst skriv inn sikkerhetskoden."
+
+#: \wp-content\plugins\jigoshop\disabled.php:45
+msgid "The verification code you entered is incorrect."
+msgstr "Sikkerhetskoden du skrev inn er feil."
+
+#: \wp-content\plugins\jigoshop\disabled.php:62
+msgid "You've been contacted by"
+msgstr "Du har blitt kontaktet av"
+
+#: \wp-content\plugins\jigoshop\disabled.php:69
+msgid ""
+"You have been contacted by $name with regards to $subject, their additional "
+"message is as follows."
+msgstr ""
+"Du har blitt kontaktet av $name med temaet $subject, resten av beskjeden er "
+"som følger."
+
+#: \wp-content\plugins\jigoshop\disabled.php:72
+#, php-format
+msgid "You can contact %s via email, %s"
+msgstr "Du kan kontakte %s via e-post, %s"
+
+#: \wp-content\plugins\jigoshop\disabled.php:80
+msgid "Email Sent Successfully"
+msgstr "E-post ble sent vellykket."
+
+#: \wp-content\plugins\jigoshop\disabled.php:81
+msgid "Thank you"
+msgstr "Tusen takk"
+
+#: \wp-content\plugins\jigoshop\disabled.php:81
+msgid "your message has been submitted to us."
+msgstr "din beskjed har blitt sendt til oss."
+
+#: \wp-content\plugins\jigoshop\disabled.php:91
+msgid "Oops, Access Denied"
+msgstr "Oops, Ingen Tilgang"
+
+#: \wp-content\plugins\jigoshop\disabled.php:92
+msgid "Sorry, your username or user group has been disabled!"
+msgstr "Beklager, ditt brukernavn eller bruker gruppe har blitt deaktivert!"
+
+#: \wp-content\plugins\jigoshop\disabled.php:93
+msgid ""
+"We have detected that your username or user group has been disabled; so you "
+"cannot view internal pages."
+msgstr ""
+"Vi har funnet ut at ditt brukernavn eller bruker gruppe har blitt "
+"deaktivert; så du kan ikke se interne sider."
+
+#: \wp-content\plugins\jigoshop\disabled.php:94
+msgid "Fill out this form if you feel this is in error"
+msgstr "Fyll ut dette skjemaet hvis du føler at dette er en feil"
+
+#: \wp-content\plugins\jigoshop\disabled.php:102
+#: \wp-content\plugins\jigoshop\profile.php:49
+#: \wp-content\plugins\jigoshop\admin\levels.php:17
+#: \wp-content\plugins\jigoshop\admin\users.php:33
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:89
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:140
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:184
+#: \wp-content\plugins\jigoshop\admin\page\level-create.php:8
+#: \wp-content\plugins\jigoshop\admin\page\user-add.php:8
+msgid "Name"
+msgstr "Navn"
+
+#: \wp-content\plugins\jigoshop\disabled.php:109
+#: \wp-content\plugins\jigoshop\profile.php:55
+#: \wp-content\plugins\jigoshop\sign_up.php:33
+#: \wp-content\plugins\jigoshop\sign_up.php:35
+#: \wp-content\plugins\jigoshop\admin\users.php:51
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:90
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:141
+#: \wp-content\plugins\jigoshop\admin\page\user-add.php:22
+msgid "Email"
+msgstr "E-post"
+
+#: \wp-content\plugins\jigoshop\disabled.php:116
+#: \wp-content\plugins\jigoshop\admin\page\emails-acct-update.php:10
+#: \wp-content\plugins\jigoshop\admin\page\emails-acct-update.php:28
+#: \wp-content\plugins\jigoshop\admin\page\emails-activate.php:9
+#: \wp-content\plugins\jigoshop\admin\page\emails-activate.php:27
+#: \wp-content\plugins\jigoshop\admin\page\emails-add-user.php:9
+#: \wp-content\plugins\jigoshop\admin\page\emails-forgot.php:9
+#: \wp-content\plugins\jigoshop\admin\page\emails-forgot.php:27
+#: \wp-content\plugins\jigoshop\admin\page\emails-welcome.php:9
+#: \wp-content\plugins\jigoshop\admin\page\emails-welcome.php:28
+#: \wp-content\plugins\jigoshop\admin\page\send-email.php:17
+msgid "Subject"
+msgstr "Tema"
+
+#: \wp-content\plugins\jigoshop\disabled.php:119
+msgid "Disabled Message"
+msgstr "Deaktivert Beskjed"
+
+#: \wp-content\plugins\jigoshop\disabled.php:120
+msgid "Report a bug"
+msgstr "Raporter en feil"
+
+#: \wp-content\plugins\jigoshop\disabled.php:126
+msgid "Your comments"
+msgstr "Dine kommentarer"
+
+#: \wp-content\plugins\jigoshop\disabled.php:133
+msgid "What colour is the sky?"
+msgstr "Hvilken farge er himmelen?"
+
+#: \wp-content\plugins\jigoshop\disabled.php:139
+#: \wp-content\plugins\jigoshop\login.php:22
+#: \wp-content\plugins\jigoshop\admin\page\reports.php:16
+msgid "Submit"
+msgstr "Send"
+
+#: \wp-content\plugins\jigoshop\header.php:43
+#: \wp-content\plugins\jigoshop\install\header.php:40
+msgid "Jigowatt"
+msgstr "Jigowatt"
+
+#: \wp-content\plugins\jigoshop\header.php:46
+#: \wp-content\plugins\jigoshop\admin\header.php:55
+#: \wp-content\plugins\jigoshop\install\header.php:43
+msgid "Home"
+msgstr "Hjem"
+
+#: \wp-content\plugins\jigoshop\header.php:47
+#: \wp-content\plugins\jigoshop\admin\header.php:56
+#: \wp-content\plugins\jigoshop\install\header.php:44
+msgid "Secure page"
+msgstr "Sikker side"
+
+#: \wp-content\plugins\jigoshop\header.php:48
+#: \wp-content\plugins\jigoshop\admin\header.php:57
+#: \wp-content\plugins\jigoshop\install\header.php:45
+msgid "Admin panel"
+msgstr "Admin panel"
+
+#: \wp-content\plugins\jigoshop\header.php:60
+#: \wp-content\plugins\jigoshop\admin\header.php:65
+msgid "Control Panel"
+msgstr "Kontrollpanel"
+
+#: \wp-content\plugins\jigoshop\header.php:61
+#: \wp-content\plugins\jigoshop\admin\header.php:66
+#: \wp-content\plugins\jigoshop\admin\index.php:18
+msgid "Settings"
+msgstr "Instillinger"
+
+#: \wp-content\plugins\jigoshop\header.php:62
+#: \wp-content\plugins\jigoshop\admin\header.php:67
+msgid "My Account"
+msgstr "Min Konto"
+
+#: \wp-content\plugins\jigoshop\header.php:63
+#: \wp-content\plugins\jigoshop\admin\header.php:68
+msgid "Help"
+msgstr "Hjelp"
+
+#: \wp-content\plugins\jigoshop\header.php:65
+#: \wp-content\plugins\jigoshop\admin\header.php:70
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:86
+msgid "Sign out"
+msgstr "Logg ut"
+
+#: \wp-content\plugins\jigoshop\header.php:71
+#: \wp-content\plugins\jigoshop\admin\header.php:76
+#: \wp-content\plugins\jigoshop\install\header.php:48
+msgid "Have an account?"
+msgstr "Har du en konto?"
+
+#: \wp-content\plugins\jigoshop\header.php:71
+#: \wp-content\plugins\jigoshop\admin\header.php:76
+#: \wp-content\plugins\jigoshop\install\header.php:48
+msgid "Sign in!"
+msgstr "Logg inn!"
+
+#: \wp-content\plugins\jigoshop\home.php:4
+msgid "Let's talk about the future."
+msgstr "La oss snakke om framtiden."
+
+#: \wp-content\plugins\jigoshop\home.php:5
+msgid "Easy user management and a comprehensive admin panel. All, for you :3"
+msgstr "Enkelt bruker system og et utfyllende admin panel. Alt for deg :3"
+
+#: \wp-content\plugins\jigoshop\home.php:7
+msgid "Purchase this script"
+msgstr "Kjøp dette scriptet"
+
+#: \wp-content\plugins\jigoshop\home.php:8
+msgid "Subscribe to updates"
+msgstr "Abboner på oppdateringer"
+
+#: \wp-content\plugins\jigoshop\home.php:11
+msgid "Documentation"
+msgstr "Dokumentasjon"
+
+#: \wp-content\plugins\jigoshop\home.php:12
+msgid "Support"
+msgstr "Støtte"
+
+#: \wp-content\plugins\jigoshop\home.php:20
+msgid "Stupendously exciting login and user management."
+msgstr "Spennende inloggings og bruker system."
+
+#: \wp-content\plugins\jigoshop\home.php:21
+msgid "Just the right amount of tools to get your job done."
+msgstr "Akkurat passe med verktøy for å få jobben gjort."
+
+#: \wp-content\plugins\jigoshop\home.php:23
+msgid "Installation"
+msgstr "Installasjon"
+
+#: \wp-content\plugins\jigoshop\home.php:25
+msgid "Complete"
+msgstr "Fullført"
+
+#: \wp-content\plugins\jigoshop\home.php:27
+msgid "Not complete"
+msgstr "Ikke fullført"
+
+#: \wp-content\plugins\jigoshop\home.php:30
+msgid ""
+"Get setup in minutes! Enjoy the super easy installation wizard to walk you "
+"through the setup process."
+msgstr "Installeres på minutter!"
+
+#: \wp-content\plugins\jigoshop\home.php:32
+msgid "Start your installation by clicking the button below!"
+msgstr "Start din installasjon ved å klikke på knappen under!"
+
+#: \wp-content\plugins\jigoshop\home.php:33
+#: \wp-content\plugins\jigoshop\classes\connect.class.php:40
+msgid "Begin Install"
+msgstr "Begynn Installering"
+
+#: \wp-content\plugins\jigoshop\home.php:38
+#: \wp-content\plugins\jigoshop\admin\index.php:16
+msgid "Reports"
+msgstr "Rapporter"
+
+#: \wp-content\plugins\jigoshop\home.php:39
+msgid "Keep track of how your site is doing with dynamic graphs to aid you."
+msgstr "Hold øye med hvordan din side gjør det med dynamiske grafer."
+
+#: \wp-content\plugins\jigoshop\home.php:45
+msgid "Security"
+msgstr "Sikkerhet"
+
+#: \wp-content\plugins\jigoshop\home.php:46
+msgid "Our script has a couple default secure pages to get you started."
+msgstr "Våre script har etpar standard sikkerhetssider for å få deg startet."
+
+#: \wp-content\plugins\jigoshop\home.php:50
+msgid "Admin tools"
+msgstr "Admin verktøy"
+
+#: \wp-content\plugins\jigoshop\home.php:51
+msgid "Enjoy the luxury of having control over every aspect of your website."
+msgstr "Sett pris på og ha kontroll over hvert aspekt av din hjemmeside."
+
+#: \wp-content\plugins\jigoshop\home.php:60
+msgid "Demo credentials."
+msgstr "Demo opplysninger."
+
+#: \wp-content\plugins\jigoshop\home.php:61
+msgid "Whatcha waiting for? Login and check out the site!"
+msgstr "Hva venter du på? Logg inn å sjekk ut siden!"
+
+#: \wp-content\plugins\jigoshop\home.php:64
+msgid "Administrator"
+msgstr "Administrator"
+
+#: \wp-content\plugins\jigoshop\home.php:65
+msgid "Username: admin"
+msgstr "Brukernavn:admin"
+
+#: \wp-content\plugins\jigoshop\home.php:66
+msgid "Password: admin"
+msgstr "Passord:admin"
+
+#: \wp-content\plugins\jigoshop\home.php:70
+msgid "Special user"
+msgstr "Spesiell bruker"
+
+#: \wp-content\plugins\jigoshop\home.php:71
+msgid "Username: special"
+msgstr "Brukernavn:special"
+
+#: \wp-content\plugins\jigoshop\home.php:72
+msgid "Password: special"
+msgstr "Passord:special"
+
+#: \wp-content\plugins\jigoshop\home.php:76
+msgid "Default privileges"
+msgstr "Standard privilegier"
+
+#: \wp-content\plugins\jigoshop\home.php:77
+msgid "Username: user"
+msgstr "Brukernavn:user"
+
+#: \wp-content\plugins\jigoshop\home.php:78
+msgid "Password: user"
+msgstr "Passord:user"
+
+#: \wp-content\plugins\jigoshop\login.php:7
+#: \wp-content\plugins\jigoshop\classes\forgot.class.php:118
+#: \wp-content\plugins\jigoshop\classes\forgot.class.php:134
+msgid "Account Recovery"
+msgstr "Konto gjenopprettelse"
+
+#: \wp-content\plugins\jigoshop\login.php:13
+msgid "Username or Email Address"
+msgstr "Brukernavn eller E-post Adresse"
+
+#: \wp-content\plugins\jigoshop\login.php:22
+msgid "Done"
+msgstr "Ferdig"
+
+#: \wp-content\plugins\jigoshop\login.php:23
+msgid "It'll be easy, I promise."
+msgstr "Det er enkelt, jeg lover."
+
+#: \wp-content\plugins\jigoshop\login.php:31
+msgid "Sign in to Jigowatt"
+msgstr "Logg inn til Jigowatt"
+
+#: \wp-content\plugins\jigoshop\login.php:33
+#: \wp-content\plugins\jigoshop\sign_up.php:15
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:88
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:139
+#: \wp-content\plugins\jigoshop\admin\page\reports.php:62
+#: \wp-content\plugins\jigoshop\admin\page\user-add.php:15
+#: \wp-content\plugins\jigoshop\install\index.php:346
+#: \wp-content\plugins\jigoshop\install\index.php:380
+msgid "Username"
+msgstr "Brukernavn"
+
+#: \wp-content\plugins\jigoshop\login.php:36
+msgid "Trouble signing in"
+msgstr "Problemer med innlogging"
+
+#: \wp-content\plugins\jigoshop\login.php:41
+#: \wp-content\plugins\jigoshop\sign_up.php:21
+#: \wp-content\plugins\jigoshop\admin\users.php:39
+#: \wp-content\plugins\jigoshop\install\index.php:352
+#: \wp-content\plugins\jigoshop\install\index.php:386
+msgid "Password"
+msgstr "Passord"
+
+#: \wp-content\plugins\jigoshop\login.php:49
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:97
+msgid "Sign in"
+msgstr "Logg inn"
+
+#: \wp-content\plugins\jigoshop\login.php:52
+msgid "Stay signed in"
+msgstr "Forbli innlogget"
+
+#: \wp-content\plugins\jigoshop\login.php:55
+msgid "New to Jigowatt? <strong>Join today!</strong>"
+msgstr "Ny til Jiggowatt? <strong>Bli med idag!</strong>"
+
+#: \wp-content\plugins\jigoshop\profile.php:6
+msgid "Change your avatar at Gravatar.com"
+msgstr "Bytt din avatar på Gravatar.com"
+
+#: \wp-content\plugins\jigoshop\profile.php:21
+#: \wp-content\plugins\jigoshop\profile.php:41
+#: \wp-content\plugins\jigoshop\admin\settings.php:18
+#: \wp-content\plugins\jigoshop\admin\users.php:20
+#: \wp-content\plugins\jigoshop\admin\users.php:31
+msgid "General"
+msgstr "Generell"
+
+#: \wp-content\plugins\jigoshop\profile.php:26
+#: \wp-content\plugins\jigoshop\admin\users.php:23
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:16
+msgid "Access logs"
+msgstr "Tilgangslogger"
+
+#: \wp-content\plugins\jigoshop\profile.php:30
+#: \wp-content\plugins\jigoshop\profile.php:100
+#: \wp-content\plugins\jigoshop\admin\settings.php:31
+msgid "Integration"
+msgstr "Integrasjon"
+
+#: \wp-content\plugins\jigoshop\profile.php:43
+msgid "Current password"
+msgstr "Nåværende passord"
+
+#: \wp-content\plugins\jigoshop\profile.php:61
+#: \wp-content\plugins\jigoshop\classes\forgot.class.php:136
+msgid "New password"
+msgstr "Nytt passord"
+
+#: \wp-content\plugins\jigoshop\profile.php:63
+msgid "Leave blank for no change"
+msgstr "La det være blankt for ingen forandring"
+
+#: \wp-content\plugins\jigoshop\profile.php:67
+msgid "New password again"
+msgstr "Nytt passord igjen"
+
+#: \wp-content\plugins\jigoshop\profile.php:75
+msgid "Your public link"
+msgstr "Din offentlige link"
+
+#: \wp-content\plugins\jigoshop\profile.php:91
+#: \wp-content\plugins\jigoshop\admin\users.php:96
+msgid "Access Logs"
+msgstr "Tilgangslogger"
+
+#: \wp-content\plugins\jigoshop\profile.php:102
+msgid ""
+"Use your preferred social method to login the next time you visit our site."
+msgstr ""
+"Bruk din foretrukkede sosiale medie for og logge inn neste gang du besøker "
+"vår side."
+
+#: \wp-content\plugins\jigoshop\profile.php:112
+msgid "Link"
+msgstr "Link"
+
+#: \wp-content\plugins\jigoshop\profile.php:113
+msgid "Unlink"
+msgstr "Fjern link"
+
+#: \wp-content\plugins\jigoshop\profile.php:126
+#: \wp-content\plugins\jigoshop\admin\settings.php:115
+msgid "Save changes"
+msgstr "Lagre endringer"
+
+#: \wp-content\plugins\jigoshop\protected.php:8
+msgid "Admin only text <small>User level: 1</small>"
+msgstr "Bare admin kan se denne teksten <small>Bruker nivå: 1</small>"
+
+#: \wp-content\plugins\jigoshop\protected.php:9
+msgid ""
+"You will only be able to see this content if you have an <span class=\"label "
+"label-important\">administrator</span> user level. "
+msgstr ""
+"Du vil bare kunne se dette innholdet hvis du har <span class=\"label label-"
+"important\">administrator</span> bruker nivå. "
+
+#: \wp-content\plugins\jigoshop\protected.php:12
+msgid "Only admins can view this content."
+msgstr "Bare adminisistratorer kan se dette innholdet."
+
+#: \wp-content\plugins\jigoshop\protected.php:18
+msgid "Why hello, special user! <small>User level: 2</small>"
+msgstr "Hallo, special bruker! <small>Bruker nivå: 2</small>"
+
+#: \wp-content\plugins\jigoshop\protected.php:19
+msgid ""
+"You will only be able to see this content if you have a <span class=\"label "
+"label-info\">special</span> user level. "
+msgstr ""
+"Du vil bare kunne se dette innholdet hvis du har <span class=\"label label-"
+"info\">special</span>bruker nivå."
+
+#: \wp-content\plugins\jigoshop\protected.php:21
+msgid "Only admins or special users can view this content."
+msgstr "Bare administratorer eller special brukere kan se dette innholdet."
+
+#: \wp-content\plugins\jigoshop\protected.php:31
+msgid "All registered users <small>User level: * </small>"
+msgstr "Alle registrerte brukere <small>Bruker nivå: *</small>"
+
+#: \wp-content\plugins\jigoshop\protected.php:32
+msgid ""
+"Any user level in the entire world can see this! All that matters is that "
+"you're logged in."
+msgstr ""
+"Alle brukere i hele verden kan se dette! Alt som trengs er at du er "
+"innlogget."
+
+#: \wp-content\plugins\jigoshop\protected.php:35
+msgid "Only signed in users can view what's hidden here!"
+msgstr "Bare innloggede brukere kan se hva som er gjemt her!"
+
+#: \wp-content\plugins\jigoshop\protected.php:40
+msgid "Public content. <small>No sign in required.</small>"
+msgstr "Offentlig innhold. <small>Ingen innlogging trengs</small>"
+
+#: \wp-content\plugins\jigoshop\protected.php:41
+msgid ""
+"When visiting this page, anyone that is not signed in will be able to view "
+"your markup. "
+msgstr ""
+"Når du besøker denne siden, kan alle som ikke er innlogget se din markup."
+
+#: \wp-content\plugins\jigoshop\sign_up.php:9
+#: \wp-content\plugins\jigoshop\sign_up.php:11
+msgid "Full name"
+msgstr "Fullt navn"
+
+#: \wp-content\plugins\jigoshop\sign_up.php:17
+msgid "Choose your username"
+msgstr "Velg ditt brukernavn"
+
+#: \wp-content\plugins\jigoshop\sign_up.php:23
+msgid "Create a password"
+msgstr "Lag et passord"
+
+#: \wp-content\plugins\jigoshop\sign_up.php:27
+#: \wp-content\plugins\jigoshop\admin\users.php:45
+msgid "Password again"
+msgstr "Passord igjen"
+
+#: \wp-content\plugins\jigoshop\sign_up.php:29
+msgid "Confirm your password"
+msgstr "Bekreft ditt passord"
+
+#: \wp-content\plugins\jigoshop\sign_up.php:49
+msgid "Create my account"
+msgstr "Lag min konto"
+
+#: \wp-content\plugins\jigoshop\sign_up.php:53
+msgid "Create a new account"
+msgstr "Lag en ny konto"
+
+#: \wp-content\plugins\jigoshop\sign_up.php:54
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus "
+"rhoncus tristique. Mauris ornare ipsum a leo molestie id porttitor justo "
+"bibendum. Pellentesque magna augue, sollicitudin ut ornare pretium, mattis "
+"imperdiet augue. Morbi semper sapien sit amet velit interdum eu commodo erat "
+"fringilla. Nulla et ipsum orci, ac varius nulla. Nam vehicula, mi quis "
+"euismod consectetur, magna dui porttitor sem, vel venenatis felis nunc eu "
+"diam. Integer vitae est at nunc varius viverra sit amet at magna. Vestibulum "
+"mi diam, pharetra id malesuada ac, venenatis nec turpis. Vestibulum metus "
+"nisl, pharetra non laoreet eu, laoreet a eros. Suspendisse ut arcu in mauris "
+"dapibus sodales. Vestibulum commodo congue elit at mollis. Fusce semper "
+"auctor odio, ut pharetra justo faucibus blandit. Fusce in pellentesque elit. "
+"Nunc adipiscing neque eu odio tincidunt ac mollis erat porta."
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus "
+"rhoncus tristique. Mauris ornare ipsum a leo molestie id porttitor justo "
+"bibendum. Pellentesque magna augue, sollicitudin ut ornare pretium, mattis "
+"imperdiet augue. Morbi semper sapien sit amet velit interdum eu commodo erat "
+"fringilla. Nulla et ipsum orci, ac varius nulla. Nam vehicula, mi quis "
+"euismod consectetur, magna dui porttitor sem, vel venenatis felis nunc eu "
+"diam. Integer vitae est at nunc varius viverra sit amet at magna. Vestibulum "
+"mi diam, pharetra id malesuada ac, venenatis nec turpis. Vestibulum metus "
+"nisl, pharetra non laoreet eu, laoreet a eros. Suspendisse ut arcu in mauris "
+"dapibus sodales. Vestibulum commodo congue elit at mollis. Fusce semper "
+"auctor odio, ut pharetra justo faucibus blandit. Fusce in pellentesque elit. "
+"Nunc adipiscing neque eu odio tincidunt ac mollis erat porta."
+
+#: \wp-content\plugins\jigoshop\sign_up.php:55
+msgid "Features"
+msgstr "Kjennetegn"
+
+#: \wp-content\plugins\jigoshop\sign_up.php:56
+msgid ""
+"Cras placerat scelerisque vehicula. Fusce eu ipsum vel mi convallis dapibus. "
+"Cras ut nibh metus, quis malesuada augue. Aenean a nisi nec sem accumsan "
+"gravida in in turpis. Nulla euismod lorem non sem imperdiet vestibulum. "
+"Donec blandit aliquet turpis sed dapibus. Duis fermentum facilisis diam, sit "
+"amet ultrices neque dictum eget."
+msgstr ""
+"Cras placerat scelerisque vehicula. Fusce eu ipsum vel mi convallis dapibus. "
+"Cras ut nibh metus, quis malesuada augue. Aenean a nisi nec sem accumsan "
+"gravida in in turpis. Nulla euismod lorem non sem imperdiet vestibulum. "
+"Donec blandit aliquet turpis sed dapibus. Duis fermentum facilisis diam, sit "
+"amet ultrices neque dictum eget."
+
+#: \wp-content\plugins\jigoshop\admin\index.php:14
+#: \wp-content\plugins\jigoshop\admin\page\reports.php:217
+msgid "Users"
+msgstr "Brukere"
+
+#: \wp-content\plugins\jigoshop\admin\index.php:15
+msgid "Levels"
+msgstr "Nivå"
+
+#: \wp-content\plugins\jigoshop\admin\index.php:17
+#: \wp-content\plugins\jigoshop\admin\page\send-email.php:5
+msgid "Send email"
+msgstr "Send e-post"
+
+#: \wp-content\plugins\jigoshop\admin\levels.php:15
+msgid "level control"
+msgstr "nivå kontroll"
+
+#: \wp-content\plugins\jigoshop\admin\levels.php:24
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:185
+#: \wp-content\plugins\jigoshop\admin\page\level-create.php:14
+msgid "Level"
+msgstr "Nivå"
+
+#: \wp-content\plugins\jigoshop\admin\levels.php:31
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:187
+#: \wp-content\plugins\jigoshop\admin\page\level-create.php:20
+msgid "Redirect"
+msgstr "Omdirigere"
+
+#: \wp-content\plugins\jigoshop\admin\levels.php:31
+#: \wp-content\plugins\jigoshop\admin\page\level-create.php:20
+msgid ""
+"When logging in, this user will be redirected to the URL you specify. Leave "
+"blank to redirect to the referring page."
+msgstr ""
+"Når du logger inn, vil brukeren bli omdirigert til URL'en du spesifiserte. "
+"La den forbli blank om du ønsker å omdirigere til den refererende siden."
+
+#: \wp-content\plugins\jigoshop\admin\levels.php:38
+#: \wp-content\plugins\jigoshop\admin\page\emails-welcome.php:3
+msgid "Welcome email"
+msgstr "Velkomst e-post"
+
+#: \wp-content\plugins\jigoshop\admin\levels.php:38
+msgid ""
+"When a user is manually added to this level, that user will receive the "
+"standard welcome email automatically."
+msgstr ""
+"Når brukeren er manuelt lagt til på dette nivået, vil brukeren motta "
+"standard velkomst e-posten automatisk."
+
+#: \wp-content\plugins\jigoshop\admin\levels.php:42
+msgid "Send welcome email when users join this level"
+msgstr "Send velkomst e-post når bruker knytter seg til dette nivået"
+
+#: \wp-content\plugins\jigoshop\admin\levels.php:48
+msgid "Disable"
+msgstr "Deaktiver"
+
+#: \wp-content\plugins\jigoshop\admin\levels.php:52
+msgid "Prevent this level from accessing any secure content"
+msgstr "Nekt dette nivået å få tilgang til noe sikkert innhold"
+
+#: \wp-content\plugins\jigoshop\admin\levels.php:58
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:37
+msgid "Delete"
+msgstr "Slett"
+
+#: \wp-content\plugins\jigoshop\admin\levels.php:62
+msgid "Remove this level from the database"
+msgstr "Slett dette nivået fra databasen"
+
+#: \wp-content\plugins\jigoshop\admin\levels.php:70
+#: \wp-content\plugins\jigoshop\admin\settings.php:32
+#: \wp-content\plugins\jigoshop\admin\page\update.php:4
+msgid "Update"
+msgstr "Oppdater"
+
+#: \wp-content\plugins\jigoshop\admin\levels.php:80
+msgid "existing users"
+msgstr "eksisterende brukere"
+
+#: \wp-content\plugins\jigoshop\admin\settings.php:19
+#: \wp-content\plugins\jigoshop\admin\page\denied.php:8
+msgid "Denied"
+msgstr "Nektet"
+
+#: \wp-content\plugins\jigoshop\admin\settings.php:21
+msgid "Emails"
+msgstr "E-poster"
+
+#: \wp-content\plugins\jigoshop\admin\settings.php:23
+#: \wp-content\plugins\jigoshop\admin\page\emails-welcome.php:5
+msgid "Welcome"
+msgstr "Velkommen"
+
+#: \wp-content\plugins\jigoshop\admin\settings.php:24
+msgid "Activate"
+msgstr "Aktiver"
+
+#: \wp-content\plugins\jigoshop\admin\settings.php:25
+msgid "Forgot"
+msgstr "Glemt"
+
+#: \wp-content\plugins\jigoshop\admin\settings.php:26
+#: \wp-content\plugins\jigoshop\admin\page\emails-add-user.php:3
+#: \wp-content\plugins\jigoshop\admin\page\emails-add-user.php:5
+#: \wp-content\plugins\jigoshop\admin\page\user-add.php:30
+msgid "Add user"
+msgstr "Legg til bruker"
+
+#: \wp-content\plugins\jigoshop\admin\settings.php:27
+#: \wp-content\plugins\jigoshop\admin\page\emails-acct-update.php:3
+msgid "'My Account' changes"
+msgstr "'Min Konto' endringer"
+
+#: \wp-content\plugins\jigoshop\admin\settings.php:30
+msgid "Profiles"
+msgstr "Profiler"
+
+#: \wp-content\plugins\jigoshop\admin\settings.php:32
+msgid "new"
+msgstr "ny"
+
+#: \wp-content\plugins\jigoshop\admin\settings.php:115
+msgid "saving..."
+msgstr "lagrer..."
+
+#: \wp-content\plugins\jigoshop\admin\settings.php:115
+msgid "Changes saved"
+msgstr "Lagring utført"
+
+#: \wp-content\plugins\jigoshop\admin\users.php:57
+msgid "User levels"
+msgstr "Bruker nivå"
+
+#: \wp-content\plugins\jigoshop\admin\users.php:65
+msgid "Profile link"
+msgstr "Profil link"
+
+#: \wp-content\plugins\jigoshop\admin\users.php:76
+msgid "Restrict user?"
+msgstr "Nekte bruker?"
+
+#: \wp-content\plugins\jigoshop\admin\users.php:84
+msgid "Delete user? (Can not be undone)"
+msgstr "Slette bruker? (Dette kan ikke omgjøres)"
+
+#: \wp-content\plugins\jigoshop\admin\users.php:103
+msgid "Update user"
+msgstr "Oppdater bruker"
+
+#: \wp-content\plugins\jigoshop\admin\classes\add_level.class.php:72
+#: \wp-content\plugins\jigoshop\admin\classes\add_user.class.php:80
+msgid "No suggestions"
+msgstr "Ingen forslag"
+
+#: \wp-content\plugins\jigoshop\admin\classes\add_level.class.php:73
+msgid "Try searching by name, level, or redirect url."
+msgstr "Prøv å søke på brukernavn, nivå eller omdirigert url."
+
+#: \wp-content\plugins\jigoshop\admin\classes\add_level.class.php:77
+#: \wp-content\plugins\jigoshop\admin\classes\add_user.class.php:85
+msgid "Suggestions"
+msgstr "Forslag"
+
+#: \wp-content\plugins\jigoshop\admin\classes\add_level.class.php:96
+#: \wp-content\plugins\jigoshop\admin\classes\edit_level.class.php:103
+msgid "You must enter a level name."
+msgstr "Du må skrive inn et nivå navn."
+
+#: \wp-content\plugins\jigoshop\admin\classes\add_level.class.php:101
+msgid "Auth level has to be a number."
+msgstr "Autentiseringsnivå må være et nummer."
+
+#: \wp-content\plugins\jigoshop\admin\classes\add_level.class.php:115
+msgid "Auth level"
+msgstr "Autentiseringsnivå"
+
+#: \wp-content\plugins\jigoshop\admin\classes\add_level.class.php:115
+msgid "already exists"
+msgstr "eksisterer allerede"
+
+#: \wp-content\plugins\jigoshop\admin\classes\add_level.class.php:127
+#, php-format
+msgid "Successfully added level <b>%s</b> to the database."
+msgstr "La inn nivå <b>%s</b> vellykket inn i databasen."
+
+#: \wp-content\plugins\jigoshop\admin\classes\add_user.class.php:81
+msgid "Try searching by username, name, or user id."
+msgstr "Prøv og søke på brukernavn, navn eller bruker id."
+
+#: \wp-content\plugins\jigoshop\admin\classes\add_user.class.php:104
+#: \wp-content\plugins\jigoshop\classes\profile.class.php:133
+msgid "You must enter a name."
+msgstr "Du må skrive inn et navn."
+
+#: \wp-content\plugins\jigoshop\admin\classes\add_user.class.php:109
+#: \wp-content\plugins\jigoshop\classes\login.class.php:135
+#: \wp-content\plugins\jigoshop\classes\signup.class.php:152
+msgid "You must enter a username."
+msgstr "Du må skrive inn et brukernavn."
+
+#: \wp-content\plugins\jigoshop\admin\classes\add_user.class.php:114
+#: \wp-content\plugins\jigoshop\admin\classes\edit_user.class.php:124
+#: \wp-content\plugins\jigoshop\admin\classes\settings.class.php:53
+#: \wp-content\plugins\jigoshop\classes\profile.class.php:136
+#: \wp-content\plugins\jigoshop\classes\signup.class.php:171
+msgid "You have entered an invalid e-mail address, try again."
+msgstr "Du har skrevet in en ugyldig e-post adresse, prøv igjen."
+
+#: \wp-content\plugins\jigoshop\admin\classes\add_user.class.php:122
+#: \wp-content\plugins\jigoshop\classes\signup.class.php:168
+msgid "That email address has already been taken."
+msgstr "Denne e-post adressen er allerede blitt brukt."
+
+#: \wp-content\plugins\jigoshop\admin\classes\add_user.class.php:130
+msgid "Sorry, username already taken."
+msgstr "Beklager, brukernavn er opptatt."
+
+#: \wp-content\plugins\jigoshop\admin\classes\add_user.class.php:165
+#, php-format
+msgid ""
+"Successfully added user <b>%s</b> to the database. Credentials sent to user."
+msgstr ""
+"La til bruker <b>%s</b> vellykket i databasen. Opplysninger sendt til "
+"brukeren."
+
+#: \wp-content\plugins\jigoshop\admin\classes\edit_level.class.php:73
+msgid "Level doesn't exist!"
+msgstr "Nivå eksisterer ikke!"
+
+#: \wp-content\plugins\jigoshop\admin\classes\edit_level.class.php:108
+msgid "You must enter an auth level."
+msgstr "Du må skrive inn et autentiseringsnivå."
+
+#: \wp-content\plugins\jigoshop\admin\classes\edit_level.class.php:116
+#, php-format
+msgid "Auth level %s already exists"
+msgstr "Autentiseringsnivå %s finnes allerede"
+
+#: \wp-content\plugins\jigoshop\admin\classes\edit_level.class.php:137
+msgid "This level still has users in it!"
+msgstr "Dette nivået har fremdeles brukere i det!"
+
+#: \wp-content\plugins\jigoshop\admin\classes\edit_level.class.php:143
+#, php-format
+msgid "Level <b>%s</b> removed from database."
+msgstr "Nivå <b>%s</b> slettet fra database."
+
+#: \wp-content\plugins\jigoshop\admin\classes\edit_level.class.php:157
+#, php-format
+msgid "Information updated for level <b>%s</b>."
+msgstr "Informasjon oppdatert for nivå <b>%s</b>."
+
+#: \wp-content\plugins\jigoshop\admin\classes\edit_user.class.php:28
+msgid "No user selected!"
+msgstr "Ingen bruker valgt!"
+
+#: \wp-content\plugins\jigoshop\admin\classes\edit_user.class.php:57
+msgid "No such user!"
+msgstr "Bruker finnes ikke!"
+
+#: \wp-content\plugins\jigoshop\admin\classes\edit_user.class.php:122
+msgid "You must enter name."
+msgstr "Du må skrive inn et navn."
+
+#: \wp-content\plugins\jigoshop\admin\classes\edit_user.class.php:126
+msgid "No user level has been selected."
+msgstr "Ingen bruker nivå har blitt valgt."
+
+#: \wp-content\plugins\jigoshop\admin\classes\edit_user.class.php:132
+#: \wp-content\plugins\jigoshop\classes\profile.class.php:141
+#: \wp-content\plugins\jigoshop\classes\signup.class.php:174
+msgid "Your passwords did not match."
+msgstr "Dine passord matchet ikke."
+
+#: \wp-content\plugins\jigoshop\admin\classes\edit_user.class.php:134
+#: \wp-content\plugins\jigoshop\classes\forgot.class.php:58
+#: \wp-content\plugins\jigoshop\classes\profile.class.php:144
+#: \wp-content\plugins\jigoshop\classes\signup.class.php:177
+msgid "Your password must be at least 5 characters."
+msgstr "Ditt passord må være minst 5 bokstaver langt."
+
+#: \wp-content\plugins\jigoshop\admin\classes\edit_user.class.php:149
+#, php-format
+msgid "User removed from the database:"
+msgstr "Bruker slettet fra database:"
+
+#: \wp-content\plugins\jigoshop\admin\classes\edit_user.class.php:165
+#, php-format
+msgid "User information (and password) updated for"
+msgstr "Bruker informasjon (og passord) oppdatert for"
+
+#: \wp-content\plugins\jigoshop\admin\classes\edit_user.class.php:179
+#: \wp-content\plugins\jigoshop\classes\profile.class.php:221
+#, php-format
+msgid "User information updated for"
+msgstr "Bruker informasjon oppdatert for"
+
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:37
+#: \wp-content\plugins\jigoshop\install\index.php:382
+#: \wp-content\plugins\jigoshop\install\index.php:388
+msgid "admin"
+msgstr "admin"
+
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:42
+msgid "restricted"
+msgstr "begrenset tilgang"
+
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:47
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:54
+#: \wp-content\plugins\jigoshop\classes\generic.class.php:375
+msgid "at"
+msgstr "på"
+
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:91
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:142
+msgid "Registered Date"
+msgstr "Registrert Dato"
+
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:92
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:143
+#: \wp-content\plugins\jigoshop\classes\generic.class.php:367
+msgid "Last Login"
+msgstr "Siste Innlogging"
+
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:106
+msgid "Sorry, there are no recently registered users."
+msgstr "Beklager, det er ingen nylige registrerte brukere."
+
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:130
+msgid "No users found!"
+msgstr "Ingen brukere funnet!"
+
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:186
+msgid "Active Users"
+msgstr "Aktive Brukere"
+
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:210
+msgid "Disabled"
+msgstr "Deaktivert"
+
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:282
+msgid "Previous"
+msgstr "Forige"
+
+#: \wp-content\plugins\jigoshop\admin\classes\functions.php:336
+msgid "Next"
+msgstr "Neste"
+
+#: \wp-content\plugins\jigoshop\admin\classes\send_email.class.php:46
+msgid "Please select a user group"
+msgstr "Vennligst velg en bruker gruppe"
+
+#: \wp-content\plugins\jigoshop\admin\classes\send_email.class.php:73
+msgid "Email sent!"
+msgstr "E-post sent!"
+
+#: \wp-content\plugins\jigoshop\admin\classes\send_email.class.php:82
+#: \wp-content\plugins\jigoshop\admin\classes\settings.class.php:264
+msgid "Select your levels"
+msgstr "Velg dine nivå"
+
+#: \wp-content\plugins\jigoshop\admin\classes\settings.class.php:50
+msgid "You must enter a default session (numeric value only)."
+msgstr "Du må skrive inn en standard  sesjon (kun tallverdi)."
+
+#: \wp-content\plugins\jigoshop\admin\classes\settings.class.php:56
+msgid "Please enter your site address."
+msgstr "Vennligst skriv inn din web adresse."
+
+#: \wp-content\plugins\jigoshop\admin\classes\settings.class.php:151
+msgid "Settings updated."
+msgstr "Instillinger oppdatert."
+
+#: \wp-content\plugins\jigoshop\admin\classes\settings.class.php:158
+msgid "Text Input"
+msgstr "Tekst Inndata"
+
+#: \wp-content\plugins\jigoshop\admin\classes\settings.class.php:159
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:58
+msgid "Textarea"
+msgstr "Tekstfelt"
+
+#: \wp-content\plugins\jigoshop\admin\classes\settings.class.php:160
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:59
+msgid "Checkbox"
+msgstr "Sjekkboks"
+
+#: \wp-content\plugins\jigoshop\admin\classes\settings.class.php:164
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:63
+msgid "Hide"
+msgstr "Skjul"
+
+#: \wp-content\plugins\jigoshop\admin\classes\settings.class.php:165
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:64
+msgid "Require"
+msgstr "Trengs"
+
+#: \wp-content\plugins\jigoshop\admin\classes\settings.class.php:166
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:65
+msgid "Optional"
+msgstr "Frivillig"
+
+#: \wp-content\plugins\jigoshop\admin\classes\settings.class.php:178
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:55
+msgid "Section name"
+msgstr "Seksjonsnavn"
+
+#: \wp-content\plugins\jigoshop\admin\classes\settings.class.php:187
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:61
+msgid "Field name"
+msgstr "Feltnavn"
+
+#: \wp-content\plugins\jigoshop\admin\classes\settings.class.php:203
+msgid "Add field"
+msgstr "Legg til felt"
+
+#: \wp-content\plugins\jigoshop\admin\page\denied.php:10
+msgid "Registered users"
+msgstr "Registrerte brukere"
+
+#: \wp-content\plugins\jigoshop\admin\page\denied.php:10
+msgid ""
+"This controls the message a <strong>signed in</strong> user sees when "
+"accessing a protected page."
+msgstr ""
+"Dette kontrollerer beskjeden <strong>innlogget</strong> brukerene ser når de "
+"går inn på en beskyttet side."
+
+#: \wp-content\plugins\jigoshop\admin\page\denied.php:14
+#: \wp-content\plugins\jigoshop\admin\page\denied.php:28
+msgid "Display message"
+msgstr "Vis beskjed"
+
+#: \wp-content\plugins\jigoshop\admin\page\denied.php:24
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:70
+msgid "Guests"
+msgstr "Gjester"
+
+#: \wp-content\plugins\jigoshop\admin\page\denied.php:24
+msgid ""
+"Show this error after a user is redirected to the login page (user is "
+"<strong>logged out</strong>)."
+msgstr ""
+"Viser denne feilmeldingen etter en bruker er omdirigert til login siden "
+"(brukeren er <strong>logget ut</strong>)."
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-acct-update.php:4
+msgid "<b>Note:</b> Only sent when a user changes his or her Email / Password."
+msgstr ""
+"<b>PS:</b> Bare sendt når brukeren bytter hans/hennes E-post / Passord."
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-acct-update.php:6
+msgid "Verify change"
+msgstr "Godkjenn forandring"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-acct-update.php:6
+msgid "The email a user receives when updating an email or password."
+msgstr "E-posten en bruker mottar når han/henne oppdater e-post eller passord."
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-acct-update.php:14
+#: \wp-content\plugins\jigoshop\admin\page\emails-acct-update.php:32
+#: \wp-content\plugins\jigoshop\admin\page\emails-activate.php:13
+#: \wp-content\plugins\jigoshop\admin\page\emails-activate.php:31
+#: \wp-content\plugins\jigoshop\admin\page\emails-add-user.php:13
+#: \wp-content\plugins\jigoshop\admin\page\emails-forgot.php:13
+#: \wp-content\plugins\jigoshop\admin\page\emails-forgot.php:31
+#: \wp-content\plugins\jigoshop\admin\page\emails-welcome.php:13
+#: \wp-content\plugins\jigoshop\admin\page\emails-welcome.php:32
+msgid "Message body"
+msgstr "Beskjed"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-acct-update.php:15
+#: \wp-content\plugins\jigoshop\admin\page\emails-acct-update.php:33
+#: \wp-content\plugins\jigoshop\admin\page\emails-activate.php:14
+#: \wp-content\plugins\jigoshop\admin\page\emails-activate.php:32
+#: \wp-content\plugins\jigoshop\admin\page\emails-add-user.php:14
+#: \wp-content\plugins\jigoshop\admin\page\emails-forgot.php:14
+#: \wp-content\plugins\jigoshop\admin\page\emails-forgot.php:32
+#: \wp-content\plugins\jigoshop\admin\page\emails-welcome.php:14
+#: \wp-content\plugins\jigoshop\admin\page\emails-welcome.php:33
+msgid "Shortcodes:"
+msgstr "Shortcodes:"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-acct-update.php:16
+#: \wp-content\plugins\jigoshop\admin\page\emails-acct-update.php:34
+#: \wp-content\plugins\jigoshop\admin\page\emails-activate.php:15
+#: \wp-content\plugins\jigoshop\admin\page\emails-activate.php:33
+#: \wp-content\plugins\jigoshop\admin\page\emails-add-user.php:15
+#: \wp-content\plugins\jigoshop\admin\page\emails-forgot.php:15
+#: \wp-content\plugins\jigoshop\admin\page\emails-forgot.php:33
+#: \wp-content\plugins\jigoshop\admin\page\emails-welcome.php:15
+#: \wp-content\plugins\jigoshop\admin\page\emails-welcome.php:34
+msgid "Site address:"
+msgstr "Web adresse:"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-acct-update.php:17
+#: \wp-content\plugins\jigoshop\admin\page\emails-acct-update.php:35
+#: \wp-content\plugins\jigoshop\admin\page\emails-activate.php:16
+#: \wp-content\plugins\jigoshop\admin\page\emails-activate.php:34
+#: \wp-content\plugins\jigoshop\admin\page\emails-add-user.php:16
+#: \wp-content\plugins\jigoshop\admin\page\emails-forgot.php:16
+#: \wp-content\plugins\jigoshop\admin\page\emails-forgot.php:34
+#: \wp-content\plugins\jigoshop\admin\page\emails-welcome.php:16
+#: \wp-content\plugins\jigoshop\admin\page\emails-welcome.php:35
+msgid "Full name:"
+msgstr "Fullt navn:"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-acct-update.php:18
+#: \wp-content\plugins\jigoshop\admin\page\emails-acct-update.php:36
+#: \wp-content\plugins\jigoshop\admin\page\emails-activate.php:17
+#: \wp-content\plugins\jigoshop\admin\page\emails-activate.php:35
+#: \wp-content\plugins\jigoshop\admin\page\emails-add-user.php:17
+#: \wp-content\plugins\jigoshop\admin\page\emails-forgot.php:17
+#: \wp-content\plugins\jigoshop\admin\page\emails-forgot.php:35
+#: \wp-content\plugins\jigoshop\admin\page\emails-welcome.php:17
+#: \wp-content\plugins\jigoshop\admin\page\emails-welcome.php:36
+msgid "Username:"
+msgstr "Brukernavn:"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-acct-update.php:19
+msgid "Confirmation link:"
+msgstr "Bekreftelseslink:"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-acct-update.php:24
+msgid "Updated"
+msgstr "Oppdatert"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-acct-update.php:24
+msgid "The email a user receives after confirming the account change."
+msgstr "E-posten en bruker mottar etter verifikasjon av konto endringer."
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-activate.php:3
+msgid "Activation emails"
+msgstr "Aktiveringseposter"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-activate.php:5
+msgid "Resend link"
+msgstr "Send link på nytt"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-activate.php:5
+msgid "The email a user receives when requesting an activation link."
+msgstr "E-posten en bruker mottar når han ber om en aktiveringslink."
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-activate.php:18
+#: \wp-content\plugins\jigoshop\admin\page\emails-welcome.php:19
+msgid "Activation link:"
+msgstr "Aktivieringslink:"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-activate.php:23
+msgid "Activated"
+msgstr "Aktivert"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-activate.php:23
+msgid "The email a user receives after activating their account."
+msgstr "E-posten en bruker mottar ette aktivering av kontoen."
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-add-user.php:5
+msgid ""
+"When the admin creates a new user through the admin panel, the user will "
+"receive this email."
+msgstr ""
+"Når admin lager en ny bruker igjennom admin panelet, vil brukere motta denne "
+"eposten."
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-add-user.php:18
+msgid "Password:"
+msgstr "Passord:"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-add-user.php:20
+msgid "Note:"
+msgstr "PS:"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-add-user.php:20
+msgid "The password is randomly generated and should be included in the email"
+msgstr "Passordet er tilfeldig generert å skal være inkludert i e-posten"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-forgot.php:3
+msgid "Account recovery emails"
+msgstr "Konto gjennopprettings e-poster"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-forgot.php:5
+msgid "Recover request"
+msgstr "Gjennoprettningsanmodning"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-forgot.php:5
+msgid "The email a user receives when requesting their username / password."
+msgstr "E-posten en bruker mottar når de spør om brukernavn / passord."
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-forgot.php:18
+msgid "Reset link:"
+msgstr "Tilbakestill link:"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-forgot.php:23
+msgid "Recovered"
+msgstr "Gjenopprettet"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-forgot.php:23
+msgid "The email a user receives after successfully resetting their password."
+msgstr ""
+"E-posten en bruker mottar etter de har tilbakestillt passordet sitt "
+"suksessfullt."
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-welcome.php:5
+msgid "The email a user receives after registering for your site."
+msgstr "E-posten en bruker mottar etter registrering på siden din."
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-welcome.php:18
+#: \wp-content\plugins\jigoshop\admin\page\emails-welcome.php:37
+msgid "Email:"
+msgstr "E-post:"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-welcome.php:24
+msgid "Notification"
+msgstr "Melding"
+
+#: \wp-content\plugins\jigoshop\admin\page\emails-welcome.php:24
+msgid ""
+"A user group can receive notifications on new registrations if enabled in "
+"Settings > General."
+msgstr ""
+"En brukergruppe kan motta meldinger av nye registreringer om slått på i "
+"Instillinger >Generell."
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:3
+msgid "General Options"
+msgstr "Generelle Valg"
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:5
+#: \wp-content\plugins\jigoshop\install\index.php:369
+msgid "Admin email"
+msgstr "Admin e-post"
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:5
+msgid "This email will be used to send all emails."
+msgstr "Denne e-posten vil ble brukt til å sende all e-post"
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:11
+#: \wp-content\plugins\jigoshop\install\index.php:362
+msgid "Site address"
+msgstr "Side adresse"
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:11
+msgid "This path should be set to where activate.php is located."
+msgstr "Denne stien bør være satt til hvor activate.php finnes."
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:17
+msgid "Default session"
+msgstr "Standard sesjon"
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:17
+msgid ""
+"Default time in minutes a user can be logged in. Enter 0 to log the user out "
+"when they close their browser."
+msgstr ""
+"Standard tid i minutter en bruker kan være innlogget i. Skriv 0 for å logge "
+"ut brukeren når de lukker web leseren."
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:23
+msgid "Default level"
+msgstr "Standard nivå"
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:23
+msgid ""
+"The default level a new user will have when signing up, or by being created "
+"through the admin panel."
+msgstr ""
+"Standardnivået en ny bruker vil ha når han registerer seg, eller blir laget "
+"igjennom admin panelet."
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:29
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:78
+#: \wp-content\plugins\jigoshop\admin\page\reports.php:100
+msgid "New users"
+msgstr "Nye brukere"
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:33
+msgid "Disable registrations"
+msgstr "Slå av registreringer"
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:37
+msgid "Require email activation for new users"
+msgstr "Krev e-post aktivasjon for nye brukere"
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:41
+msgid "Notify on new registrations"
+msgstr "Si fra om nye registreringer"
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:51
+msgid "Password encryption"
+msgstr "Passord kryptering"
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:55
+msgid "Force user to update password if not using selected encryption method"
+msgstr ""
+"Tving brukeren til og oppdatere passord hvis ikke valgt krypteringsmetode er "
+"brukt"
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:67
+msgid "Redirect Options"
+msgstr "Omdirigeringsvalg"
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:70
+msgid "Where to redirect guests when attempting to access a secured page."
+msgstr "Hvor omdirigeres gjester som prøver å få tilgang til en sikker side."
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:73
+msgid "Default: <code>login.php?e=1</code>"
+msgstr "Standard: <code>login.php?e=1</code>"
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:78
+msgid ""
+"After a new user registers, where should the user be redirected to? By "
+"default the user is sent to the My Account page."
+msgstr ""
+"Etter en ny brukerregistrering, hvor skal den nye brukeren omdirigers til? "
+"Som standard vil brukeren bli sent til Min Konto siden."
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:81
+msgid "Default: <code>profile.php</code>"
+msgstr "Standard: <code>profile.php</code>"
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:86
+msgid "When the user logs out of your site through logout.php."
+msgstr "Når brukeren logger ut av din side igjennom logout.php"
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:90
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:101
+msgid "Redirect to referring page"
+msgstr "Omdiriger til referansesiden"
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:97
+msgid "The default page to load when a user logs in."
+msgstr "Standard side å vise når en bruker logger inn."
+
+#: \wp-content\plugins\jigoshop\admin\page\general-options.php:107
+msgid ""
+"<b>Note:</b> Level specific redirects can be set on their respective level "
+"edit page and will override the options configured above."
+msgstr ""
+"<b>PS:</b> Nivåspesifikke omdirigeringer kan settes på de repektive nivå "
+"endrings sidene og vil overskrive valgene gjort ovenfor."
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:3
+msgid "Social login"
+msgstr "Sosial logginn"
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:5
+msgid "Enable any of these methods to permit your users logging in with them."
+msgstr ""
+"Koble inn disse valgene om du vil at brukerene skal kunne logge inn med dem."
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:8
+msgid "Twitter"
+msgstr "Twitter"
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:13
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:41
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:106
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:134
+msgid "Enable"
+msgstr "Koble inn"
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:20
+msgid "Consumer key"
+msgstr "Kundenøkkel"
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:25
+msgid "Consumer secret"
+msgstr "Kundehemmelighet"
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:28
+#, php-format
+msgid "You must first <a href=\"%s\">setup a Twitter App</a>."
+msgstr "Du må først <a href=\"%s\">lage en Twitter App</a>."
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:29
+#, php-format
+msgid "When setting up your app, for <i>Callback URL</i>, use <code>%s</code>"
+msgstr "Når du lager din app for<i>Callback URL</i>, bruk <code>%s</code>"
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:36
+msgid "Facebook"
+msgstr "Facebook"
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:48
+msgid "App ID"
+msgstr "App ID"
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:53
+msgid "App Secret"
+msgstr "App Hemlighet"
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:56
+#, php-format
+msgid "You must first <a href=\"%s\">setup a Facebook App</a>."
+msgstr "Du må først <a href=\"%s\">lage en Facebook App</a>."
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:64
+msgid "OpenID Networks"
+msgstr "OpenID Nettverk"
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:69
+msgid "Google"
+msgstr "Google"
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:74
+msgid "Yahoo"
+msgstr "Yahoo"
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:83
+msgid "Captcha signup"
+msgstr "Capcha registrering"
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:86
+msgid "Require human verification on the registration form."
+msgstr "Krev \"menneskeverifisering\" på registreringsskjemaet."
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:89
+msgid "Disable captcha"
+msgstr "Slå av captcha"
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:101
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:113
+msgid "Public key"
+msgstr "Offentlig nøkkel"
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:118
+msgid "Private key"
+msgstr "Privat nøkkel"
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:121
+#, php-format
+msgid "You must first <a href=\"%s\">create a reCAPTCHA key</a>."
+msgstr "Du må først <a href=\"%s\">lage en reCAPTCHA nøkkel</a>."
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:129
+msgid "PlayThru"
+msgstr "PlayThru"
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:141
+msgid "Publisher key"
+msgstr "Utgivernøkkel"
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:146
+msgid "Scoring key"
+msgstr "Scoring key"
+
+#: \wp-content\plugins\jigoshop\admin\page\integration.php:149
+#, php-format
+msgid "You must first <a href=\"%s\">signup to get a site key</a>."
+msgstr "Du må først <a href=\"%s\">registrere deg for en sidenøkkel</a>."
+
+#: \wp-content\plugins\jigoshop\admin\page\level-control.php:4
+msgid "Modify levels"
+msgstr "Modifiser nivå"
+
+#: \wp-content\plugins\jigoshop\admin\page\level-control.php:10
+msgid "Create new level"
+msgstr "Lag nytt nivå"
+
+#: \wp-content\plugins\jigoshop\admin\page\level-control.php:11
+#: \wp-content\plugins\jigoshop\admin\page\user-control.php:11
+msgid "Show"
+msgstr "Vis"
+
+#: \wp-content\plugins\jigoshop\admin\page\level-control.php:13
+msgid "Search by Name, Level, ID, or Redirect URL."
+msgstr "Søk via Navn, Nivå, ID eller Omdirigerings URL."
+
+#: \wp-content\plugins\jigoshop\admin\page\level-control.php:15
+msgid "Level search"
+msgstr "Nivå søk"
+
+#: \wp-content\plugins\jigoshop\admin\page\level-create.php:26
+msgid "Create level"
+msgstr "Lag nivå"
+
+#: \wp-content\plugins\jigoshop\admin\page\reports.php:9
+msgid "Registered Users"
+msgstr "Registrerte Brukere"
+
+#: \wp-content\plugins\jigoshop\admin\page\reports.php:14
+msgid "From:"
+msgstr "Fra:"
+
+#: \wp-content\plugins\jigoshop\admin\page\reports.php:15
+msgid "To:"
+msgstr "Til:"
+
+#: \wp-content\plugins\jigoshop\admin\page\reports.php:16
+msgid "submitting..."
+msgstr "sender..."
+
+#: \wp-content\plugins\jigoshop\admin\page\reports.php:23
+msgid "Total"
+msgstr "Total"
+
+#: \wp-content\plugins\jigoshop\admin\page\reports.php:24
+#: \wp-content\plugins\jigoshop\admin\page\reports.php:32
+msgid "Registered"
+msgstr "Registrert"
+
+#: \wp-content\plugins\jigoshop\admin\page\reports.php:31
+msgid "Range"
+msgstr "Rekkevidde"
+
+#: \wp-content\plugins\jigoshop\admin\page\reports.php:41
+msgid "<strong>Tip:</strong> Hover over the points on the graph!"
+msgstr "<strong>Tips:</strong>Hold musen over punktene i grafen!"
+
+#: \wp-content\plugins\jigoshop\admin\page\reports.php:54
+msgid "Most Frequent Users"
+msgstr "Mest Frekvente Brukere"
+
+#: \wp-content\plugins\jigoshop\admin\page\reports.php:58
+msgid "Top 10"
+msgstr "Topp 10"
+
+#: \wp-content\plugins\jigoshop\admin\page\reports.php:63
+msgid "Logins"
+msgstr "Innlogginger"
+
+#: \wp-content\plugins\jigoshop\admin\page\send-email.php:10
+msgid "To"
+msgstr "Til"
+
+#: \wp-content\plugins\jigoshop\admin\page\send-email.php:10
+msgid ""
+"Select the user groups that will receive your email. (This will send as BCC)"
+msgstr ""
+"Velg brukergruppene som skal motta din e-post (Dette vil sende som BCC)"
+
+#: \wp-content\plugins\jigoshop\admin\page\send-email.php:24
+msgid "Message"
+msgstr "Melding"
+
+#: \wp-content\plugins\jigoshop\admin\page\send-email.php:33
+msgid "Send now!"
+msgstr "Send nå!"
+
+#: \wp-content\plugins\jigoshop\admin\page\update.php:7
+msgid "Updates disabled"
+msgstr "Oppdateringer avslått"
+
+#: \wp-content\plugins\jigoshop\admin\page\update.php:8
+msgid "Two thing may have happened:"
+msgstr "To ting som kunne ha skjedd:"
+
+#: \wp-content\plugins\jigoshop\admin\page\update.php:10
+msgid "Update checking is disabled"
+msgstr "Oppdater sjekking er avslått"
+
+#: \wp-content\plugins\jigoshop\admin\page\update.php:11
+msgid ""
+"Could not connect to server to fetch latest update details. Please make sure "
+"the PHP setting `allow_url_fopen` is enabled."
+msgstr ""
+"Kunne ikke koble til serveren for og hente de siste oppdateringsdetaljene. "
+"Vennligst sørg for at PHP intillingen  `allow_url_fopen` er aktivert."
+
+#: \wp-content\plugins\jigoshop\admin\page\update.php:15
+msgid "Update available!"
+msgstr "Oppdatering tilgjengelig!"
+
+#: \wp-content\plugins\jigoshop\admin\page\update.php:16
+msgid ""
+"There's a new update available! Please visit your CodeCanyon profile to "
+"download the new version."
+msgstr ""
+"Det er en ny oppdatering tilgjengelig! Vennligst beøk din CodeCanyon profil "
+"for å laste ned den nye versjonen."
+
+#: \wp-content\plugins\jigoshop\admin\page\update.php:18
+msgid "You're up to date!"
+msgstr "Du er oppdatert!"
+
+#: \wp-content\plugins\jigoshop\admin\page\update.php:19
+msgid ""
+"There are no new updates available. When a new update is released this "
+"message will change accordingly."
+msgstr ""
+"Det er ingen nye oppdateringer tilgjengelig. Når en oppdatering er sluppet, "
+"vil denne beskjeden endre seg tilsvarende."
+
+#: \wp-content\plugins\jigoshop\admin\page\update.php:24
+msgid "Check for updates"
+msgstr "Sjekk for oppdateringer"
+
+#: \wp-content\plugins\jigoshop\admin\page\update.php:24
+msgid "Disabling this may improve speed on the Settings page"
+msgstr ""
+"Deaktivering av denne kan føre til raskere hastighet på Innstillingssiden."
+
+#: \wp-content\plugins\jigoshop\admin\page\update.php:28
+msgid "Enable to automatically check for updates each time you load this page"
+msgstr ""
+"Koble inn for automatisk sjekk av oppdateringer hver gang du laster denne "
+"siden"
+
+#: \wp-content\plugins\jigoshop\admin\page\update.php:33
+msgid "Current version"
+msgstr "Denne versjon"
+
+#: \wp-content\plugins\jigoshop\admin\page\update.php:39
+msgid "Latest version"
+msgstr "Siste versjon"
+
+#: \wp-content\plugins\jigoshop\admin\page\update.php:45
+msgid "Latest changelog"
+msgstr "Siste endringslogg"
+
+#: \wp-content\plugins\jigoshop\admin\page\user-add.php:27
+msgid ""
+"<b>Note</b>: A random password will be generated and emailed to the user."
+msgstr ""
+"<b>PS</b>: Et tilfeldig passord vil bli generert og sendt i e-post til "
+"brukeren."
+
+#: \wp-content\plugins\jigoshop\admin\page\user-control.php:5
+msgid "Control users"
+msgstr "Kontroll brukere"
+
+#: \wp-content\plugins\jigoshop\admin\page\user-control.php:10
+msgid "Add new user"
+msgstr "Legg til ny bruker"
+
+#: \wp-content\plugins\jigoshop\admin\page\user-control.php:13
+msgid "Search by Username, Name, or ID!"
+msgstr "Søk via Brukernavn, Navn eller ID!"
+
+#: \wp-content\plugins\jigoshop\admin\page\user-control.php:15
+msgid "User search"
+msgstr "Bruker søk"
+
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:3
+msgid "User profiles"
+msgstr "Bruker profiler"
+
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:6
+msgid "Profile Control"
+msgstr "Profil Kontroll"
+
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:10
+msgid "Make all profiles public"
+msgstr "La alle profiler bli offentlig"
+
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:16
+msgid "Log a timestamp + IP address for when a user signs in."
+msgstr "Logg tiden + IP adressen når en bruker logger inn."
+
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:20
+msgid "Enable logging"
+msgstr "Aktiver logging"
+
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:24
+msgid "Viewable to admin only"
+msgstr "Synlig bare for admin"
+
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:32
+msgid "Section"
+msgstr "Seksjon"
+
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:32
+msgid "Group your fields by assinging sections to them."
+msgstr "Grupper dine felt ved å anngi seksjoner til dem."
+
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:33
+msgid "Input type"
+msgstr "Informasjonstype"
+
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:34
+msgid "Input label"
+msgstr "Informasjonsmerke"
+
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:35
+msgid "Sign Up"
+msgstr "Bli Med"
+
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:36
+msgid "Public"
+msgstr "Offentlig"
+
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:36
+msgid "Show this field on a user's public profile."
+msgstr "Vis dette feltet på en brukers offentlige profil."
+
+#: \wp-content\plugins\jigoshop\admin\page\user-profiles.php:57
+msgid "Text input"
+msgstr "Legg inn tekst"
+
+#: \wp-content\plugins\jigoshop\classes\connect.class.php:37
+msgid "Installation has not yet been ran!"
+msgstr "Installasjon har enda ikke blitt kjørt!"
+
+#: \wp-content\plugins\jigoshop\classes\connect.class.php:38
+msgid "Woops!"
+msgstr "Whoops!"
+
+#: \wp-content\plugins\jigoshop\classes\connect.class.php:39
+msgid ""
+"You're missing a config.php file preventing a database connection from being "
+"made."
+msgstr ""
+"Du mangeler en config.php fil som forhindrer at en databaseforbindelse blir "
+"gjort."
+
+#: \wp-content\plugins\jigoshop\classes\connect.class.php:40
+msgid "Please click"
+msgstr "Vennligst klikk"
+
+#: \wp-content\plugins\jigoshop\classes\connect.class.php:40
+msgid "on the home page to create a config file."
+msgstr "på hjemmesiden for å lage en config fil."
+
+#: \wp-content\plugins\jigoshop\classes\connect.class.php:62
+#: \wp-content\plugins\jigoshop\install\index.php:86
+msgid "Database error: "
+msgstr "Database feil:"
+
+#: \wp-content\plugins\jigoshop\classes\forgot.class.php:56
+msgid "Your passwords did not match, try again."
+msgstr "Dine passord passet ikke, prøv igjen."
+
+#: \wp-content\plugins\jigoshop\classes\forgot.class.php:77
+msgid "Verification failed."
+msgstr "Verifikasjon feilet."
+
+#: \wp-content\plugins\jigoshop\classes\forgot.class.php:117
+msgid "Successfully reset your password"
+msgstr "Tilbakestilling av passord var vellykket"
+
+#: \wp-content\plugins\jigoshop\classes\forgot.class.php:119
+msgid ""
+"If you need any further assistance please contact the website administrator:"
+msgstr ""
+"Hvis du trenger videre hjelp, vennligst kontakt webside administratoren:"
+
+#: \wp-content\plugins\jigoshop\classes\forgot.class.php:142
+msgid "Confirm password"
+msgstr "Bekreft passord"
+
+#: \wp-content\plugins\jigoshop\classes\forgot.class.php:149
+msgid "Reset Password"
+msgstr "Tilbakestill Passord"
+
+#: \wp-content\plugins\jigoshop\classes\forgot.class.php:165
+msgid "Please enter your username or email address."
+msgstr "Vennligst skriv inn ditt brukernavn eller e-post adresse."
+
+#: \wp-content\plugins\jigoshop\classes\forgot.class.php:206
+msgid "We've emailed you password reset instructions. Check your email."
+msgstr ""
+"Vi har sendt deg dine passord tilbakestillingsinstruksjoner. Vennligst sjekk "
+"e-posten din."
+
+#: \wp-content\plugins\jigoshop\classes\forgot.class.php:208
+msgid "Hank, I searched for you high and low but couldn't find you :("
+msgstr "Jeg har søkt høyt og lavt, men jeg kunne ikke finne deg :("
+
+#: \wp-content\plugins\jigoshop\classes\generic.class.php:368
+msgid "Location"
+msgstr "Sted"
+
+#: \wp-content\plugins\jigoshop\classes\generic.class.php:381
+msgid "Has not logged in yet"
+msgstr "Har ikke logget inn enda"
+
+#: \wp-content\plugins\jigoshop\classes\generic.class.php:399
+msgid "You're already logged in."
+msgstr "Du ble logget inn vellykket."
+
+#: \wp-content\plugins\jigoshop\classes\generic.class.php:401
+#, php-format
+msgid "Go <a href=\"%s\">back</a> to the page you were viewing before this."
+msgstr "Gå <a href=\"%s\">tilbake</a> til siden du så på før denne."
+
+#: \wp-content\plugins\jigoshop\classes\integration.class.php:122
+#, php-format
+msgid "Your account is already linked with %s!"
+msgstr "Din konto er allerede linket til %s!"
+
+#: \wp-content\plugins\jigoshop\classes\integration.class.php:168
+msgid "Successfully linked with "
+msgstr "Vellykket linking til"
+
+#: \wp-content\plugins\jigoshop\classes\integration.class.php:178
+#, php-format
+msgid "You are not yet linked with %s"
+msgstr "Du er ikke linket til %s enda"
+
+#: \wp-content\plugins\jigoshop\classes\integration.class.php:188
+#, php-format
+msgid "Successfully unlinked from %s"
+msgstr "Frakobling vellykket fra %s"
+
+#: \wp-content\plugins\jigoshop\classes\login.class.php:119
+msgid "Invalid login attempt"
+msgstr "Ugyldig innloggingsforsøk"
+
+#: \wp-content\plugins\jigoshop\classes\login.class.php:140
+msgid "You forgot your password, silly."
+msgstr "Du glemte passordet ditt, teiting ;)"
+
+#: \wp-content\plugins\jigoshop\classes\login.class.php:150
+msgid "Incorrect username or password."
+msgstr "Ukorrekt brukernavn eller passord."
+
+#: \wp-content\plugins\jigoshop\classes\profile.class.php:38
+msgid ""
+"<strong>Alert</strong>: The administrator has requested all users to update "
+"their passwords."
+msgstr ""
+"<strong>Advarsel</strong>:Administratoren har annmodet at alle brukerene må "
+"oppdatere sine passord."
+
+#: \wp-content\plugins\jigoshop\classes\profile.class.php:41
+#: \wp-content\plugins\jigoshop\classes\profile.class.php:82
+msgid "Guest"
+msgstr "Gjest"
+
+#: \wp-content\plugins\jigoshop\classes\profile.class.php:95
+msgid "Sorry, that user does not exist."
+msgstr "Beklager, den brukeren finnes ikke."
+
+#: \wp-content\plugins\jigoshop\classes\profile.class.php:118
+msgid "You must enter the current password to make changes."
+msgstr "Du må skrive inn ditt nåværende passord for og gjøre endringer."
+
+#: \wp-content\plugins\jigoshop\classes\profile.class.php:128
+msgid "You entered the wrong current password."
+msgstr "Du skrev inn feil nåværende passord."
+
+#: \wp-content\plugins\jigoshop\classes\profile.class.php:256
+msgid "Check your email to confirm this change."
+msgstr "Sjekk din e-post for å bekrefte denne endringen."
+
+#: \wp-content\plugins\jigoshop\classes\signup.class.php:36
+msgid ""
+"<h4 class=\"alert-heading\">Registrations disabled.</h4><p>Already have an "
+"account? <a href=\"login.php\">Sign in here</a>!</p>"
+msgstr ""
+"<h4 class=\"alert-heading\">Registreringer er deaktivert.</h4><p>Har du "
+"allerede en konto? <a href=\"login.php\">Logg inn her</a>!</p>"
+
+#: \wp-content\plugins\jigoshop\classes\signup.class.php:58
+msgid "We don't see you as a registered user. Perhaps you'd like to sign up :)"
+msgstr ""
+"Vi kan ikke finne deg som en registrert bruker. Kanskje du vil melde deg "
+"inn? :)"
+
+#: \wp-content\plugins\jigoshop\classes\signup.class.php:136
+msgid "Invalid signup attempt"
+msgstr "Ugyldig innloggingsforsøk"
+
+#: \wp-content\plugins\jigoshop\classes\signup.class.php:159
+msgid "Your username must be under 11 characters"
+msgstr "Ditt brukernavn må være under 11 tegn"
+
+#: \wp-content\plugins\jigoshop\classes\signup.class.php:180
+msgid "Please enter the correct captcha!"
+msgstr "Vennligst skriv inn den korrekte capcha koden!"
+
+#: \wp-content\plugins\jigoshop\classes\signup.class.php:201
+msgid "Attention!"
+msgstr "Hør her!"
+
+#: \wp-content\plugins\jigoshop\classes\upgrade.class.php:51
+msgid "Database update required"
+msgstr "Database oppdatering kreves"
+
+#: \wp-content\plugins\jigoshop\install\index.php:62
+msgid "Password must be at least 5 characters."
+msgstr "Passord må inneholde minst 5 tegn."
+
+#: \wp-content\plugins\jigoshop\install\index.php:67
+msgid "Fill out all the details please"
+msgstr "Vennligst fyll ut alle detaljene"
+
+#: \wp-content\plugins\jigoshop\install\index.php:283
+msgid ""
+"Could not create <code>/classes/config.php</code>, please confirm you have "
+"permission to create the file."
+msgstr ""
+"Kunne ikke lage <code>/classes/config.php</code>, vennligst bekreft at du "
+"har tilgang til å lage denne filen."
+
+#: \wp-content\plugins\jigoshop\install\index.php:310
+msgid "Hooray ! Installation is all done :)"
+msgstr "Hurra! Installasjonen er fullført :)"
+
+#: \wp-content\plugins\jigoshop\install\index.php:311
+msgid "Important"
+msgstr "Viktig"
+
+#: \wp-content\plugins\jigoshop\install\index.php:311
+msgid "Please delete or rename the install folder to prevent intrustion"
+msgstr ""
+"Vennligst slett eller gi nytt navn til installasjonsmappen for å forhindre "
+"inntrenging."
+
+#: \wp-content\plugins\jigoshop\install\index.php:315
+msgid "Check out your"
+msgstr "Sjekk ut din"
+
+#: \wp-content\plugins\jigoshop\install\index.php:315
+msgid "home"
+msgstr "hjem"
+
+#: \wp-content\plugins\jigoshop\install\index.php:315
+msgid "page."
+msgstr "side."
+
+#: \wp-content\plugins\jigoshop\install\index.php:321
+msgid "Installation is not complete."
+msgstr "Installasjon er ikke ferdig."
+
+#: \wp-content\plugins\jigoshop\install\index.php:332
+msgid "Database Info"
+msgstr "Database Info"
+
+#: \wp-content\plugins\jigoshop\install\index.php:334
+msgid "Host"
+msgstr "Vert"
+
+#: \wp-content\plugins\jigoshop\install\index.php:340
+msgid "Database name"
+msgstr "Database navn"
+
+#: \wp-content\plugins\jigoshop\install\index.php:342
+msgid "database_name"
+msgstr "database_navn"
+
+#: \wp-content\plugins\jigoshop\install\index.php:348
+msgid "db username"
+msgstr "db brukernavn"
+
+#: \wp-content\plugins\jigoshop\install\index.php:354
+msgid "db password"
+msgstr "db passord"
+
+#: \wp-content\plugins\jigoshop\install\index.php:360
+msgid "Site Settings"
+msgstr "Side Instillinger"
+
+#: \wp-content\plugins\jigoshop\install\index.php:365
+msgid "This path should be set to where activate.php is located"
+msgstr "Denne stien bør være satt til hvor activate.php finnes."
+
+#: \wp-content\plugins\jigoshop\install\index.php:372
+msgid "This email address will be visible to your users"
+msgstr "Denne e-post adressen vil være synlig til dine brukere"
+
+#: \wp-content\plugins\jigoshop\install\index.php:378
+msgid "Admin Account"
+msgstr "Admin Konto"
+
+#: \wp-content\plugins\jigoshop\install\index.php:394
+msgid "Install"
+msgstr "Installer"

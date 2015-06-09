@@ -1,0 +1,56 @@
+/* ######## Skin Style #########  */ 
+
+
+.main-section { background-color:#f0eac0; } 
+
+
+.main-section .main-left a.button-hover, .cta a.button-hover, .main-section .main-center a.button-hover { background-color:#2ecc71; color:#ffffff; box-shadow:0 3px 0 rgba(0,0,0,0.10), 0 0px 2px rgba(255,255,255,0.1) inset, 0 0px 3px rgba(0,0,0,0.10);  }
+
+.vjs-default-skin .vjs-big-play-button { background-color: rgba(46, 204, 113, 0.8)!important; }
+
+
+#navimenu li.signup-nav a.button-hovera { color:#2ecc71; }
+
+.menu-nav li.signup-nav { background-color:#2ecc71; border:3px solid #2ecc71; }
+
+
+.title-div { background-color:#2ecc71; }
+.diva-icon { background-color:#2ecc71; color:#ffffff; }
+.diva-hover { color:#2ecc71; }
+
+.featu-icon { background-color:#2ecc71; }
+
+#navi2 a.activeSlide span { background-color:#2ecc71; }
+
+.slide1 .slide-txt p.subtitle, .howto p.subtitle  { color:#2ecc71; }
+
+#navi3 a { color:#2ecc71; }
+#navi3 a:hover { background-color:#2ecc71; border:1px solid #2ecc71; }
+
+.testimonials { background:url("../../img/main-bg4.png") no-repeat; background-size:100% 730px; }
+
+.testi-img  { border:8px solid #28b463; }
+
+.testi-job { color:#28b463; }
+
+.testi-company { color:#2ecc71; background-color:#f5f7f9; }
+.company-hover { color:#ffffff; background-color:#2ecc71; }
+#navi4 a { background-color:#28b463; color:#ffffff; border:1px solid #28b463; }
+#navi4 a:hover { color:#2ecc71; }
+
+
+div.b { background-color:#2ecc71; }
+
+.testio-txt p.custo-comp { color:#2ecc71; }
+
+.howto .how-txt ul li span { color:#2ecc71; }
+
+.price-sub2 { background-color:#2ecc71;  }
+
+.price2 { background-color:#2ecc71;   }
+
+.arrow-divi2 {   background-color:#2ecc71; }
+
+.cta {  background-color:#2ecc71; }
+
+.wrap input[type=submit]  {   background-color:#2ecc71!important;  }

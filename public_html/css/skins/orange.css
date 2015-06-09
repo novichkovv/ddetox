@@ -1,0 +1,55 @@
+/* ######## Blue Skin Styles #########  */ 
+
+
+.main-section { background:url("../../img/main-bg3.png") no-repeat; background-size:100% 600px; } 
+
+
+.main-section .main-left a.button-hover, .cta a.button-hover, .main-section .main-center a.button-hover { background-color:#e67e22; color:#ffffff; box-shadow:0 3px 0 rgba(0,0,0,0.10), 0 0px 2px rgba(255,255,255,0.1) inset, 0 0px 3px rgba(0,0,0,0.10);  }
+
+.vjs-default-skin .vjs-big-play-button { background-color: rgba(230, 126, 34, 0.8)!important; }
+
+#navimenu li.signup-nav a.button-hovera { color:#e67e22; }
+
+.menu-nav li.signup-nav { background-color:#e67e22; border:3px solid #e67e22; }
+
+
+.title-div { background-color:#e67e22; }
+.diva-icon { background-color:#e67e22; color:#ffffff; }
+.diva-hover { color:#e67e22; }
+
+.featu-icon { background-color:#e67e22; }
+
+#navi2 a.activeSlide span { background-color:#e67e22; }
+
+.slide1 .slide-txt p.subtitle, .howto p.subtitle  { color:#e67e22; }
+
+#navi3 a { color:#e67e22; }
+#navi3 a:hover { background-color:#e67e22; border:1px solid #e67e22; }
+
+.testimonials { background:url("../../img/main-bg3.png") no-repeat; background-size:100% 730px; }
+
+.testi-img  { border:8px solid #cc6b16; }
+
+.testi-job { color:#cc6b16; }
+
+.testi-company { color:#e67e22; background-color:#f5f7f9; }
+.company-hover { color:#ffffff; background-color:#e67e22; }
+#navi4 a { background-color:#cc6b16; color:#ffffff; border:1px solid #cc6b16; }
+#navi4 a:hover { color:#e67e22; }
+
+
+div.b { background-color:#e67e22; }
+
+.testio-txt p.custo-comp { color:#e67e22; }
+
+.howto .how-txt ul li span { color:#e67e22; }
+
+.price-sub2 { background-color:#e67e22;  }
+
+.price2 { background-color:#e67e22;   }
+
+.arrow-divi2 {   background-color:#e67e22; }
+
+.cta {  background-color:#e67e22; }
+
+.wrap input[type=submit]  {   background-color:#e67e22!important;  }

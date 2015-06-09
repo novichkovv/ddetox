@@ -1,0 +1,22 @@
+[20-May-2015 11:20:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1364 Field 'restricted' doesn't have a default value' in /home/ddetox/public_html/detox/model.php:78
+Stack trace:
+#0 /home/ddetox/public_html/detox/model.php(78): PDOStatement->execute(Array)
+#1 /home/ddetox/public_html/index.php(70): model->insert(Array)
+#2 {main}
+  thrown in /home/ddetox/public_html/detox/model.php on line 78
+[20-May-2015 11:29:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /home/ddetox/public_html/detox/model.php:16
+Stack trace:
+#0 /home/ddetox/public_html/detox/model.php(16): PDO->__construct('mysql:host=loca...', 'ddetox_admin', 'Starcraft12')
+#1 /home/ddetox/public_html/index.php(15): model->__construct('login_users')
+#2 {main}
+  thrown in /home/ddetox/public_html/detox/model.php on line 16
+[20-May-2015 11:31:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value' in /home/ddetox/public_html/detox/model.php:78
+Stack trace:
+#0 /home/ddetox/public_html/detox/model.php(78): PDOStatement->execute(Array)
+#1 /home/ddetox/public_html/index.php(70): model->insert(Array)
+#2 {main}
+  thrown in /home/ddetox/public_html/detox/model.php on line 78
+[20-May-2015 21:51:10 UTC] PHP Warning:  session_start(): open(/tmp/sess_d577dcc082fc06d19d7a9f2aeae96593, O_RDWR) failed: Permission denied (13) in /home/ddetox/public_html/index.php on line 8
+[20-May-2015 21:51:10 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ddetox/public_html/index.php:8) in /home/ddetox/public_html/index.php on line 8
+[20-May-2015 21:51:10 UTC] PHP Warning:  Unknown: open(/tmp/sess_d577dcc082fc06d19d7a9f2aeae96593, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[20-May-2015 21:51:10 UTC] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0

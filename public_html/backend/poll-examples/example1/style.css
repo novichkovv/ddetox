@@ -1,0 +1,71 @@
+#poll{
+	border: 3px solid #e8e8e8;
+	background: #f0f0f0;
+	width: 300px;
+	color: #333333;
+	padding:15px;
+	font-family:Arial;
+	margin: 5px;
+}
+#poll a:link, #poll a:visited, #poll a:active{
+	color: #777;
+	font-weight: bold;
+	text-decoration:underline;
+}
+#poll a:hover{
+	color:#CC0000;
+}
+#poll input{
+	font-size: 11px;
+}
+#poll .question{
+	font-size:14px;
+	font-weight:bold;
+	line-height:18px;
+	margin-bottom: 10px;
+}
+#poll .left{
+	float: left;
+}
+#poll .right{
+	float: right;
+}
+#poll #footer{
+	height: 25px;
+	font-family:Verdana;
+	font-size:11px;
+	margin-top: 10px;
+}
+#poll .button{
+	background:transparent url(vote.gif) no-repeat scroll 0 0;
+	float:right;
+	height:31px;
+	margin:0 20px 0 0;
+	outline-color:-moz-use-text-color;
+	outline-style:none;
+	outline-width:medium;
+	width:76px;
+	border: none;
+}
+#poll .button:hover{
+	background:transparent url(vote.gif) no-repeat scroll 0 -32px;
+}
+#poll label{
+	display: block;
+	font-size: 12px;
+	padding: 7px 0px 9px 0px;
+}
+#poll .barempty{
+	height: 12px;
+	background-color:#CCC;
+	width: 270px;
+}
+#poll .barfull{
+	height: 12px;
+	width: 200px;
+	background-image: url(bar.gif);
+	background-repeat: repeat-x;
+}
+#poll #footer a{
+	float: left;
+}

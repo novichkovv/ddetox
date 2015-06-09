@@ -1,0 +1,57 @@
+/* ######## Blue Skin Styles #########  */ 
+
+
+.main-section { background:url("../../img/main-bg5.png") no-repeat; background-size:100% 600px; } 
+
+
+.main-section .main-left a.button-hover, .cta a.button-hover, .main-section .main-center a.button-hover { background-color:#e74c3c; color:#ffffff; box-shadow:0 3px 0 rgba(0,0,0,0.10), 0 0px 2px rgba(255,255,255,0.1) inset, 0 0px 3px rgba(0,0,0,0.10);  }
+
+.vjs-default-skin .vjs-big-play-button { background-color: rgba(231, 76, 60, 0.8)!important; }
+
+
+
+#navimenu li.signup-nav a.button-hovera { color:#e74c3c; }
+
+.menu-nav li.signup-nav { background-color:#e74c3c; border:3px solid #e74c3c; }
+
+
+.title-div { background-color:#e74c3c; }
+.diva-icon { background-color:#e74c3c; color:#ffffff; }
+.diva-hover { color:#e74c3c; }
+
+.featu-icon { background-color:#e74c3c; }
+
+#navi2 a.activeSlide span { background-color:#e74c3c; }
+
+.slide1 .slide-txt p.subtitle, .howto p.subtitle  { color:#e74c3c; }
+
+#navi3 a { color:#e74c3c; }
+#navi3 a:hover { background-color:#e74c3c; border:1px solid #e74c3c; }
+
+.testimonials { background:url("../../img/main-bg5.png") no-repeat; background-size:100% 730px; }
+
+.testi-img  { border:8px solid #be392b; }
+
+.testi-job { color:#be392b; }
+
+.testi-company { color:#e74c3c; background-color:#f5f7f9; }
+.company-hover { color:#ffffff; background-color:#e74c3c; }
+#navi4 a { background-color:#be392b; color:#ffffff; border:1px solid #be392b; }
+#navi4 a:hover { color:#be392b; }
+
+
+div.b { background-color:#e74c3c; }
+
+.testio-txt p.custo-comp { color:#e74c3c; }
+
+.howto .how-txt ul li span { color:#e74c3c; }
+
+.price-sub2 { background-color:#e74c3c;  }
+
+.price2 { background-color:#e74c3c;   }
+
+.arrow-divi2 {   background-color:#e74c3c; }
+
+.cta {  background-color:#e74c3c; }
+
+.wrap input[type=submit]  {   background-color:#e74c3c!important;  }

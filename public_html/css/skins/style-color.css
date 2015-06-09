@@ -1,0 +1,57 @@
+/* ######## Skin Style Colors #########  */ 
+
+
+/* JOEL .main-section { background-color:#77bfe6; } */
+
+
+.main-section .main-left a.button-hover, /* .cta a.button-hover */, .main-section .main-center a.button-hover, .main-section .signup a.button-hover, .welcome-center a.button-hover { background-color:#175373; color:#ffffff; box-shadow:0 3px 0 rgba(0,0,0,0.10), 0 0px 2px rgba(255,255,255,0.1) inset, 0 0px 3px rgba(0,0,0,0.10);  }
+
+.vjs-default-skin .vjs-big-play-button { background-color: rgba(46, 204, 113, 0.8)!important; }
+
+
+#navimenu li.signup-nav a.button-hovera { color:#175373; }
+
+.menu-nav li.signup-nav { background-color:#77bfe6; border:3px solid #77bfe6; }
+
+
+.title-div { background-color:#175373; }
+.diva-icon { background-color:#000; color:#ffffff; }
+.diva-hover { color:#175373; }
+
+.featu-icon { background-color:#FFFFFF; }
+
+#navi2 a.activeSlide span { background-color:#175373; }
+#navi21 a.activeSlide span { background-color:#175373; }
+
+.slide1 .slide-txt p.subtitle, .howto p.subtitle  { color:#175373; }
+
+#navi3 a { color:#175373; }
+#navi3 a:hover { background-color:#175373; border:1px solid #175373; }
+
+.testimonials { background-color:#77bfe6; }
+
+.testi-img  { border:8px solid #175373; }
+
+.testi-job { color:#175373; }
+
+.testi-company { color:#175373; background-color:#f5f7f9; }
+.company-hover { color:#ffffff; background-color:#175373; }
+#navi4 a { background-color:#175373; color:#ffffff; border:1px solid #175373; }
+#navi4 a:hover { color:#175373; }
+
+
+div.b { background-color:#175373; }
+
+.testio-txt p.custo-comp { color:#175373; }
+
+.howto .how-txt ul li span { color:#175373; }
+
+.price-sub2 { background-color:#175373;  }
+
+.price2 { background-color:#175373;   }
+
+.arrow-divi2 {   background-color:#175373; }
+
+.cta {  background-color:#175373; }
+
+.wrap input[type=submit]  {   background-color:#175373!important;  }

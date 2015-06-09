@@ -1,0 +1,138 @@
+/**
+ * @copyright	Copyright (c) 2013 Skyline Technology Ltd (http://extstore.com). All rights reserved.
+ * @license		http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU/GPL version 2
+ */
+
+.advpolls {
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	border-radius: 3px;
+	box-shadow: 1px 1px 0 rgba(180, 180, 180, 0.1);
+	margin-bottom: 20px;
+}
+
+.advpolls form {
+	margin: 0;
+}
+
+.advpolls .advpolls-title {
+	background: url('../images/poll.png') no-repeat left top;
+	font-size: 20px;
+	line-height: 30px;
+	padding-left: 35px;
+	margin: 5px 0 5px 5px;
+}
+
+.advpolls ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.advpolls .advpolls-body {
+	color: #4D4D4D;
+	background-color: #eeeedd;
+	padding: 10px;
+}
+
+.advpolls .advpolls-question {
+	font-weight: bold;
+	padding-top: 3px;
+	padding-bottom: 10px;
+}
+
+.advpolls .advpolls-answers li {
+	margin-bottom: 5px;
+}
+
+.advpolls .advpolls-answers input[type="checkbox"] {
+	margin-right: 5px;
+}
+
+.advpolls .advpolls-buttons {
+	padding: 10px 0 10px 10px;
+}
+
+.advpolls .advpolls-showresult {
+	float: right;
+	margin-right: 10px;
+}
+
+.advpolls .advpolls-result-container,
+.advpolls .advpolls-message-container {
+	height: 0;
+	float: left;
+	overflow: hidden;
+}
+
+#advpolls-modal .close {
+	z-index: 1;
+}
+
+#advpolls-modal ul.advpolls-graph {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#advpolls-modal ul.advpolls-graph li {
+	border-bottom: 1px dotted #E5E5E5;
+	clear: both;
+	color: #606060;
+	list-style: none outside none;
+	padding: 5px 0;
+}
+
+#advpolls-modal ul.advpolls-graph li > div {
+	float: left;
+	padding: 3px
+}
+
+#advpolls-modal .advpolls-answer-title {
+	width: 150px;
+}
+
+#advpolls-modal .advpolls-answer-graph {
+	width: 200px;
+	padding-top: 7px!important;
+	padding-bottom: 0!important;
+	line-height: 100%;
+}
+
+#advpolls-modal .advpolls-answer-graph div {
+	line-height: 12px;
+	font-size: 9px;
+	clear: both;
+	padding: 0;
+	text-align: right;
+}
+
+#advpolls-modal .advpolls-answer-graph div.advpolls-full-line {
+	width: 200px;
+	height: 7px;
+	background: #e5e5e5;
+	border-radius: 3px;
+}
+
+#advpolls-modal .advpolls-answer-graph div.advpolls-line {
+	height: 7px;
+	border-radius: 3px;
+
+	background: #fc9061;
+	background: -moz-linear-gradient(top, #fc9061 0%, #bf5224 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fc9061), color-stop(100%, #bf5224));
+	background: -webkit-linear-gradient(top, #fc9061 0%, #bf5224 100%);
+	background: -o-linear-gradient(top, #fc9061 0%, #bf5224 100%);
+	background: -ms-linear-gradient(top, #fc9061 0%, #bf5224 100%);
+	background: linear-gradient(to bottom, #fc9061 0%, #bf5224 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#fc9061', endColorstr = '#bf5224', GradientType = 0);
+}
+
+#advpolls-modal .advpolls-total-votes {
+	font-weight: bold;
+	color: #BF5224;
+}
+
+.wrap-advpoll-title {
+	overflow: hidden;
+}

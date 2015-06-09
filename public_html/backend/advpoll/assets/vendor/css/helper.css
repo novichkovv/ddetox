@@ -1,0 +1,220 @@
+/*!
+ * helper.css v1.0.1
+ *
+ * Copyright 2012 Javier Aguilar
+ * Licensed under the MIT License
+ * http://opensource.org/licenses/mit-license.php
+ *
+ * Developed by @xaguilars
+ * https://github.com/xaguilars/helper.css
+ */
+
+/* hidden attribute */
+*[hidden], .hidden, *[data-template]{
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+/*
+line
+*/
+.ln, .line{
+    background: #CCC;
+    color: #CCC;
+    border: none;
+    clear: both;
+    float: none;
+    height: 1px;
+    margin: 1em 0;
+    width: 100%;
+}
+
+/*
+Float left
+*/
+.fl-l, .float-left{
+    position:relative;
+    display:inline;
+    float:left;
+}
+/*
+Float right
+*/
+.fl-r, .float-right{
+    position:relative;
+    display:inline;
+    float:right;
+}
+
+/*
+Float left and right lists
+*/
+.fl-l-list, .float-left-list,
+.fl-r-list, .float-right-list{
+    position:relative;
+    margin:0;
+    padding:0;
+}
+.fl-l-list li, .float-left-list li,
+.fl-r-list li, .float-right-list li{
+    position:relative;
+    display:inline;
+    list-style: none;
+    padding:0;
+}
+
+.fl-l-list li, .float-left-list li{
+    float:left;
+    margin:0 1em 0 0;
+}
+.fl-l-list li:first-child, .float-left-list li:first-child{
+    margin-right: 0;
+}
+
+.fl-r-list li, .float-right-list li{
+    float:right;
+    margin:0 0 0 1em;
+}
+.fl-r-list li:last-child, .float-right-list li:last-child{
+    margin-left: 0;
+}
+
+/*
+Clear and clearfix
+*/
+.cl, .clear {
+    float:none;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    padding:0;
+    margin: 0;
+    font-size:1px;
+}
+
+/* fonts */
+.text-wrap{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.b, .bold{
+    font-weight: bold;
+}
+.i, .italic{
+    font-style: italic;
+}
+.u, .underline{
+    text-decoration: underline;
+}
+.s, .strike{
+    text-decoration: line-through;
+}
+.uc, .uppercase{
+    text-transform: uppercase;
+}
+.lc, .lowercase{
+    text-transform: lowercase;
+}
+
+.al-r, .align-right{
+    text-align: right;
+}
+.al-l, .align-left{
+    text-align: left;
+}
+.al-j, .align-justify{
+    text-align: justify;
+}
+.al-c, .align-center{
+    text-align: center;
+}
+
+.v-al-t, .v-align-top{
+    vertical-align:top;
+}
+
+.v-al-tt, .v-align-text-top{
+    vertical-align:text-top;
+}
+
+.v-al-m, .v-align-middle{
+    vertical-align:middle;
+}
+
+.v-al-b, .v-align-bottom{
+    vertical-align:bottom;
+}
+
+.v-al-tb, .v-align-text-bottom{
+    vertical-align:text-bottom;
+}
+
+.v-al-bl, .v-align-baseline{
+    vertical-align:baseline;
+}
+
+/* display */
+.bl, .block{
+    display:block;
+}
+
+.bl.centered, .block.centered{
+    position:relative;
+    display:block;
+    margin:0 auto;
+}
+
+.inl, .inline{
+    display:inline;
+}
+
+.inl-bl, .inline-block{
+    display:inline-block;
+}
+
+/* box sizing */
+.bs-c, .box-sizing-content{
+    -moz-box-sizing:content-box;
+    -webkit-box-sizing:content-box;
+    -ms-box-sizing:content-box;
+    -o-box-sizing:content-box;
+    box-sizing:content-box;
+}
+
+.bs-b, .box-sizing-border,
+.bs-p, .box-sizing-padding{
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+/* boxes */
+.bx-abs, .box-absolute,
+.bx-fixed, .box-fixed{
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index:100;
+    background:#ccc;
+}
+
+.bx-fixed, .box-fixed{
+    position:fixed;
+}
+
+.bx-abs.centered, .box-absolute.centered,
+.bx-fixed.centered, .box-fixed.centered{
+    margin:20%;
+}

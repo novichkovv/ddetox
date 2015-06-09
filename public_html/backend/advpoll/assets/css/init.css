@@ -1,0 +1,49 @@
+/**
+ * @copyright	Copyright (c) 2013 Skyline Technology Ltd (http://extstore.com). All rights reserved.
+ * @license		http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU/GPL version 2
+ */
+
+html, body {
+	position: static;
+}
+
+body * {
+	position: relative;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.browsehappy {
+	margin: 0.5em 0;
+	background: #eee;
+	color: #000;
+	padding: 0.5em 1em;
+	font-size: 14px;
+	text-align: center;
+}
+
+.browsehappy a {
+	color: blue;
+}
+
+.sortable-handler {
+	cursor: move;
+}
+
+.answer-delete {
+	cursor: pointer;
+}
+
+.publish-btn {
+	color: #51A351;
+}
+
+.unpublish-btn {
+	color: #BD362F;
+}
+
+.advpolls .advpolls-answers input[type="checkbox"] {
+	margin-top: -3px;
+}
