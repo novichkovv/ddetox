@@ -60,7 +60,12 @@ if(isset($_COOKIE['user_id'])) {
 		<h1 class="box_title">Latest Video</h1>
 		<div class="vid_box">
 		<?php
-        $video = str_replace('https://www.youtube.com/watch?v=','',$videos[$user['sent']]);
+        for($i = $user['sent']; $i > 0; $i --) {
+            if($videos[$i]) {
+                $video = $videos[$i];
+            }
+        }
+        $video = str_replace('https://www.youtube.com/watch?v=','',$video);
         $video = str_replace('&list=UUxObFUbx4nYwWVCelOUQtKA','',$video);
 		  //GET START DATE
 //			$DBH = new PDO("mysql:host=localhost;dbname=ddetox_backend", 'ddetox_admin', 'Starcraft12');
@@ -145,7 +150,9 @@ if(isset($_COOKIE['user_id'])) {
 //			$video = "Zrw39vnRTOk";
 //			}
 		   ?>
+            <?php if($video): ?>
 				<iframe width="352" height="198" src="//www.youtube.com/embed/<?php echo $video; ?>" frameborder="0" allowfullscreen></iframe>
+            <?php endif; ?>
 		</div>
 		
 	</div>	
