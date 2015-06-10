@@ -60,7 +60,7 @@ if(isset($_COOKIE['user_id'])) {
 		<h1 class="box_title">Latest Video</h1>
 		<div class="vid_box">
 		<?php
-        for($i = $user['sent']; $i > 0; $i --) {
+        for($i = $user['sent']; $i >= 0; $i --) {
             if($videos[$i]) {
                 $video = $videos[$i];
             }
