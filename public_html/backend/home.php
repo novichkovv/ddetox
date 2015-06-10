@@ -37,9 +37,9 @@ if(isset($_COOKIE['user_id'])) {
 <br><hr><br>
 <div class="row">
     <div class="span12" style="max-width: 100%; overflow: hidden;">
-        <?php if(strtotime($user['sdate']) + 4*24*60*60 > strtotime(date('Y-m-d H:i:s'))): ?>
+        <?php if(strtotime($user['sdate']) + 4*24*60*60 > strtotime(date('Y-m-d 06:00:00'))): ?>
             <h3 style="color: #2c82ee; font-size: 25px; margin-top: 40px; text-align: center;">The 21 Day Detox Challnege will Begin in</h3>
-            <input id="reg_date" value="<?php echo strtotime(date('Y-m-d H:06:00'), $user['sdate']); ?>000" type="hidden">
+            <input id="reg_date" value="<?php echo (strtotime($user['sdate']) + 6*3600); ?>000" type="hidden">
             <div id="countdown"></div>
             <p id="note"></p>
         <?php endif; ?>
