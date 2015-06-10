@@ -70,7 +70,7 @@
             </div>
         </div>
         <div class="hidden-xs col-sm-3 col-sm-offset-1 col-md-offset-3">
-            <a href="../ebook.php" target="_blank"><img src="<?php echo SITE_DIR; ?>images/ebooklet.png"></a>
+            <a href="../backend/ebook.php" target="_blank"><img src="<?php echo SITE_DIR; ?>images/ebooklet.png"></a>
         </div>
     </div>
 </div>
