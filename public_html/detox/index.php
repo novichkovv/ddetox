@@ -10,11 +10,14 @@ $model = new model('login_users');
 if($_GET['email']) {
 	$_POST['signin'] = 1;
 	$_POST['email'] = $_GET['email'];
+    $_POST['firstname'] = $_GET['firstname'];
 	if(!preg_match("/^.+@.+\..+$/",$_POST['email'])) {
 		$warning = 'Incorrect email!';	
 	} else {
-		$_POST['firstname'] = array_shift(explode('@', $_POST['email']));	
-	}     	
+        if(!$_GET['firstname']) {
+            $_POST['firstname'] = array_shift(explode('@', $_POST['email']));
+        }
+	}
 }
 if(isset($_POST['signin']))
 {
