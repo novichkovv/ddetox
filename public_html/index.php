@@ -19,7 +19,7 @@ if(isset($_POST['signin']) || $_GET['email'])
 	if($_POST['firstname']) {
         $firstname = $_POST['firstname'];
     } elseif($_GET['firstname']) {
-            $_POST['firstname'] = $_GET['firstname'];
+        $firstname = $_GET['firstname'];
 	} else {
 		$arr = explode('@', $email);
 		if(is_array($arr)) {
