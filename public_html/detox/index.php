@@ -61,6 +61,9 @@ if(isset($_POST['signin']))
             $row['user_id'] = $user['user_id'];
             $password = null;
         }
+        if ($_GET['firstname']) {
+            $row['name'] = $_GET['firstname'];
+        }
         $row['sdate'] = date('Y-m-d H:i:s');
         $row['sent'] = 0;
 
