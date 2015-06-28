@@ -17,13 +17,16 @@ if(isset($_POST['signin']) || $_GET['email'])
 {
 	$email = $_POST['email'] ? $_POST['email'] : $_GET['email'];
 	if($_POST['firstname']) {
-		$firstname = $_POST['firstname'];
+        $firstname = $_POST['firstname'];
+    } elseif($_GET['firstname']) {
+            $_POST['firstname'] = $_GET['firstname'];
 	} else {
 		$arr = explode('@', $email);
 		if(is_array($arr)) {
 			$firstname = array_shift($arr);		
 		}
 	}
+
     $u = $model->getByField('username', $firstname);
     $warning = false;
     if(!$firstname)
@@ -63,6 +66,9 @@ if(isset($_POST['signin']) || $_GET['email'])
             $row = array();
             $row['user_id'] = $user['user_id'];
             $password = null;
+        }
+        if($_GET['firstname']) {
+            $row['name'] = $_GET['firstname'];
         }
         $row['sdate'] = date('Y-m-d H:i:s');
         $row['sent'] = 0;
