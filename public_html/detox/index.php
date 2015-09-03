@@ -104,11 +104,12 @@ if(isset($_POST['signin']))
 <video autoplay="" poster="images/flowers.jpg" id="bg_video">
     <source src="<?php echo SITE_DIR; ?>images/water.mp4" type="video/webm">
 </video>
-<h3 style="color: #666; margin-left: 20px;">Questions About the Detox?<br>
- Call <span style="color: black; font-size: 30px;">407-732-6952<span></h3>
-<div class="text-center">
+<div>
     <img src="<?php echo SITE_DIR; ?>images/logo.png" id="logo" />
 </div>
+<h3 style="color: #666; margin-left: 20px;">Questions About the Detox?<br>
+ Call <span style="color: black; font-size: 30px;">407-732-6952<span></h3>
+
 <div id="bg">
 </div>
 <div class="row" style="margin-top: 20px;">

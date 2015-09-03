@@ -26,7 +26,7 @@ if(isset($_POST['signin']) || $_GET['email'])
 			$firstname = array_shift($arr);		
 		}
 	}
-
+    $phone = $_POST['phone'];
     $u = $model->getByField('username', $firstname);
     $warning = false;
     if(!$firstname)
@@ -43,6 +43,7 @@ if(isset($_POST['signin']) || $_GET['email'])
     {
         $row['username'] = $firstname;
         $row['email'] = strtolower($email);
+        $row['phone'] = $phone;
         $letters = array();
         for($i = 'a'; $i < 'z'; $i++)
         {
@@ -104,6 +105,9 @@ if(isset($_POST['signin']) || $_GET['email'])
 <head>
     <link rel="stylesheet" type="text/css" href="<?php echo SITE_DIR; ?>css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo SITE_DIR; ?>css/style.css">
+    <script type="text/javascript" src="<?php echo SITE_DIR; ?>js/jquery.js"></script>
+    <script type="text/javascript" src="<?php echo SITE_DIR; ?>js/wow.js"></script>
+    <script type="text/javascript" src="<?php echo SITE_DIR; ?>js/script.js"></script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -116,15 +120,24 @@ if(isset($_POST['signin']) || $_GET['email'])
 <video autoplay="" class="hidden-xs" poster="images/flowers.jpg" id="bg_video">
     <source src="<?php echo SITE_DIR; ?>images/water.mp4" type="video/webm">
 </video>
+<div>
+    <a target="__blank" style="color: #3989A4;  font-size: 30px; text-decoration: underline;" href="http://divinehealthdetox.com/backend/">
+        <img src="<?php echo SITE_DIR; ?>images/logo.png" id="logo" />
+    </a>
+</div>
 <h3 style="color: #666; margin-left: 20px;">Questions About the Detox?<br>
  Call: <span style="color: black; font-size: 30px;">407-732-6952<span></h3>
- <div class="text-center"><a target="__blank" style="color: #3989A4;  font-size: 30px; text-decoration: underline;" href="http://divinehealthdetox.com/backend/">Go to Web Site</a></div>
-<div class="text-center">
-    <img src="<?php echo SITE_DIR; ?>images/logo.png" id="logo" />
-</div>
+<!-- <div class="text-center">Go to Web Site</a></div>-->
+
 <div id="bg">
 </div>
 <div class="row" style="margin-top: 20px;">
+    <div class="col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+        <div class="video-container">
+            <iframe id="video_frame" src="https://www.youtube.com/embed/WNHs7LDz8UA?list=UUxObFUbx4nYwWVCelOUQtKA" frameborder="0" allowfullscreen="allowfullscreen" width="560" height="315"></iframe>
+            <img src="detox/images/video.jpg" />
+        </div>
+    </div>
     <div class="col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
         <div class="panel panel-info" id="main-panel">
             <div class="panel-heading text-center">
@@ -145,6 +158,9 @@ if(isset($_POST['signin']) || $_GET['email'])
                             </div>
                             <div class="form-group">
                                 <input type="email" class="form-control input-lg" name="email" placeholder="Enter Your E-mail"  value="<?php echo $email; ?>" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control input-lg" name="phone" placeholder="Enter Your Phone #" value="<?php echo $phone; ?>" />
                             </div>
                             <div class="form-group text-center">
                                 <input type="submit" class="btn btn-lg btn-primary" name="signin" value="JOIN THE 21 DAY DETOX" />
