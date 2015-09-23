@@ -36,7 +36,7 @@ $subjects = array(
     'Here is Your 21 Day Detox Certificate'
 );
 $videos = array(
-    'https://www.youtube.com/watch?v=x6fCfVg01v4&list=UUxObFUbx4nYwWVCelOUQtKA',
+    'https://www.youtube.com/watch?v=UAvAEzuuI9E&list=UUxObFUbx4nYwWVCelOUQtKA',//'https://www.youtube.com/watch?v=x6fCfVg01v4&list=UUxObFUbx4nYwWVCelOUQtKA',
     '',
     '',
     'https://www.youtube.com/watch?v=Ik7Xx9E1Hos&list=UUxObFUbx4nYwWVCelOUQtKA',//'https://www.youtube.com/watch?v=DnYedd-S4z8&list=UUxObFUbx4nYwWVCelOUQtKA',
