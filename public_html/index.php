@@ -134,7 +134,7 @@ if(isset($_POST['signin']) || $_GET['email'])
 <div class="row" style="margin-top: 20px;">
     <div class="col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
         <div class="video-container">
-            <iframe id="video_frame" src="https://www.youtube.com/embed/WNHs7LDz8UA?list=UUxObFUbx4nYwWVCelOUQtKA" frameborder="0" allowfullscreen="allowfullscreen" width="560" height="315"></iframe>
+            <iframe id="video_frame" src="https://www.youtube.com/embed/UAvAEzuuI9E?list=UUxObFUbx4nYwWVCelOUQtKA" frameborder="0" allowfullscreen="allowfullscreen" width="560" height="315"></iframe>
             <img src="detox/images/video.jpg" />
         </div>
     </div>
