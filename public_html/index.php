@@ -131,42 +131,44 @@ if(isset($_POST['signin']) || $_GET['email'])
 
 <div id="bg">
 </div>
-<div class="row" style="margin-top: 20px;">
-    <div class="col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
-        <div class="video-container">
-            <iframe id="video_frame" src="https://www.youtube.com/embed/UAvAEzuuI9E?list=UUxObFUbx4nYwWVCelOUQtKA" frameborder="0" allowfullscreen="allowfullscreen" width="560" height="315"></iframe>
-            <img src="detox/images/video.jpg" />
-        </div>
-    </div>
-    <div class="col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
-        <div class="panel panel-info" id="main-panel">
-            <div class="panel-heading text-center">
-                <h3>DR. COLBERT'S 21 DAY DETOX</h3>
+<div style="margin-left: 40px; margin-right: 40px;">
+    <div class="row" style="margin-top: 20px;">
+        <div class="col-sm-6 col-xs-12">
+            <div class="video-container">
+                <iframe id="video_frame" src="https://www.youtube.com/embed/UAvAEzuuI9E?list=UUxObFUbx4nYwWVCelOUQtKA" frameborder="0" allowfullscreen="allowfullscreen" width="560" height="315"></iframe>
+                <img src="detox/images/video.jpg" />
             </div>
-            <div class="panel-body">
-                <div class="row">
-                    <form name="sign_in" action="" method="post">
-                        <div class="col-sm-8 col-sm-offset-2 col-xs-12">
-                            <div class="text-danger text-center"><h3><?php echo $warning; ?></h3></div>
-                            <ul id="description">
-                                <li>RESTORE your health to a youthful state</li>
-                                <li>REBUILD your immune system</li>
-                                <li>RENEW your mind by riding yourself of harmful toxins</li>
-                            </ul>
-                            <div class="form-group">
-                                <input type="text" class="form-control input-lg" name="firstname" placeholder="Enter Your First Name" value="<?php echo $firstname; ?>" />
+        </div>
+        <div class="col-sm-6 col-xs-12">
+            <div class="panel panel-info" id="main-panel">
+                <div class="panel-heading text-center">
+                    <h3>DR. COLBERT'S 21 DAY DETOX</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <form name="sign_in" action="" method="post">
+                            <div class="col-sm-8 col-sm-offset-2 col-xs-12">
+                                <div class="text-danger text-center"><h3><?php echo $warning; ?></h3></div>
+                                <ul id="description">
+                                    <li>RESTORE your health to a youthful state</li>
+                                    <li>REBUILD your immune system</li>
+                                    <li>RENEW your mind by riding yourself of harmful toxins</li>
+                                </ul>
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" name="firstname" placeholder="Enter Your First Name" value="<?php echo $firstname; ?>" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control input-lg" name="email" placeholder="Enter Your E-mail"  value="<?php echo $email; ?>" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" name="phone" placeholder="Enter Your Phone #" value="<?php echo $phone; ?>" />
+                                </div>
+                                <div class="form-group text-center">
+                                    <input type="submit" class="btn btn-lg btn-primary" name="signin" value="JOIN THE 21 DAY DETOX" />
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control input-lg" name="email" placeholder="Enter Your E-mail"  value="<?php echo $email; ?>" />
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control input-lg" name="phone" placeholder="Enter Your Phone #" value="<?php echo $phone; ?>" />
-                            </div>
-                            <div class="form-group text-center">
-                                <input type="submit" class="btn btn-lg btn-primary" name="signin" value="JOIN THE 21 DAY DETOX" />
-                            </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
