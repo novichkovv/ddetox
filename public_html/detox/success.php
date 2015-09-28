@@ -26,8 +26,8 @@ session_start();
                         <br><br>
                         <h3 style="font-size: 23px; color: #245269">Your Detox will Officially Begin in 4 Days!</h3>
 <!--                        You Can view your next steps here<br><br>-->
-                        <a class="btn btn-default" href="">I Want to Order My 21 Day Detox Package</a>
-                        <a class="btn btn-default" href="http://divinehealthdetox.com/detox/home.php?day=0&uid=<?php echo $_SESSION['jigowatt']['user_id']; ?>&hash=<?php echo md5($_SESSION['jigowatt']['email']); ?>">I Want to Access My Detox Shopping List</a>
+                        <a class="btn btn-primary" href="http://shop.drcolbert.com/index.php/21-day-detox-package.html">I Want to Order My 21 Day Detox Package</a><br><br>
+                        <a class="btn btn-success" href="http://divinehealthdetox.com/detox/home.php?day=0&uid=<?php echo $_SESSION['jigowatt']['user_id']; ?>&hash=<?php echo md5($_SESSION['jigowatt']['email']); ?>">I Want to Access My Detox Shopping List</a>
                     </div>
                     </div>
                 </div>
