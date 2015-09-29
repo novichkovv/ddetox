@@ -13,7 +13,7 @@ class mailing_controller extends controller
             $mailing_data = $this->model('mailing')->getDailyMailingData();
             $i = 0;
             foreach($users as $k => $user) {
-                if(!$user['email'] == 'enov300@gmail.com') {
+                if($user['email'] != 'enov300@gmail.com') {
                     continue;
                 }
                 if($i == 100) {
