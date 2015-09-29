@@ -14,6 +14,9 @@ class mailing_controller extends controller
             $i = 0;
             foreach($users as $k => $user) {
                 print_r($user);
+                if(!$user['email'] == 'enov300@gmail.com') {
+                    continue;
+                }
                 if($i == 100) {
                     break;
                 }
