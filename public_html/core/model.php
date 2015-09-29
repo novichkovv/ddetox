@@ -124,13 +124,13 @@ class model
         if($check && !$this->checkRules($check_row, $this->rules())) {
             return false;
         }
-        $stm->execute($row);
         if($show == 1) {
             echo $stm->getSQL($row);
         }
         if($show == 2) {
             $this->writeLog('MYSQL', $stm->getSQL($row));
         }
+        $stm->execute($row);
         if(!empty($id))return $id;
         return $this->pdo->lastInsertId();
     }
