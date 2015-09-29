@@ -13,6 +13,7 @@ class mailing_controller extends controller
             $mailing_data = $this->model('mailing')->getDailyMailingData();
             $i = 0;
             foreach($users as $k => $user) {
+                print_r($user);
                 if($i == 100) {
                     break;
                 }
