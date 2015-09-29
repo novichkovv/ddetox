@@ -21,8 +21,9 @@ class mailing_controller extends controller
                 if($day == 0) {
                     continue;
                 }
-                print_r($user);
                 if($user['sent'] >= $day)continue;
+                print_r($user);
+
                 $i ++;
                 $data = $mailing_data[$day];
                 if($data['subject']) {
