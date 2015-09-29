@@ -13,16 +13,17 @@ class mailing_controller extends controller
             $mailing_data = $this->model('mailing')->getDailyMailingData();
             $i = 0;
             foreach($users as $k => $user) {
-                if($i == 100) {
-                    break;
-                }
-                $date = date('Y-m-d 05:00:00', strtotime($user['sdate']));
-                $day = date_diff(new DateTime(), new DateTime($date))->days;
                 if($user['id'] == 13069) {
                     echo $day . "\n";
                     echo $date . "\n";
                     print_r($user);
                 }
+                if($i == 100) {
+                    break;
+                }
+                $date = date('Y-m-d 05:00:00', strtotime($user['sdate']));
+                $day = date_diff(new DateTime(), new DateTime($date))->days;
+
                 if($day == 0) {
                     continue;
                 }
