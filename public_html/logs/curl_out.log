@@ -1,0 +1,36 @@
+* Hostname was found in DNS cache
+*   Trying 149.202.108.92...
+* Connected to froginnov.com (149.202.108.92) port 443 (#0)
+* successfully set certificate verify locations:
+*   CAfile: c:/openserver/modules/php/PHP-5.5/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+* 	 subject: OU=Domain Control Validated; OU=PositiveSSL; CN=froginnov.com
+* 	 start date: 2015-06-13 00:00:00 GMT
+* 	 expire date: 2016-06-12 23:59:59 GMT
+* 	 subjectAltName: froginnov.com matched
+* 	 issuer: C=GB; ST=Greater Manchester; L=Salford; O=COMODO CA Limited; CN=COMODO RSA Domain Validation Secure Server CA
+* 	 SSL certificate verify ok.
+> PUT /api.php/files/upload/?path=Commandes/24702/1.png HTTP/1.1
+Host: froginnov.com
+Accept: */*
+Authorization: Bearer SzHTTAReEkY0NbmdcH63JzlZ7dBCUzR5VANg7UN3
+Content-Length: 53755
+Expect: 100-continue
+
+< HTTP/1.1 100 Continue
+* We are completely uploaded and fine
+< HTTP/1.1 200 OK
+< Date: Tue, 07 Jul 2015 13:15:55 GMT
+< Server: Apache
+< X-Powered-By: FileRun
+< X-content-type-options: nosniff
+< X-frame-options: SAMEORIGIN
+< Cache-control: private, max-age=0, must-revalidate, no-transform
+< Connection: close
+< Transfer-Encoding: chunked
+< Content-Type: application/json
+< 
+* Closing connection 0
+

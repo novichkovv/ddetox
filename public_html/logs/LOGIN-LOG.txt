@@ -1,0 +1,11 @@
+2015-05-14 09:57:09: $_REQUEST : Array
+(
+    [ajax] => true
+    [action] => login
+    [user_name] => admin
+    [user_passw] => 1
+    [remember] => 1
+)
+
+2015-05-14 09:57:09: $loginFoundUser : 1
+2015-05-14 09:57:09: $FI_redirectLoginSuccess : /
