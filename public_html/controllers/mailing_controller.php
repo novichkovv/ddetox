@@ -22,11 +22,11 @@ class mailing_controller extends controller
                     continue;
                 }
                 if($user['sent'] >= $day)continue;
-                print_r($user);
 
                 $i ++;
                 $data = $mailing_data[$day];
                 if($data['subject']) {
+                    print_r($user);
                     $this->sendEmail($day, $user, $data);
                 }
             }
