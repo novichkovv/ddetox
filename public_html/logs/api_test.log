@@ -1,0 +1,465 @@
+2015-07-10 14:08:23 - /ROOT/HOME/Clients/lohaet/Modèles/qqueries.txt
+2015-07-10 14:08:23 - /ROOT/HOME/Clients/lohaet/Modèles/queries.txt
+2015-07-10 14:08:45 - /ROOT/HOME/Clients/lohaet/Modèles/queries.txt
+2015-07-10 14:08:45 - /ROOT/HOME/Clients/lohaet/Modèles/squeries.txt
+2015-07-10 14:10:07 - /ROOT/HOME/Clients/lohaet/Modèles/squeries.txt
+2015-07-10 14:10:07 - /ROOT/HOME/Clients/lohaet/Modèles/queries.txt
+2015-07-10 14:12:31 - /ROOT/HOME/Clients/lohaet/Modèles/queries.txt
+2015-07-10 14:12:31 - /ROOT/HOME/Clients/lohaet/Modèles/qqueries.txt
+2015-07-10 14:14:31 - /ROOT/HOME/Clients/lohaet/Modèles/qqueries.txt
+2015-07-10 14:14:31 - /ROOT/HOME/Clients/lohaet/Modèles/queries.txt
+2015-07-10 14:14:32 - C:\OpenServer\domains\test\agstrad.loc\new\tmp\filerun_operations\1436526872qqueries.txt
+2015-07-10 14:14:46 - /ROOT/HOME/Clients/lohaet/Modèles/queries.txt
+2015-07-10 14:14:46 - /ROOT/HOME/Clients/lohaet/Modèles/zqueries.txt
+2015-07-10 14:16:09 - /ROOT/HOME/Clients/lohaet/Modèles/zqueries.txt
+2015-07-10 14:16:09 - /ROOT/HOME/Clients/lohaet/Modèles/queries.txt
+2015-07-10 14:16:10 - {"success":false,"error":"Path not found!","details":"\/ROOT\/HOME\/Clients\/lohaet\/Mod\u00e8les\/zqueries.txt"}
+2015-07-10 14:16:19 - /ROOT/HOME/Clients/lohaet/Modèles/queries.txt
+2015-07-10 14:16:19 - /ROOT/HOME/Clients/lohaet/Modèles/rqueries.txt
+2015-07-10 14:19:09 - /ROOT/HOME/Clients/lohaet/Modèles/rqueries.txt
+2015-07-10 14:19:09 - /ROOT/HOME/Clients/lohaet/Modèles/queries.txt
+2015-07-10 14:19:10 - {"success":false,"error":"Path not found!","details":"\/ROOT\/HOME\/Clients\/lohaet\/Mod\u00e8les\/rqueries.txt"}
+2015-07-10 14:19:36 - /ROOT/HOME/Clients/lohaet/Modèles/queries.txt
+2015-07-10 14:19:36 - /ROOT/HOME/Clients/lohaet/Modèles/iqueries.txt
+2015-07-10 14:20:44 - /ROOT/HOME/Clients/lohaet/Modèles/iqueries.txt
+2015-07-10 14:20:44 - /ROOT/HOME/Clients/lohaet/Modèles/queries.txt
+2015-07-10 14:20:44 - {"success":false,"error":"Path not found!","details":"\/ROOT\/HOME\/Clients\/lohaet\/Mod\u00e8les\/iqueries.txt"}
+2015-07-10 14:20:52 - /ROOT/HOME/Clients/lohaet/Modèles/queries.txt
+2015-07-10 14:20:52 - /ROOT/HOME/Clients/lohaet/Modèles/uqueries.txt
+2015-07-10 14:20:53 - 
+2015-07-10 14:22:40 - /ROOT/HOME/Clients/lohaet/Modèles/uqueries.txt
+2015-07-10 14:22:40 - /ROOT/HOME/Clients/lohaet/Modèles/queries.txt
+2015-07-10 14:22:41 - {"success":false,"error":"Path not found!","details":"\/ROOT\/HOME\/Clients\/lohaet\/Mod\u00e8les\/uqueries.txt"}
+2015-07-10 14:22:49 - /ROOT/HOME/Clients/lohaet/Modèles/queries.txt
+2015-07-10 14:22:49 - /ROOT/HOME/Clients/lohaet/Modèles/mqueries.txt
+2015-07-10 14:22:50 - 
+2015-07-10 14:23:42 - /ROOT/HOME/Clients/lohaet/Modèles/mqueries.txt
+2015-07-10 14:23:42 - /ROOT/HOME/Clients/lohaet/Modèles/mqueries.txt
+2015-07-10 14:23:42 - 
+2015-07-10 14:24:25 - /ROOT/HOME/Clients/lohaet/Modèles/queries.txt
+2015-07-10 14:24:25 - /ROOT/HOME/Clients/lohaet/Modèles/aqueries.txt
+2015-07-10 14:24:26 - ﻿This query doesn't work:
+
+
+* Hostname was found in DNS cache
+*   Trying 149.202.108.92...
+* Connected to froginnov.com (149.202.108.92) port 443 (#0)
+* successfully set certificate verify locations:
+*   CAfile: c:/openserver/modules/php/PHP-5.5/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+* 	 subject: OU=Domain Control Validated; OU=PositiveSSL; CN=froginnov.com
+* 	 start date: 2015-06-13 00:00:00 GMT
+* 	 expire date: 2016-06-12 23:59:59 GMT
+* 	 subjectAltName: froginnov.com matched
+* 	 issuer: C=GB; ST=Greater Manchester; L=Salford; O=COMODO CA Limited; CN=COMODO RSA Domain Validation Secure Server CA
+* 	 SSL certificate verify ok.
+> PUT /api.php/files/upload/?path=Commandes/24702/Client/1.png HTTP/1.1
+Host: froginnov.com
+Accept: */*
+Authorization: Bearer kqOeokCjRCYTlDsJw5yARV0YCUsiHh150vXx060X
+Content-Length: 53755
+Expect: 100-continue
+
+< HTTP/1.1 100 Continue
+* We are completely uploaded and fine
+< HTTP/1.1 200 OK
+< Date: Tue, 07 Jul 2015 13:11:48 GMT
+< Server: Apache
+< X-Powered-By: FileRun
+< X-content-type-options: nosniff
+< X-frame-options: SAMEORIGIN
+< Cache-control: private, max-age=0, must-revalidate, no-transform
+< Connection: close
+< Transfer-Encoding: chunked
+< Content-Type: application/json
+< 
+* Closing connection 0
+
+
+
+Responce:
+
+2015-07-07 16:11:50 - Array
+(
+    [success] => 
+    [error] => Vous n'êtes pas autorisé à envoyer des fichiers dans ce dossier partagé.
+)
+
+And this works:
+
+* Hostname was found in DNS cache
+*   Trying 149.202.108.92...
+* Connected to froginnov.com (149.202.108.92) port 443 (#0)
+* successfully set certificate verify locations:
+*   CAfile: c:/openserver/modules/php/PHP-5.5/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+* 	 subject: OU=Domain Control Validated; OU=PositiveSSL; CN=froginnov.com
+* 	 start date: 2015-06-13 00:00:00 GMT
+* 	 expire date: 2016-06-12 23:59:59 GMT
+* 	 subjectAltName: froginnov.com matched
+* 	 issuer: C=GB; ST=Greater Manchester; L=Salford; O=COMODO CA Limited; CN=COMODO RSA Domain Validation Secure Server CA
+* 	 SSL certificate verify ok.
+> PUT /api.php/files/upload/?path=Commandes/24702/1.png HTTP/1.1
+Host: froginnov.com
+Accept: */*
+Authorization: Bearer SzHTTAReEkY0NbmdcH63JzlZ7dBCUzR5VANg7UN3
+Content-Length: 53755
+Expect: 100-continue
+
+< HTTP/1.1 100 Continue
+* We are completely uploaded and fine
+< HTTP/1.1 200 OK
+< Date: Tue, 07 Jul 2015 13:15:55 GMT
+< Server: Apache
+< X-Powered-By: FileRun
+< X-content-type-options: nosniff
+< X-frame-options: SAMEORIGIN
+< Cache-control: private, max-age=0, must-revalidate, no-transform
+< Connection: close
+< Transfer-Encoding: chunked
+< Content-Type: application/json
+< 
+* Closing connection 0
+
+
+Response:
+
+2015-07-07 16:15:57 - Array
+(
+    [success] => 1
+    [error] => 
+    [data] => Array
+        (
+        )
+
+)
+
+
+
+The only difference is in destination route: "Commandes/24702/Client/1.png" in 1st case and "Commandes/24702/1.png" in second.
+All actions are proceeded with admin permissions using superadmin account.
+2015-07-10 14:25:09 - /ROOT/HOME/Clients/lohaet/Modèles/aqueries.txt
+2015-07-10 14:25:09 - /ROOT/HOME/Clients/lohaet/Modèles/qqueries.txt
+2015-07-10 14:25:10 - ﻿This query doesn't work:
+
+
+* Hostname was found in DNS cache
+*   Trying 149.202.108.92...
+* Connected to froginnov.com (149.202.108.92) port 443 (#0)
+* successfully set certificate verify locations:
+*   CAfile: c:/openserver/modules/php/PHP-5.5/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+* 	 subject: OU=Domain Control Validated; OU=PositiveSSL; CN=froginnov.com
+* 	 start date: 2015-06-13 00:00:00 GMT
+* 	 expire date: 2016-06-12 23:59:59 GMT
+* 	 subjectAltName: froginnov.com matched
+* 	 issuer: C=GB; ST=Greater Manchester; L=Salford; O=COMODO CA Limited; CN=COMODO RSA Domain Validation Secure Server CA
+* 	 SSL certificate verify ok.
+> PUT /api.php/files/upload/?path=Commandes/24702/Client/1.png HTTP/1.1
+Host: froginnov.com
+Accept: */*
+Authorization: Bearer kqOeokCjRCYTlDsJw5yARV0YCUsiHh150vXx060X
+Content-Length: 53755
+Expect: 100-continue
+
+< HTTP/1.1 100 Continue
+* We are completely uploaded and fine
+< HTTP/1.1 200 OK
+< Date: Tue, 07 Jul 2015 13:11:48 GMT
+< Server: Apache
+< X-Powered-By: FileRun
+< X-content-type-options: nosniff
+< X-frame-options: SAMEORIGIN
+< Cache-control: private, max-age=0, must-revalidate, no-transform
+< Connection: close
+< Transfer-Encoding: chunked
+< Content-Type: application/json
+< 
+* Closing connection 0
+
+
+
+Responce:
+
+2015-07-07 16:11:50 - Array
+(
+    [success] => 
+    [error] => Vous n'êtes pas autorisé à envoyer des fichiers dans ce dossier partagé.
+)
+
+And this works:
+
+* Hostname was found in DNS cache
+*   Trying 149.202.108.92...
+* Connected to froginnov.com (149.202.108.92) port 443 (#0)
+* successfully set certificate verify locations:
+*   CAfile: c:/openserver/modules/php/PHP-5.5/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+* 	 subject: OU=Domain Control Validated; OU=PositiveSSL; CN=froginnov.com
+* 	 start date: 2015-06-13 00:00:00 GMT
+* 	 expire date: 2016-06-12 23:59:59 GMT
+* 	 subjectAltName: froginnov.com matched
+* 	 issuer: C=GB; ST=Greater Manchester; L=Salford; O=COMODO CA Limited; CN=COMODO RSA Domain Validation Secure Server CA
+* 	 SSL certificate verify ok.
+> PUT /api.php/files/upload/?path=Commandes/24702/1.png HTTP/1.1
+Host: froginnov.com
+Accept: */*
+Authorization: Bearer SzHTTAReEkY0NbmdcH63JzlZ7dBCUzR5VANg7UN3
+Content-Length: 53755
+Expect: 100-continue
+
+< HTTP/1.1 100 Continue
+* We are completely uploaded and fine
+< HTTP/1.1 200 OK
+< Date: Tue, 07 Jul 2015 13:15:55 GMT
+< Server: Apache
+< X-Powered-By: FileRun
+< X-content-type-options: nosniff
+< X-frame-options: SAMEORIGIN
+< Cache-control: private, max-age=0, must-revalidate, no-transform
+< Connection: close
+< Transfer-Encoding: chunked
+< Content-Type: application/json
+< 
+* Closing connection 0
+
+
+Response:
+
+2015-07-07 16:15:57 - Array
+(
+    [success] => 1
+    [error] => 
+    [data] => Array
+        (
+        )
+
+)
+
+
+
+The only difference is in destination route: "Commandes/24702/Client/1.png" in 1st case and "Commandes/24702/1.png" in second.
+All actions are proceeded with admin permissions using superadmin account.
+2015-07-10 14:25:33 - /ROOT/HOME/Clients/lohaet/Modèles/qqueries.txt
+2015-07-10 14:25:33 - /ROOT/HOME/Clients/lohaet/Factures/qqueries.txt
+2015-07-10 14:25:34 - ﻿This query doesn't work:
+
+
+* Hostname was found in DNS cache
+*   Trying 149.202.108.92...
+* Connected to froginnov.com (149.202.108.92) port 443 (#0)
+* successfully set certificate verify locations:
+*   CAfile: c:/openserver/modules/php/PHP-5.5/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+* 	 subject: OU=Domain Control Validated; OU=PositiveSSL; CN=froginnov.com
+* 	 start date: 2015-06-13 00:00:00 GMT
+* 	 expire date: 2016-06-12 23:59:59 GMT
+* 	 subjectAltName: froginnov.com matched
+* 	 issuer: C=GB; ST=Greater Manchester; L=Salford; O=COMODO CA Limited; CN=COMODO RSA Domain Validation Secure Server CA
+* 	 SSL certificate verify ok.
+> PUT /api.php/files/upload/?path=Commandes/24702/Client/1.png HTTP/1.1
+Host: froginnov.com
+Accept: */*
+Authorization: Bearer kqOeokCjRCYTlDsJw5yARV0YCUsiHh150vXx060X
+Content-Length: 53755
+Expect: 100-continue
+
+< HTTP/1.1 100 Continue
+* We are completely uploaded and fine
+< HTTP/1.1 200 OK
+< Date: Tue, 07 Jul 2015 13:11:48 GMT
+< Server: Apache
+< X-Powered-By: FileRun
+< X-content-type-options: nosniff
+< X-frame-options: SAMEORIGIN
+< Cache-control: private, max-age=0, must-revalidate, no-transform
+< Connection: close
+< Transfer-Encoding: chunked
+< Content-Type: application/json
+< 
+* Closing connection 0
+
+
+
+Responce:
+
+2015-07-07 16:11:50 - Array
+(
+    [success] => 
+    [error] => Vous n'êtes pas autorisé à envoyer des fichiers dans ce dossier partagé.
+)
+
+And this works:
+
+* Hostname was found in DNS cache
+*   Trying 149.202.108.92...
+* Connected to froginnov.com (149.202.108.92) port 443 (#0)
+* successfully set certificate verify locations:
+*   CAfile: c:/openserver/modules/php/PHP-5.5/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+* 	 subject: OU=Domain Control Validated; OU=PositiveSSL; CN=froginnov.com
+* 	 start date: 2015-06-13 00:00:00 GMT
+* 	 expire date: 2016-06-12 23:59:59 GMT
+* 	 subjectAltName: froginnov.com matched
+* 	 issuer: C=GB; ST=Greater Manchester; L=Salford; O=COMODO CA Limited; CN=COMODO RSA Domain Validation Secure Server CA
+* 	 SSL certificate verify ok.
+> PUT /api.php/files/upload/?path=Commandes/24702/1.png HTTP/1.1
+Host: froginnov.com
+Accept: */*
+Authorization: Bearer SzHTTAReEkY0NbmdcH63JzlZ7dBCUzR5VANg7UN3
+Content-Length: 53755
+Expect: 100-continue
+
+< HTTP/1.1 100 Continue
+* We are completely uploaded and fine
+< HTTP/1.1 200 OK
+< Date: Tue, 07 Jul 2015 13:15:55 GMT
+< Server: Apache
+< X-Powered-By: FileRun
+< X-content-type-options: nosniff
+< X-frame-options: SAMEORIGIN
+< Cache-control: private, max-age=0, must-revalidate, no-transform
+< Connection: close
+< Transfer-Encoding: chunked
+< Content-Type: application/json
+< 
+* Closing connection 0
+
+
+Response:
+
+2015-07-07 16:15:57 - Array
+(
+    [success] => 1
+    [error] => 
+    [data] => Array
+        (
+        )
+
+)
+
+
+
+The only difference is in destination route: "Commandes/24702/Client/1.png" in 1st case and "Commandes/24702/1.png" in second.
+All actions are proceeded with admin permissions using superadmin account.
+2015-07-10 14:26:30 - /ROOT/HOME/Clients/lohaet/Factures/qqueries.txt
+2015-07-10 14:26:30 - /ROOT/HOME/Clients/lohaet/Juridique/queries.txt
+2015-07-10 14:26:31 - ﻿This query doesn't work:
+
+
+* Hostname was found in DNS cache
+*   Trying 149.202.108.92...
+* Connected to froginnov.com (149.202.108.92) port 443 (#0)
+* successfully set certificate verify locations:
+*   CAfile: c:/openserver/modules/php/PHP-5.5/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+* 	 subject: OU=Domain Control Validated; OU=PositiveSSL; CN=froginnov.com
+* 	 start date: 2015-06-13 00:00:00 GMT
+* 	 expire date: 2016-06-12 23:59:59 GMT
+* 	 subjectAltName: froginnov.com matched
+* 	 issuer: C=GB; ST=Greater Manchester; L=Salford; O=COMODO CA Limited; CN=COMODO RSA Domain Validation Secure Server CA
+* 	 SSL certificate verify ok.
+> PUT /api.php/files/upload/?path=Commandes/24702/Client/1.png HTTP/1.1
+Host: froginnov.com
+Accept: */*
+Authorization: Bearer kqOeokCjRCYTlDsJw5yARV0YCUsiHh150vXx060X
+Content-Length: 53755
+Expect: 100-continue
+
+< HTTP/1.1 100 Continue
+* We are completely uploaded and fine
+< HTTP/1.1 200 OK
+< Date: Tue, 07 Jul 2015 13:11:48 GMT
+< Server: Apache
+< X-Powered-By: FileRun
+< X-content-type-options: nosniff
+< X-frame-options: SAMEORIGIN
+< Cache-control: private, max-age=0, must-revalidate, no-transform
+< Connection: close
+< Transfer-Encoding: chunked
+< Content-Type: application/json
+< 
+* Closing connection 0
+
+
+
+Responce:
+
+2015-07-07 16:11:50 - Array
+(
+    [success] => 
+    [error] => Vous n'êtes pas autorisé à envoyer des fichiers dans ce dossier partagé.
+)
+
+And this works:
+
+* Hostname was found in DNS cache
+*   Trying 149.202.108.92...
+* Connected to froginnov.com (149.202.108.92) port 443 (#0)
+* successfully set certificate verify locations:
+*   CAfile: c:/openserver/modules/php/PHP-5.5/cacert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+* 	 subject: OU=Domain Control Validated; OU=PositiveSSL; CN=froginnov.com
+* 	 start date: 2015-06-13 00:00:00 GMT
+* 	 expire date: 2016-06-12 23:59:59 GMT
+* 	 subjectAltName: froginnov.com matched
+* 	 issuer: C=GB; ST=Greater Manchester; L=Salford; O=COMODO CA Limited; CN=COMODO RSA Domain Validation Secure Server CA
+* 	 SSL certificate verify ok.
+> PUT /api.php/files/upload/?path=Commandes/24702/1.png HTTP/1.1
+Host: froginnov.com
+Accept: */*
+Authorization: Bearer SzHTTAReEkY0NbmdcH63JzlZ7dBCUzR5VANg7UN3
+Content-Length: 53755
+Expect: 100-continue
+
+< HTTP/1.1 100 Continue
+* We are completely uploaded and fine
+< HTTP/1.1 200 OK
+< Date: Tue, 07 Jul 2015 13:15:55 GMT
+< Server: Apache
+< X-Powered-By: FileRun
+< X-content-type-options: nosniff
+< X-frame-options: SAMEORIGIN
+< Cache-control: private, max-age=0, must-revalidate, no-transform
+< Connection: close
+< Transfer-Encoding: chunked
+< Content-Type: application/json
+< 
+* Closing connection 0
+
+
+Response:
+
+2015-07-07 16:15:57 - Array
+(
+    [success] => 1
+    [error] => 
+    [data] => Array
+        (
+        )
+
+)
+
+
+
+The only difference is in destination route: "Commandes/24702/Client/1.png" in 1st case and "Commandes/24702/1.png" in second.
+All actions are proceeded with admin permissions using superadmin account.
+2015-07-10 14:27:34 - /ROOT/HOME/Clients/lohaet/Juridique/queries.txt
+2015-07-10 14:27:34 - /ROOT/HOME/Clients/lohaet/Relance/empty_queries.txt
+2015-07-10 14:27:35 - 
