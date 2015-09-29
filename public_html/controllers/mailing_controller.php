@@ -22,7 +22,7 @@ class mailing_controller extends controller
                     continue;
                 }
                 if($user['sent'] >= $day)continue;
-
+                echo $day;
                 $i ++;
                 $data = $mailing_data[$day];
                 if($data['subject']) {
