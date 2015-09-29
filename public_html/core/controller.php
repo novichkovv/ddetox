@@ -182,6 +182,8 @@ abstract class controller extends base
         if($data) {
             $this->render('user', $user);
             $this->render('data', $data);
+            print_r($user);
+            print_r($data);
             $email_text = $this->fetch('mails' . DS . $data['template']);
             $this->tools()->mail($data['subject'], $email_text, $user['email'], $user['name']);
             $user['sent'] = $day;
