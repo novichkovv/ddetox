@@ -11,7 +11,6 @@ class mailing_controller extends controller
     {
         if($users = $this->model('mailing')->getUsers()) {
             $mailing_data = $this->model('mailing')->getDailyMailingData();
-            print_r($mailing_data);
             $i = 0;
             foreach($users as $k => $user) {
                 if($i == 100) {
@@ -19,15 +18,18 @@ class mailing_controller extends controller
                 }
                 $date = date('Y-m-d 05:00:00', strtotime($user['sdate']));
                 $day = date_diff(new DateTime(), new DateTime($date))->days;
+                if($user['id'] == 13069) {
+                    echo $day . "\n";
+                    echo $date . "\n";
+                    print_r($user);
+                }
                 if($day == 0) {
                     continue;
                 }
                 if($user['sent'] >= $day)continue;
-                echo $day . "\n";
                 $i ++;
                 $data = $mailing_data[$day];
                 if($data['subject']) {
-                    print_r($user);
                     $this->sendEmail($day, $user, $data);
                 }
             }
