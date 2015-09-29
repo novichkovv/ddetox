@@ -11,6 +11,7 @@ class mailing_controller extends controller
     {
         if($users = $this->model('mailing')->getUsers()) {
             $mailing_data = $this->model('mailing')->getDailyMailingData();
+            print_r($mailing_data);
             $i = 0;
             foreach($users as $k => $user) {
                 if($i == 100) {
@@ -22,7 +23,7 @@ class mailing_controller extends controller
                     continue;
                 }
                 if($user['sent'] >= $day)continue;
-                echo $day;
+                echo $day . "\n";
                 $i ++;
                 $data = $mailing_data[$day];
                 if($data['subject']) {
