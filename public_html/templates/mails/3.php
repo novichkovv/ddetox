@@ -32,7 +32,7 @@
         </div>
         <div style="clear: both;"><a href="http://shop.drcolbert.com/21-day-detox-package.html"  target="_blank"><img src="<?php echo SITE_DIR; ?>images/detoxpromobanner.jpg" /></a></div>
         <div style="clear: both">
-            <a href="<?php echo SITE_DIR; ?>?day=<?php echo $data['mailing_day'] ; ?>&uid=<?php echo $user['id '] ; ?>">Click here if the email is not displayed correctly</a>
+            <a href="<?php echo SITE_DIR; ?>?day=<?php echo $data['mailing_day'] ; ?>&uid=<?php echo $user['id']; ?>">Click here if the email is not displayed correctly</a>
             <br><br>If you don't want to receive these emails, please click <a href="<?php echo SITE_DIR; ?>index/signout/?mail=<?php echo $user['email']; ?> ">here</a>
         </div>
     </div>
