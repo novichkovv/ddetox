@@ -19,7 +19,7 @@
     <source src="<?php echo SITE_DIR; ?>images/water.mp4" type="video/webm">
 </video>
 <div>
-    <a target="__blank" style="color: #3989A4;  font-size: 30px; text-decoration: underline;" href="http://divinehealthdetox.com/backend/">
+    <a target="__blank" style="color: #3989A4;  font-size: 30px; text-decoration: underline;" href="http://divinehealthdetox.com/">
         <img src="<?php echo SITE_DIR; ?>images/logo.png" id="logo" />
     </a>
 </div>
