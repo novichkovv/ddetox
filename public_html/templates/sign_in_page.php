@@ -50,7 +50,7 @@
         <div class="col-md-8 col-xs-12">
             <div class="video-container">
                 <iframe id="video_frame" src="//www.youtube.com/embed/UAvAEzuuI9E?rel=0&enablejsapi=1" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-                <img id="play_btn" src="<?php echo SITE_DIR; ?>images/video.jpg" />
+                <img class="hidden-sm hidden-xs" id="play_btn" src="<?php echo SITE_DIR; ?>images/video.jpg" />
             </div>
         </div>
         <script>
