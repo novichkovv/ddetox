@@ -9,12 +9,15 @@ class mailing_controller extends controller
 {
     public function index()
     {
+        $count = 0;
         if($users = $this->model('mailing')->getUsers()) {
             $mailing_data = $this->model('mailing')->getDailyMailingData();
             $i = 0;
-            //print_r($users);
             foreach($users as $k => $user) {
-                $date = date('Y-m-d 05:00:00', strtotime($user['sdate']));
+                if(!$user['email']) {
+                    continue;
+                }
+                 $date = date('Y-m-d 05:00:00', strtotime($user['sdate']));
                 $day = date_diff(new DateTime(), new DateTime($date))->days;
                 if($day == 0) {
                     continue;
@@ -26,13 +29,14 @@ class mailing_controller extends controller
                 }
                 if($data['subject']) {
                     $this->sendEmail($day, $user, $data);
+                    $count ++;
                 } else {
                     continue;
                 }
                 $i ++;
-
             }
-
         }
+        $this->writeLog('MAILING', 'success');
+        $this->writeLog('MAILING', $count);
     }
 }
