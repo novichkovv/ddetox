@@ -47,7 +47,7 @@
 </div>
 <div class="container">
     <div class="row" style="margin-top: 80px;">
-        <div class="col-sm-8 col-xs-12">
+        <div class="col-md-8 col-xs-12">
             <div class="video-container">
                 <iframe id="video_frame" src="//www.youtube.com/embed/UAvAEzuuI9E?rel=0&enablejsapi=1" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
                 <img id="play_btn" src="<?php echo SITE_DIR; ?>images/video.jpg" />
@@ -81,7 +81,7 @@
                     }
                 }
         </script>
-        <div class="col-sm-4 col-xs-12">
+        <div class="col-md-4 col-xs-12">
             <div class="panel panel-default" id="main-panel" style="background-color: #8CBF02">
                 <div class="panel-heading text-center" style="background-color: #8CBF02; border: none;">
                     <h3 style="color: #fff; font-family: Impact; font-size: 40px;">SIGN UP NOW</h3>
