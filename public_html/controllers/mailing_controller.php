@@ -13,11 +13,6 @@ class mailing_controller extends controller
             $mailing_data = $this->model('mailing')->getDailyMailingData();
             $i = 0;
             foreach($users as $k => $user) {
-                if($user['id'] == 13069) {
-                    echo $day . "\n";
-                    echo $date . "\n";
-                    print_r($user);
-                }
                 if($i == 100) {
                     break;
                 }
