@@ -86,8 +86,38 @@
             <?php if($data['mailing_day'] > 3)echo '<h1>DAY ' . ($data['mailing_day']  - 3) . '</h1>'; ?>
             <h3><?php echo $data['subject']; ?></h3>
             <div class="video-container">
-                <iframe id="video_frame" src="https://www.youtube.com/embed/<?php echo $data['video'] ?>?list=UUxObFUbx4nYwWVCelOUQtKA" frameborder="0" width="560" height="315" allowfullscreen="allowfullscreen">        </iframe>
-                <img src="<?php echo SITE_DIR; ?>images/video.jpg" />
+                <iframe id="video_frame" src="https://www.youtube.com/embed/<?php echo $data['video'] ?>?rel=0&enablejsapi=1" frameborder="0" width="560" height="315" allowfullscreen="allowfullscreen">        </iframe>
+                <script>
+                    $ = jQuery.noConflict();
+                    function onYouTubePlayerAPIReady() {
+                        player = new YT.Player('video_frame', {
+                            events: {
+                                'onReady': onPlayerReady,
+                                'onStateChange': stateChange
+                            }
+                        });
+                    }
+                    function onPlayerReady(event) {
+                        $("#play_btn").click(function()
+                        {
+                            $(this).fadeOut(100);
+                            player.playVideo();
+                        })
+                    }
+                    function stateChange(event) {
+                        if(event.data == 1) {
+                            UppodCurtain('video_frame',0.9);
+                            $(".navbar-fixed-top").css('z-index', 0);
+                            $("footer").css('z-index', 0);
+                        }
+                        if(event.data == 2) {
+                            CurtainClose('video_frame');
+                            $(".navbar-fixed-top").css('z-index', 1050);
+                            $("footer").css('z-index', 100000);
+                        }
+                    }
+                </script>
+                <img id="play_btn" src="<?php echo SITE_DIR; ?>images/video.jpg" />
             </div>
             <a href="http://www.drcolbert.com/21-day-detox-package.html" target="_blank">
                 <img src="<?php echo SITE_DIR; ?>images/detoxpromobanner.jpg" style="width: 100%;" />
@@ -165,6 +195,7 @@
     <?php endif ?>
 </div>
 <div class="big-devidor"></div>
+<?php if(0): ?>
 <div class="bs-docs-footer" role="contentinfo">
     <div class="container">
         <div class="gallery" id="faq">
@@ -285,6 +316,7 @@
         </div>
     </div>
 </div>
+<?php endif; ?>
 <a href="http://shop.drcolbert.com/21-day-detox-package.html" target="_blank">
     <img style="margin-bottom: -3px; width: 100%;" src="<?php echo SITE_DIR; ?>images/footer_banner.png" />
 </a>

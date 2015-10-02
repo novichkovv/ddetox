@@ -17,6 +17,8 @@
     <script type="text/javascript" src="<?php echo SITE_DIR; ?>js/wow.js"></script>
     <script src="<?php echo SITE_DIR; ?>js/jquery.countdown.js"></script>
     <script src="<?php echo SITE_DIR; ?>js/count-script.js"></script>
+    <script src="//www.youtube.com/player_api"></script>
+    <script type="text/javascript" src="<?php echo SITE_DIR; ?>js/uppod-curtain.js"></script>
     <script type="text/javascript" src="<?php echo SITE_DIR; ?>js/script.js">
     </script>
     <link rel="shortcut icon" href="<?php echo SITE_DIR; ?>images/favicon.ico" />
