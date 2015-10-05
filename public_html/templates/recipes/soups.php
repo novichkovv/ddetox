@@ -48,7 +48,7 @@
             <li>1 teaspoon minced garlic</li>
             <li>1/4 cup rice vinegar</li>
             <li>1 tablespoon low-sodium organic soy sauce</li>
-            <li>1/2 to 1 teaspoon freshly ground black pepper</li>
+<!--            <li>1/2 to 1 teaspoon freshly ground black pepper</li>-->
             <li>4 large egg whites, lightly beaten $</li>
             <li>1/2 cup chopped green onions</li>
             <li>1/4 cup minced fresh cilantro</li>
@@ -57,7 +57,7 @@
         <ol>
             <li>Place mushrooms in a medium bowl; cover with boiling water. Cover and let stand 10 minutes or until tender; drain. Thinly slice mushrooms; set aside.</li>
             <li>
-                Combine broth, 2 cups water, ginger, and garlic in a large saucepan over medium-high heat; bring to a boil. Add mushrooms. Reduce heat, and simmer 5 minutes. Add vinegar, soy sauce, and pepper; bring to a boil. Reduce heat, and simmer 5 minutes.</li><li>
+                Combine broth, 2 cups water, ginger, and garlic in a large saucepan over medium-high heat; bring to a boil. Add mushrooms. Reduce heat, and simmer 5 minutes. Add vinegar, soy sauce; bring to a boil. Reduce heat, and simmer 5 minutes.</li><li>
                 Stir 1/4 cup water into broth mixture; bring to a boil. Reduce heat; simmer 3 minutes or until soup thickens slightly, stirring frequently. Slowly pour egg whites into broth mixture in a steady stream, stirring constantly but gently with a wooden spoon. Remove from heat; stir in onions, cilantro, and sesame oil. </li></ol>
     </div>
     <div class="col-md-6">

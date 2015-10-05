@@ -195,7 +195,7 @@
     <?php endif ?>
 </div>
 <div class="big-devidor"></div>
-<?php if(0): ?>
+<?php if(1): ?>
 <div class="bs-docs-footer" role="contentinfo">
     <div class="container">
         <div class="gallery" id="faq">

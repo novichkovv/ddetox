@@ -50,16 +50,16 @@
             <li>1 cup fresh parsley, roughly chopped</li>
             <li>2-3 tbsp extra virgin olive oil, to taste</li>
             <li>3 tbsp fresh lemon juice</li>
-            <li>1/2 tbsp pure maple syrup (or other sweetener)</li>
-            <li>1/4 tsp fine grain sea salt & lots of pepper, to taste</li>
+<!--            <li>1/2 tbsp pure maple syrup (or other sweetener)</li>-->
+            <li>1/4 tsp fine grain sea salt, to taste</li>
             <li>lemon zest, for garnish </li> </ul>
         <h3>Preparation</h3>
         <ol>
             <li> Rinse quinoa in a fine mesh strainer and place into a medium pot. Add 1.5 cups vegetable broth (or water) and bring to a low boil. Reduce heat to low-medium, cover with tight-fitting lid, and cook for 15-17 minutes, or until fluffy and all the water is absorbed. Fluff with fork, remove from heat, and let sit covered for 5 minutes.</li>
 
-            <li>Meanwhile, grab a very large skillet or wok. Sauté the leek and garlic in the oil for about 5 minutes over medium heat. Season generously with salt and pepper. Add in the asparagus and sauté for another 5-10 minutes or until the asparagus is just tender, but still a bit crisp. Stir in the strawberries (optional), peas, and parsley. Heat for a few minutes and then remove from heat.</li>
+            <li>Meanwhile, grab a very large skillet or wok. Sauté the leek and garlic in the oil for about 5 minutes over medium heat. Season generously with salt. Add in the asparagus and sauté for another 5-10 minutes or until the asparagus is just tender, but still a bit crisp. Stir in the strawberries (optional), peas, and parsley. Heat for a few minutes and then remove from heat.</li>
 
-            <li>Whisk together the dressing ingredients (olive oil, lemon juice, maple syrup, and 1/4 tsp fine grain sea salt) to taste. Pour dressing onto skillet mixture and stir in the cooked quinoa. Season to taste with salt and pepper & enjoy! This would also be lovely with nuts or seeds sprinkled on top.
+            <li>Whisk together the dressing ingredients (olive oil, lemon juice, and 1/4 tsp fine grain sea salt) to taste. Pour dressing onto skillet mixture and stir in the cooked quinoa. Season to taste with salt & enjoy! This would also be lovely with nuts or seeds sprinkled on top.
             </li>
         </ol>
 
@@ -79,8 +79,7 @@
         <ul><li>4 cups (packed) torn kale leaves, stems removed</li>
             <li>1 tbsp hemp, flax, or avocado oil (or use extra virgin olive oil in a pinch)
             <li>2 tbsp fresh lemon juice</li>
-            <li>1 tsp pure maple syrup, or to taste</li>
-            <li>Herbamare (or sea salt) and cayenne pepper, to taste </li>
+            <li>Herbamare (or sea salt), to taste </li>
             <li>1 radish, thinly sliced into rounds</li>
             <li>1/2 large avocado, chopped</li>
             <li>1/2 English cucumber, chopped</li>
@@ -91,7 +90,7 @@
         <h3>Preparation</h3>
         <ol><li>Tear leaves off kale stems and discard stems. You can save the stems for juicing or blending if you wish. Break leaves into bite-sized pieces. Wash and dry thoroughly.</li>
 
-            <li>Place kale in a large bowl and drizzle on the dressing ingredients (oil, lemon, maple syrup). With your hands, “massage” the dressing into the kale until all leaves are coated. Sprinkle on Herbamare (or sea salt).</li>
+            <li>Place kale in a large bowl and drizzle on the dressing ingredients (oil, lemon). With your hands, “massage” the dressing into the kale until all leaves are coated. Sprinkle on Herbamare (or sea salt).</li>
 
             <li>While the salad marinates, chop the vegetables. Mix into kale and serve, topped with hemp seeds if you desire.</li> </ol>
 
@@ -180,9 +179,9 @@
             <li>1/2 cup finely chopped fresh parsley</li>
             <li>1/2 cup raisins</li>
             <li>4-6 tbsp fresh lemon juice, to taste</li>
-            <li>kosher salt, pepper to taste (1/4-1/2 tsp salt and lots of pepper)</li>
+            <li>kosher salt (1/4-1/2 tsp salt)</li>
             <li>kelp granules or Herbamare (optional),</li>
-            <li>Can drizzle on maple syrup </li> </ul>
+<!--            <li>Can drizzle on maple syrup </li> </ul>-->
         <h3>Preparation</h3>
         <ol>
             <li> In a food processor (or chop by hand) process the broccoli (no stems) until fine. Add into large bowl.</li>
@@ -193,7 +192,7 @@
             <li>Stir in the sunflower seeds, currants, raisins, and parsley. Add lemon juice and seasonings to taste.</li>
 
 
-            <li>Drizzle with maple syrup to taste.</li>
+<!--            <li>Drizzle with maple syrup to taste.</li>-->
 
 
             <li>Note: I saved the stems for a stir-fry later on in the week.

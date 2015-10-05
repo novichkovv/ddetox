@@ -35,7 +35,9 @@ class index_controller extends controller
         }
 
         if(!$this->check_auth) {
-            $this->view_only('sign_in_page');
+            //$this->view_only('sign_in_page');
+            $this->render('skip_nav', true);
+            $this->view('under_construction_page');
         } else {
             $this->render('skip_nav', true);
             $this->render('user', registry::get('user'));
