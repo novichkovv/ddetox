@@ -131,16 +131,16 @@
                 <span style="font-weight: 400; color: #0782C1;">Each 21 Day Detox Package Includes:</span>
                 <ul style="color: #175373; list-style:none; text-align:left; padding: 10px;">
                     <li>
-                        <img src="<?php echo SITE_DIR; ?>images/checkmark.png">Maxone
+                        <img src="<?php echo SITE_DIR; ?>images/checkmark.png"> Fermented Green Supremefood
                     </li>
                     <li>
-                        <img src="<?php echo SITE_DIR; ?>images/checkmark.png">Fiber Formula
+                        <img src="<?php echo SITE_DIR; ?>images/checkmark.png"> Fiber Formula
                     </li>
                     <li>
-                        <img src="<?php echo SITE_DIR; ?>images/checkmark.png">Plant Protein
+                        <img src="<?php echo SITE_DIR; ?>images/checkmark.png"> Enhanced Multivitamin
                     </li>
                     <li>
-                        <img src="<?php echo SITE_DIR; ?>images/checkmark.png">Green Supremefood
+                        <img src="<?php echo SITE_DIR; ?>images/checkmark.png"> Detox Booklet
                     </li>
                 </ul>
             </div>
