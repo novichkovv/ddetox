@@ -77,7 +77,6 @@ class tools_class extends base
         $log = 'email: ' . $to . "\n";
         $log .= 'subject: ' . $subject . "\n";
         $log .= 'text: ' . "\n" . $text . "\n";
-        self::writeLog('MAIL', $log);
         return $mail->Send();
     }
 

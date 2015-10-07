@@ -98,13 +98,13 @@
 <!--                                    <li>RENEW your mind by riding yourself of harmful toxins</li>-->
 <!--                                </ul>-->
                                 <div class="form-group">
-                                    <input type="text" class="form-control input-lg" name="user[login]" placeholder="Enter Your First Name" value="<?php echo $firstname; ?>" />
+                                    <input type="text" class="form-control input-lg" name="user[login]" placeholder="Enter Your First Name" value="<?php echo $user['login']; ?>" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control input-lg" name="user[email]" placeholder="Enter Your E-mail"  value="<?php echo $email; ?>" />
+                                    <input type="email" class="form-control input-lg" name="user[email]" placeholder="Enter Your E-mail"  value="<?php echo $user['email']; ?>" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control input-lg" name="user[phone]" placeholder="Enter Your Phone #" value="<?php echo $phone; ?>" />
+                                    <input type="text" class="form-control input-lg" name="user[phone]" placeholder="Enter Your Phone #" value="<?php echo $user['phone']; ?>" />
                                 </div>
 
                             </div>
