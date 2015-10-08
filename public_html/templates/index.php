@@ -210,13 +210,6 @@
     <div class="gallery">
         <div class="col-xs-12">
             <div class="row" id="faq_content" style="padding-bottom:20px; padding-top: 20px;">
-                <div class="col-sm-offset-0 col-xs-12 col-sm-4" style="color:#82898c; line-height:18px;">
-                    <span style="color:#175373; font-size:20px;">
-                        How Much MaxOne Should I take?
-                    </span>
-                    <br><br>
-                    Take one capsule in the morning after breakfast and one capsule after dinner before bed. It is critical.
-                </div>
                 <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
                     <span style="color:#175373; font-size:20px;">
                         How much Green Supremefood should I take?
@@ -226,10 +219,17 @@
                 </div>
                 <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
                     <span style="color:#175373; font-size:20px;">
-                        How much Plant Protein should I take?
+                        When Should I take Enhanced Multivitamin?
                     </span>
                     <br><br>
-                    Take one scoop of Plant Protein first thing in the morning in 6-8oz of water, almond milk or any desired smoothie. You can take 3 scoops of plant protein throughout the day, up to 3 times/daily.
+                    You should take 2-4 capsules of enhanced multivitamin first thing in the morning with your Green Supremefood.
+                </div>
+                <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
+                    <span style="color:#175373; font-size:20px;">
+                        After the challenge begins, can I still sign up?
+                    </span>
+                    <br><br>
+                    No, but we will re-launch a detox program once each season. You can sign up next Winter for the 21 Day Detox program that begins Feb 15th, the day after Valentine's Day.
                 </div>
             </div>
             <div class="row" id="faq_content" style="padding-bottom:20px;">
@@ -292,13 +292,6 @@
                     </span>
                     <br><br>
                     I recommend drinking alkaline water. I have recommended Kagan and LifeIonizer for years. They are two brands I trust.
-                </div>
-                <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
-                    <span style="color:#175373; font-size:20px;">
-                        After the challenge begins, can I still sign up?
-                    </span>
-                    <br><br>
-                    No, but we will re-launch a detox program once each season. You can sign up next Winter for the 21 Day Detox program that begins Feb 15th, the day after Valentine's Day.
                 </div>
             </div>
             <div class="row" style="padding-bottom:30px">
