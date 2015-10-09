@@ -207,103 +207,105 @@
         </div>
     </div>
     <img src="<?php echo SITE_DIR; ?>images/detox_timeline.jpg" width="100%">
-    <div class="gallery">
-        <div class="col-xs-12">
-            <div class="row" id="faq_content" style="padding-bottom:20px; padding-top: 20px;">
-                <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
+    <div class="container">
+        <div class="gallery">
+            <div class="col-xs-12">
+                <div class="row" id="faq_content" style="padding-bottom:20px; padding-top: 20px;">
+                    <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
                     <span style="color:#175373; font-size:20px;">
                         How much Green Supremefood should I take?
                     </span>
-                    <br><br>
-                    Take one scoop of green supreme food in 4-6oz of water or any desired smoothie first thing in the morning.
-                </div>
-                <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
+                        <br><br>
+                        Take one scoop of green supreme food in 4-6oz of water or any desired smoothie first thing in the morning.
+                    </div>
+                    <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
                     <span style="color:#175373; font-size:20px;">
                         When Should I take Enhanced Multivitamin?
                     </span>
-                    <br><br>
-                    You should take 2-4 capsules of enhanced multivitamin first thing in the morning with your Green Supremefood.
-                </div>
-                <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
+                        <br><br>
+                        You should take 2-4 capsules of enhanced multivitamin first thing in the morning with your Green Supremefood.
+                    </div>
+                    <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
                     <span style="color:#175373; font-size:20px;">
                         After the challenge begins, can I still sign up?
                     </span>
-                    <br><br>
-                    No, but we will re-launch a detox program once each season. You can sign up next Winter for the 21 Day Detox program that begins Feb 15th, the day after Valentine's Day.
+                        <br><br>
+                        No, but we will re-launch a detox program once each season. You can sign up next Winter for the 21 Day Detox program that begins Feb 15th, the day after Valentine's Day.
+                    </div>
                 </div>
-            </div>
-            <div class="row" id="faq_content" style="padding-bottom:20px;">
-                <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
+                <div class="row" id="faq_content" style="padding-bottom:20px;">
+                    <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
                     <span style="color:#175373; font-size:20px;">
                         How much Fiber Should I take?
                     </span>
-                    <br><br>
-                    Take one scoop of fiber with green supreme food or separately in 4-6oz of water. Stir and drink quickly as the fiber can coagulate quickly.
-                </div>
-                <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
+                        <br><br>
+                        Take one scoop of fiber with green supreme food or separately in 4-6oz of water. Stir and drink quickly as the fiber can coagulate quickly.
+                    </div>
+                    <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
                     <span style="color:#175373; font-size:20px;">
                         Do I need to take all four products during the 21 Day Detox?
                     </span>
-                    <br><br>
-                    If you are able to it is best to take all four nutritional products during the 21 Day Detox to maximize excretion of toxins. Even though it's best to aid the detox with all 4 products, you can a-la-carte the package or take none at all.
-                </div>
-                <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
+                        <br><br>
+                        If you are able to it is best to take all four nutritional products during the 21 Day Detox to maximize excretion of toxins. Even though it's best to aid the detox with all 4 products, you can a-la-carte the package or take none at all.
+                    </div>
+                    <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
                     <span style="color:#175373; font-size:20px;">
                         What are common symptoms of a detox?
                     </span>
-                    <br><br>
-                    During a detox, you are ridding your body of chemicals, toxins, pesticides and heavy metals that have been building up for years. A common side effect of removing these toxins is dry mouth, brain fog and sweating. The best way to diminish these symptoms is to drink lots of water.
+                        <br><br>
+                        During a detox, you are ridding your body of chemicals, toxins, pesticides and heavy metals that have been building up for years. A common side effect of removing these toxins is dry mouth, brain fog and sweating. The best way to diminish these symptoms is to drink lots of water.
+                    </div>
                 </div>
-            </div>
-            <div class="row" id="faq_content" style="padding-bottom:20px;">
-                <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
+                <div class="row" id="faq_content" style="padding-bottom:20px;">
+                    <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
                     <span style="color:#175373; font-size:20px;">
                         When should I not detox?
                     </span>
-                    <br><br>
-                    Consult your physicians before starting the detox program if you are: pregnant, nursing, or taking any medications.
-                </div>
+                        <br><br>
+                        Consult your physicians before starting the detox program if you are: pregnant, nursing, or taking any medications.
+                    </div>
 
-                <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
-                    <span style="color:#175373; font-size:20px;">How do I know if I need to  detox?  </span>
-                    <br><br>
-                    You may need to detox if you are experiencing any of the following symptoms: fatigue, memory loss, premature aging, skin disorders, arthritis, hormone imbalances, anxiety, emotional disorders, cancer, heart disease.
-                </div>
-                <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
+                    <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
+                        <span style="color:#175373; font-size:20px;">How do I know if I need to  detox?  </span>
+                        <br><br>
+                        You may need to detox if you are experiencing any of the following symptoms: fatigue, memory loss, premature aging, skin disorders, arthritis, hormone imbalances, anxiety, emotional disorders, cancer, heart disease.
+                    </div>
+                    <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
                     <span style="color:#175373; font-size:20px;">
                         What foods should I avoid during this 21 Day Detox?
                     </span>
-                    <br><br>
-                    You need to avoid all meats, peppers, potatoes, tomatoes, grains, corn and dairy. Processed foods and sugars. <span class="span12" style="color:#82898c; line-height:18px;">Alcohol, processed vegetable oils, deep fried foods, microwaved foods, hydrogenated and partially hydrogenated fats and oils which are found in butter, margarine and shortening, soy, fish and poultry.
+                        <br><br>
+                        You need to avoid all meats, peppers, potatoes, tomatoes, grains, corn and dairy. Processed foods and sugars. <span class="span12" style="color:#82898c; line-height:18px;">Alcohol, processed vegetable oils, deep fried foods, microwaved foods, hydrogenated and partially hydrogenated fats and oils which are found in butter, margarine and shortening, soy, fish and poultry.
                     </span>
+                    </div>
                 </div>
-            </div>
-            <div class="row" id="faq_content" style="padding-bottom:20px;">
-                <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
+                <div class="row" id="faq_content" style="padding-bottom:20px;">
+                    <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
                     <span style="color:#175373; font-size:20px;">
                         How much water should I drink?
                     </span>
-                    <br>
-                    Divide your weight by 2.2 (For example. If you weigh 140lbs (143 ÷ 2.2 = 65), so you should drink 65 oz water/ daily)
-                </div>
-                <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
+                        <br>
+                        Divide your weight by 2.2 (For example. If you weigh 140lbs (143 ÷ 2.2 = 65), so you should drink 65 oz water/ daily)
+                    </div>
+                    <div class="col-sm-offset-0 col-xs-12 col-sm-4"  style="color:#82898c; line-height:18px;">
                     <span style="color:#175373; font-size:20px;">
                         What water do you recommend?
                     </span>
-                    <br><br>
-                    I recommend drinking alkaline water. I have recommended Kagan and LifeIonizer for years. They are two brands I trust.
+                        <br><br>
+                        I recommend drinking alkaline water. I have recommended Kagan and LifeIonizer for years. They are two brands I trust.
+                    </div>
                 </div>
-            </div>
-            <div class="row" style="padding-bottom:30px">
-                <div class="col-md-8 col-md-offset-2 col-xs-12 col-xs-offset-0" style="color:#82898c; line-height:18px; ">
+                <div class="row" style="padding-bottom:30px">
+                    <div class="col-md-12 col-md-offset-0 col-xs-12 col-xs-offset-0" style="color:#82898c; line-height:18px; ">
                     <span style="color:#175373; font-size:20px;">
                         What foods can I eat during the 21 Day Detox?
                     </span>
-                    <br><br>
-                    During the 21 Day Detox you can eat beans, peas, lentils, all fruits, grasses and most vegetables including:
+                        <br><br>
+                        During the 21 Day Detox you can eat beans, peas, lentils, all fruits, grasses and most vegetables including:
 
-                    Artichoke, Arugula, Asparagus, Legumes, Broccoli, Brussels sprouts, Cabbage
-                    ,Calabrese, Carrots, Cauliflower, Celery, Chard, Collard greens, Herbs, Chamomile, Dill, Fennel, Lavender, Lemon Grass, Marjoram, Oregano, Parsley, Rosemary, Sage, Thyme, Kale, Kohlrabi, Lettuce, Mushrooms, Mustard greens, Nettles, Okra, Chives, Garlic, Leek, Onion, Parsley, Beetroot, Celeriac, Daikon, Ginger, Parsnip, Rutabaga, Turnip, Radish, Spinach, Topinambur, Squashes, Acorn squash, Butternut squash, Banana squash, Zucchini, Cucumber, Delicata, Gem squash, Hubbard squash, Marrow, Squash,Patty pans, Pumpkin, Spaghetti squash, Watercress.
+                        Artichoke, Arugula, Asparagus, Legumes, Broccoli, Brussels sprouts, Cabbage
+                        ,Calabrese, Carrots, Cauliflower, Celery, Chard, Collard greens, Herbs, Chamomile, Dill, Fennel, Lavender, Lemon Grass, Marjoram, Oregano, Parsley, Rosemary, Sage, Thyme, Kale, Kohlrabi, Lettuce, Mushrooms, Mustard greens, Nettles, Okra, Chives, Garlic, Leek, Onion, Parsley, Beetroot, Celeriac, Daikon, Ginger, Parsnip, Rutabaga, Turnip, Radish, Spinach, Topinambur, Squashes, Acorn squash, Butternut squash, Banana squash, Zucchini, Cucumber, Delicata, Gem squash, Hubbard squash, Marrow, Squash,Patty pans, Pumpkin, Spaghetti squash, Watercress.
+                    </div>
                 </div>
             </div>
         </div>
