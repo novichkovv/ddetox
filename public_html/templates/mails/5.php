@@ -9,7 +9,7 @@
     <div style="text-align: center; width: 600px;">
         <div class="animate_left" style="width: 600px; text-align: center;"><h2 style="color: cadetblue; margin: 0 auto 20px; position: relative;"><?php echo preg_replace("/Day\s[0-9]{1,2}\s-/", '', $data['subject']); ?></h2></div>
         <a href="<?php echo SITE_DIR; ?>?day=<?php echo $data['mailing_day']; ?>&uid=<?php echo $user['id']; ?>" target="_blank">
-            <img src="<?php echo SITE_DIR; ?>images/video.png" style="width: 460px;" />
+            <img src="<?php echo SITE_DIR; ?>images/video.jpg" style="width: 460px;" />
         </a>
         <br><br>
         <img src="<?php echo SITE_DIR; ?>images/purple-divider.jpg" style="width: 460px;">
