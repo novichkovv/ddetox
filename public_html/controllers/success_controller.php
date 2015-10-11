@@ -9,6 +9,10 @@ class success_controller extends controller
 {
     public function index()
     {
-        $this->view_only('success' . DS . 'index');
+        if(!$_GET['beta']) {
+            $this->view_only('success' . DS . 'index');
+        } else {
+            $this->view_only('success_page');
+        }
     }
 }
