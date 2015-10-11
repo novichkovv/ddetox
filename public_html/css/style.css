@@ -118,12 +118,14 @@ body {
 #slider {
     height: 230px;
     margin-top: -20px;
-    background-image: url('../images/bg.png');
+    background-image: url('../images/header_bg.jpg');
+    background-position: right bottom;
 }
 #slider-xs {
     height: 450px;
     margin-top: 80px;
-    background-image: url('../images/bg.png');
+    background-image: url('../images/header_bg.jpg');
+    background-position: right bottom;
 }
 #slider-xs img {
     margin: 20px auto;
@@ -135,6 +137,9 @@ body {
 }
 #slider-xs a {
     top: 100px;
+}
+#slider a, #slider-xs a {
+    color: #30506e;
 }
 .title-div {
     width: 60px;

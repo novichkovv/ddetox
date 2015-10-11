@@ -11,12 +11,32 @@ class index_controller extends controller
     {
         if(isset($_POST['sign_in_btn'])) {
             $user = $_POST['user'];
+            if($user['email']) {
+                $user['sdate'] = date('Y-m-d H:i:s');
+                $user['id'] = $this->model('users')->insert($user);
+                $this->sendEmail(0, $user);
+                setcookie('auth', 1, time() + 3600 * 24 * 28);
+                setcookie('user_id', $user['id'], time() + 3600 * 24 * 28);
+                header('Location: ' . SITE_DIR . 'success/');
+                exit;
+            } else {
+                $this->render('user', $user);
+                $this->render('warning', 'Please, Enter Email Address');
+            }
+        }
+
+        if($_GET['email']) {
+            $user = [];
+            $user['email'] = $_GET['email'];
+            $user['login'] = '';
+            $user['phone'] = '';
             $user['sdate'] = date('Y-m-d H:i:s');
             $user['id'] = $this->model('users')->insert($user);
             $this->sendEmail(0, $user);
             setcookie('auth', 1, time() + 3600 * 24 * 28);
             setcookie('user_id', $user['id'], time() + 3600 * 24 * 28);
             header('Location: ' . SITE_DIR . 'success/');
+            exit;
         }
 
         if(isset($_POST['log_out_btn'])) {
@@ -35,7 +55,9 @@ class index_controller extends controller
         }
 
         if(!$this->check_auth) {
-            $this->view_only('sign_in_page');
+            $this->render('skip_nav', true);
+            //$this->view_only('sign_in_page');
+            $this->view('under_construction_page');
         } else {
             $this->render('skip_nav', true);
             $this->render('user', registry::get('user'));

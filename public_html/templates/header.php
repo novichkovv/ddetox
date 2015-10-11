@@ -1,17 +1,18 @@
 <header class="navbar navbar-fixed-top docs-nav" id="top" role="banner">
-    <div class="container">
-        <div class="navbar-header">
+<!--    <div class="container">-->
+        <div class="navbar-header pull-left">
             <a href="<?php echo SITE_DIR; ?>"><img src="<?php echo SITE_DIR; ?>images/logo.png" /></a>
         </div>
         <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
             <div class="row">
-                <div class="col-md-8 col-sm-6 col-xs-12 text-right">
-                    <h3 style="color: #666; margin: 10px;">Questions About the Detox?<br>
-                        Call <span style="color: black; font-size: 30px;">407-732-6952<span></h3>
+                <div class="pull-right" style="font-family: Impact; padding: 20px 40px;">
+<!--                    <h3 style="color: #666; margin: 10px;">Questions About the Detox?<br>-->
+<!--                        Call <span style="color: black; font-size: 30px;">407-732-6952<span></h3>-->
+                    CALL US FREE: &nbsp;&nbsp;&nbsp;<span style="color: #4a8bc5; font-size: 30px;">407.732.6952<span>
                 </div>
             </div>
         </nav>
-    </div>
+<!--    </div>-->
 </header>
 <div id="page-container">
     <?php if(!$skip_nav): ?>

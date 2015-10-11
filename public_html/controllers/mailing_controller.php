@@ -9,32 +9,34 @@ class mailing_controller extends controller
 {
     public function index()
     {
+        $count = 0;
         if($users = $this->model('mailing')->getUsers()) {
             $mailing_data = $this->model('mailing')->getDailyMailingData();
             $i = 0;
             foreach($users as $k => $user) {
-                if($user['id'] == 13069) {
-                    echo $day . "\n";
-                    echo $date . "\n";
-                    print_r($user);
+                if(!$user['email']) {
+                    continue;
                 }
-                if($i == 100) {
-                    break;
-                }
-                $date = date('Y-m-d 05:00:00', strtotime($user['sdate']));
+                 $date = date('Y-m-d 05:00:00', strtotime($user['sdate']));
                 $day = date_diff(new DateTime(), new DateTime($date))->days;
-
                 if($day == 0) {
                     continue;
                 }
                 if($user['sent'] >= $day)continue;
-                $i ++;
                 $data = $mailing_data[$day];
+                if($i == 100) {
+                    break;
+                }
                 if($data['subject']) {
                     $this->sendEmail($day, $user, $data);
+                    $count ++;
+                } else {
+                    continue;
                 }
+                $i ++;
             }
-
         }
+        $this->writeLog('MAILING', 'success');
+        $this->writeLog('MAILING', $count);
     }
 }

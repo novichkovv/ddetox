@@ -9,7 +9,7 @@
     <h2 style="color: cadetblue;"><?php echo $data['subject'] ; ?></h2>
 <?php if($data['video']): ?>
 <a href="<?php echo SITE_DIR ; ?>?day=<?php echo $data['mailing_day']; ?>&uid=<?php echo $user['id']; ?>" target="_blank">
-        <img src="<?php echo SITE_DIR ; ?>images/video.png" style="width: 460px;" />
+        <img src="<?php echo SITE_DIR ; ?>images/video.jpg" style="width: 460px;" />
     </a>
 <?php endif; ?>
 <?php if(!$data['video']): ?>

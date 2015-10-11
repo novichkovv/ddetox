@@ -12,7 +12,7 @@
     <div style="text-align: center;">
         <h2 style="color: #245269"><?php echo $data['subject']; ?></h2>
         <a href="<?php echo SITE_DIR; ?>?day=0&uid=<?php echo $user['id']; ?>" target="_blank">
-            <img src="<?php echo SITE_DIR; ?>images/video.png" style="width: 460px;" />
+            <img src="<?php echo SITE_DIR; ?>images/video.jpg" style="width: 460px;" />
         </a>
         <br><br>
         <div style="clear: both">
