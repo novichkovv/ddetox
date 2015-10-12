@@ -5,8 +5,8 @@
     <link rel="stylesheet" type="text/css" href="<?php echo SITE_DIR; ?>css/style.css">
     <script type="text/javascript" src="<?php echo SITE_DIR; ?>js/jquery.js"></script>
     <script type="text/javascript" src="<?php echo SITE_DIR; ?>js/wow.js"></script>
-    <script src="//www.youtube.com/player_api"></script>
-    <!--    <script type="text/javascript" src="--><?php //echo SITE_DIR; ?><!--js/script.js"></script>-->
+<!--    <script src="//www.youtube.com/player_api"></script>-->
+        <script type="text/javascript" src="<?php echo SITE_DIR; ?>js/script.js"></script>
     <script type="text/javascript" src="<?php echo SITE_DIR; ?>js/uppod-curtain.js"></script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -55,31 +55,42 @@
         </div>
         <script>
             $ = jQuery.noConflict();
-            function onYouTubePlayerAPIReady() {
-                player = new YT.Player('video_frame', {
-                    events: {
-                        'onReady': onPlayerReady,
-                        'onStateChange': stateChange
-                    }
-                });
-            }
-            function onPlayerReady(event) {
+            $(".video-container").click(function()
+            {
+                var frame = $("#video_frame");
+                $(".video-container img").fadeOut('slow');
+                $(frame).attr('src',$(frame).attr('src') + '&autoplay=1');
+            });
+            $(document).ready(function()
+            {
                 var height = $("#video_frame").height();
                 $("#main-panel").height(height);
-                $("#play_btn").click(function()
-                {
-                    $(this).fadeOut(100);
-                    player.playVideo();
-                })
-            }
-            function stateChange(event) {
-                if(event.data == 1) {
-                    UppodCurtain('video_frame',0.9);
-                }
-                if(event.data == 2) {
-                    CurtainClose('video_frame');
-                }
-            }
+            });
+//            function onYouTubePlayerAPIReady() {
+//                player = new YT.Player('video_frame', {
+//                    events: {
+//                        'onReady': onPlayerReady,
+//                        'onStateChange': stateChange
+//                    }
+//                });
+//            }
+//            function onPlayerReady(event) {
+//                var height = $("#video_frame").height();
+//                $("#main-panel").height(height);
+//                $("#play_btn").click(function()
+//                {
+//                    $(this).fadeOut(100);
+//                    player.playVideo();
+//                })
+//            }
+//            function stateChange(event) {
+//                if(event.data == 1) {
+//                    UppodCurtain('video_frame',0.9);
+//                }
+//                if(event.data == 2) {
+//                    CurtainClose('video_frame');
+//                }
+//            }
         </script>
         <div class="col-md-4 col-xs-12">
             <div class="panel panel-default" id="main-panel" style="background-color: #8CBF02">
