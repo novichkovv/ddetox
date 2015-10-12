@@ -100,10 +100,10 @@
                 </div>
                 <div class="panel-body text-center">
 <!--                    <h3>Watch this video to learn your next steps</h3>-->
-                    <a href="<?php echo PACKAGE_URL; ?>?next_steps" class="success-btn">
+                    <a href="<?php echo PACKAGE_URL; ?>" class="success-btn">
                         I Want to Order My 21 Day Detox Package
                     </a>
-                    <a href="<?php echo SITE_DIR; ?>" class="success-btn">
+                    <a href="<?php echo SITE_DIR; ?>?next_steps" class="success-btn">
                         I Want to Access My Detox Information
                     </a>
                 </div>

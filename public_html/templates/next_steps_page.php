@@ -89,33 +89,39 @@
                 <iframe id="video_frame" src="https://www.youtube.com/embed/qfM3M2CKX50?rel=0&enablejsapi=1" frameborder="0" width="560" height="315" allowfullscreen="allowfullscreen">        </iframe>
                 <script>
                     $ = jQuery.noConflict();
-                    function onYouTubePlayerAPIReady() {
-                        player = new YT.Player('video_frame', {
-                            events: {
-                                'onReady': onPlayerReady,
-                                'onStateChange': stateChange
-                            }
-                        });
-                    }
-                    function onPlayerReady(event) {
-                        $("#play_btn").click(function()
-                        {
-                            $(this).fadeOut(100);
-                            player.playVideo();
-                        })
-                    }
-                    function stateChange(event) {
-                        if(event.data == 1) {
-                            UppodCurtain('video_frame',0.9);
-                            $(".navbar-fixed-top").css('z-index', 0);
-                            $("footer").css('z-index', 0);
-                        }
-                        if(event.data == 2) {
-                            CurtainClose('video_frame');
-                            $(".navbar-fixed-top").css('z-index', 1050);
-                            $("footer").css('z-index', 100000);
-                        }
-                    }
+                    $(".video-container").click(function()
+                    {
+                        var frame = $("#video_frame");
+                        $(".video-container img").fadeOut('slow');
+                        $(frame).attr('src',$(frame).attr('src') + '&autoplay=1');
+                    });
+//                    function onYouTubePlayerAPIReady() {
+//                        player = new YT.Player('video_frame', {
+//                            events: {
+//                                'onReady': onPlayerReady,
+//                                'onStateChange': stateChange
+//                            }
+//                        });
+//                    }
+//                    function onPlayerReady(event) {
+//                        $("#play_btn").click(function()
+//                        {
+//                            $(this).fadeOut(100);
+//                            player.playVideo();
+//                        })
+//                    }
+//                    function stateChange(event) {
+//                        if(event.data == 1) {
+//                            UppodCurtain('video_frame',0.9);
+//                            $(".navbar-fixed-top").css('z-index', 0);
+//                            $("footer").css('z-index', 0);
+//                        }
+//                        if(event.data == 2) {
+//                            CurtainClose('video_frame');
+//                            $(".navbar-fixed-top").css('z-index', 1050);
+//                            $("footer").css('z-index', 100000);
+//                        }
+//                    }
                 </script>
                 <img id="play_btn" src="<?php echo SITE_DIR; ?>images/video.jpg" />
             </div>
