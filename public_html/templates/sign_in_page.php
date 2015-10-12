@@ -55,31 +55,42 @@
         </div>
         <script>
             $ = jQuery.noConflict();
-                function onYouTubePlayerAPIReady() {
-                    player = new YT.Player('video_frame', {
-                        events: {
-                            'onReady': onPlayerReady,
-                            'onStateChange': stateChange
-                        }
-                    });
-                }
-                function onPlayerReady(event) {
-                    var height = $("#video_frame").height();
-                    $("#main-panel").height(height);
-                    $("#play_btn").click(function()
-                    {
-                        $(this).fadeOut(100);
-                        player.playVideo();
-                    })
-                }
-                function stateChange(event) {
-                    if(event.data == 1) {
-                        UppodCurtain('video_frame',0.9);
-                    }
-                    if(event.data == 2) {
-                        CurtainClose('video_frame');
-                    }
-                }
+            $(".video-container").click(function()
+            {
+                var frame = $("#video_frame");
+                $(".video-container img").fadeOut('slow');
+                $(frame).attr('src',$(frame).attr('src') + '&autoplay=1');
+            });
+            $(document).ready(function()
+            {
+                var height = $("#video_frame").height();
+                $("#main-panel").height(height);
+            });
+//                function onYouTubePlayerAPIReady() {
+//                    player = new YT.Player('video_frame', {
+//                        events: {
+//                            'onReady': onPlayerReady,
+//                            'onStateChange': stateChange
+//                        }
+//                    });
+//                }
+//                function onPlayerReady(event) {
+//                    var height = $("#video_frame").height();
+//                    $("#main-panel").height(height);
+//                    $("#play_btn").click(function()
+//                    {
+//                        $(this).fadeOut(100);
+//                        player.playVideo();
+//                    })
+//                }
+//                function stateChange(event) {
+//                    if(event.data == 1) {
+//                        UppodCurtain('video_frame',0.9);
+//                    }
+//                    if(event.data == 2) {
+//                        CurtainClose('video_frame');
+//                    }
+//                }
         </script>
         <div class="col-md-4 col-xs-12">
             <div class="panel panel-default" id="main-panel" style="background-color: #8CBF02">
