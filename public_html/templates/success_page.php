@@ -17,14 +17,7 @@
     <link rel="shortcut icon" href="<?php echo SITE_DIR; ?>images/favicon.ico" />
 </head>
 <body>
-<!--<iframe src="//www.youtube.com/embed/JMJXvsCLu6s?rel=0&enablejsapi=1" frameborder="0" allowfullscreen id="Youtube"></iframe>-->
-<!--<div id="playYoutube">���������������</div>-->
-<!--<div id="pauseYoutube">�����</div>-->
-
 <!--<script src="//www.youtube.com/player_api"></script>-->
-<script>
-
-</script>
 <video autoplay="" class="hidden-xs" poster="images/flowers.jpg" id="bg_video">
     <source src="<?php echo SITE_DIR; ?>images/water.mp4" type="video/webm">
 </video>
@@ -47,10 +40,15 @@
 </div>
 <div class="container">
     <div class="row" style="margin-top: 80px;">
+        <div class="col-md-12">
+            <h3 id="page_title" style="color: #fff; font-size: 20px; Font-family: Tahoma;">Watch this Video for Your Next Steps</h3>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-md-8 col-xs-12">
             <div class="video-container">
                 <iframe id="video_frame" src="//www.youtube.com/embed/jD2peUWmPak?rel=0&enablejsapi=1" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-                <img class="hidden-sm hidden-xs" id="play_btn" src="<?php echo SITE_DIR; ?>images/video.jpg" />
+<!--                <img class="hidden-sm hidden-xs" id="play_btn" src="--><?php //echo SITE_DIR; ?><!--images/video.jpg" />-->
             </div>
         </div>
         <script>
@@ -65,6 +63,8 @@
             {
                 var height = $("#video_frame").height();
                 $("#main-panel").height(height);
+                $("#page_title").animate({'color' : 'black'}, 3000);
+                console.log($("#page_title"));
             });
 //            function onYouTubePlayerAPIReady() {
 //                player = new YT.Player('video_frame', {
@@ -100,7 +100,7 @@
                 </div>
                 <div class="panel-body text-center">
 <!--                    <h3>Watch this video to learn your next steps</h3>-->
-                    <a href="http://shop.drcolbert.com/index.php/21-day-detox-package.html" class="success-btn">
+                    <a href="http://shop.drcolbert.com/index.php/21-day-detox-online-system.html" class="success-btn">
                         I Want to Order My 21 Day Detox Package
                     </a>
                     <a href="<?php echo SITE_DIR; ?>" class="success-btn">
