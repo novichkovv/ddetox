@@ -68,7 +68,11 @@ class index_controller extends controller
             }
             $this->render('day', $day);
             $this->render('data', $this->model('mailing_data')->getByField('mailing_day', $day));
-            $this->view('index');
+            if(!isset($_GET['next_steps'])) {
+                $this->view('index');
+            } else {
+                $this->view('next_steps');
+            }
         }
     }
 
