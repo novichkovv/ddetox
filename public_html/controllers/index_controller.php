@@ -71,7 +71,7 @@ class index_controller extends controller
             if(!isset($_GET['next_steps'])) {
                 $this->view('index');
             } else {
-                $this->view('next_steps');
+                $this->view('next_steps_page');
             }
         }
     }
