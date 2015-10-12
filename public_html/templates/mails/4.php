@@ -7,7 +7,7 @@
 <div style="min-height: 1700px;">
     <div style="text-align: center;">
         <h2 style="color: cadetblue;"><?php echo $data['subject']; ?></h2>
-        <a href="http://shop.drcolbert.com/21-day-detox-package.html" target="_blank">
+        <a href="<?php echo PACKAGE_URL; ?>" target="_blank">
             <img src="<?php echo SITE_DIR; ?>images/1.png" style="width: 728px; margin-bottom: 30px;" />
         </a>
         <br>

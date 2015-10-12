@@ -13,7 +13,7 @@
     </a>
 <?php endif; ?>
 <?php if(!$data['video']): ?>
-    <a href="http://shop.drcolbert.com/21-day-detox-package.html" target="_blank">
+    <a href="<?php echo PACKAGE_URL; ?>" target="_blank">
         <img src="<?php echo SITE_DIR ; ?>images/2.png" style="width: 700px;" />
     </a>
      <div style="clear: both">

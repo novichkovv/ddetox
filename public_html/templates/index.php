@@ -119,13 +119,13 @@
                 </script>
                 <img id="play_btn" src="<?php echo SITE_DIR; ?>images/video.jpg" />
             </div>
-            <a href="http://shop.drcolbert.com/index.php/21-day-detox-online-system.html" target="_blank">
+            <a href="<?php echo PACKAGE_URL; ?>" target="_blank">
                 <img src="<?php echo SITE_DIR; ?>images/detoxpromobanner.jpg" style="width: 100%;" />
             </a>
         </div>
         <div id="package" class="col-xs-12 col-sm-5">
             <div class="hidden-xs"><br><br><br><br></div>
-            <a href="http://shop.drcolbert.com/index.php/21-day-detox-online-system.html" target="_blank"><img src="<?php echo SITE_DIR; ?>images/detoxpack.jpg"  style="width: 80%; margin: 0 10%; float: left"></a>
+            <a href="<?php echo PACKAGE_URL; ?>" target="_blank"><img src="<?php echo SITE_DIR; ?>images/detoxpack.jpg"  style="width: 80%; margin: 0 10%; float: left"></a>
             <div style="float: left; font-size: 130%;">
                 <br><br>
                 <span style="font-weight: 400; color: #0782C1;">Each 21 Day Detox Package Includes:</span>
@@ -148,7 +148,7 @@
     <?php endif; ?>
     <?php if($day == 1): ?>
         <h1 style="margin: 15px; font-size: 33px; color: #3d6884;"><?php echo $data['subject']; ?></h1>
-        <a href="http://shop.drcolbert.com/index.php/21-day-detox-online-system.html" target="_blank">
+        <a href="<?php echo PACKAGE_URL; ?>" target="_blank">
             <img src="<?php echo SITE_DIR ?>images/2.png" style="max-width: 700px; width: 90%;" />
         </a>
     <?php endif ?>
@@ -174,22 +174,22 @@
                 </ul>
             </div>
             <div class="col-sm-5">
-                <a href="http://shop.drcolbert.com/index.php/21-day-detox-online-system.html"  target="_blank">
+                <a href="<?php echo PACKAGE_URL; ?>"  target="_blank">
                     <img src="<?php echo SITE_DIR; ?>images/detoxpack_2_1.jpg"  style="width: 100%; float: left">
                 </a>
             </div>
-            <a href="http://shop.drcolbert.com/index.php/21-day-detox-online-system.html"  target="_blank">
+            <a href="<?php echo PACKAGE_URL; ?>"  target="_blank">
                 <img src="<?php echo SITE_DIR; ?>images/button.png" style="min-width: 400px; max-width: 500px; width: 100%;margin-bottom: 30px;border-radius: 5px;box-shadow: 0 0 2px inset;" />
             </a>
         </div>
         <div style="clear: both;">
-            <a href="http://shop.drcolbert.com/index.php/21-day-detox-online-system.html"  target="_blank">
+            <a href="<?php echo PACKAGE_URL; ?>"  target="_blank">
                 <img style="min-width: 500px; max-width: 700px; width: 100%;" src="<?php echo SITE_DIR; ?>images/detoxpromobanner.jpg" />
             </a>
         </div>
     <?php endif ?>
     <?php if($day == 3): ?>
-        <a href="http://shop.drcolbert.com/index.php/21-day-detox-online-system.html" target="_blank">
+        <a href="<?php echo PACKAGE_URL; ?>" target="_blank">
             <img src="<?php echo SITE_DIR; ?>images/1.png" style="min-width: 450px; width: 90%; max-width: 728px; margin-bottom: 30px;" />
         </a>
     <?php endif ?>
@@ -312,6 +312,6 @@
     </div>
 </div>
 <?php endif; ?>
-<a href="http://shop.drcolbert.com/21-day-detox-package.html" target="_blank">
+<a href="<?php echo PACKAGE_URL; ?>" target="_blank">
     <img style="margin-bottom: -3px; width: 100%;" src="<?php echo SITE_DIR; ?>images/footer_banner.png" />
 </a>

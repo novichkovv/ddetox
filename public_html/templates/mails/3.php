@@ -27,10 +27,10 @@
                     </li>
                 </ul>
             </div>
-            <a href="http://shop.drcolbert.com/21-day-detox-package.html"  target="_blank"><img src="<?php echo SITE_DIR; ?>images/detoxpack_2_1.jpg"  style="width: 270px; float: left"></a>
-            <a href="http://shop.drcolbert.com/21-day-detox-package.html"  target="_blank"><img src="<?php echo SITE_DIR; ?>images/button.png" style="margin-bottom: 30px;border-radius: 5px;box-shadow: 0 0 2px inset;" /></a>
+            <a href="<?php echo PACKAGE_URL; ?>"  target="_blank"><img src="<?php echo SITE_DIR; ?>images/detoxpack_2_1.jpg"  style="width: 270px; float: left"></a>
+            <a href="<?php echo PACKAGE_URL; ?>"  target="_blank"><img src="<?php echo SITE_DIR; ?>images/button.png" style="margin-bottom: 30px;border-radius: 5px;box-shadow: 0 0 2px inset;" /></a>
         </div>
-        <div style="clear: both;"><a href="http://shop.drcolbert.com/21-day-detox-package.html"  target="_blank"><img src="<?php echo SITE_DIR; ?>images/detoxpromobanner.jpg" /></a></div>
+        <div style="clear: both;"><a href="<?php echo PACKAGE_URL; ?>"  target="_blank"><img src="<?php echo SITE_DIR; ?>images/detoxpromobanner.jpg" /></a></div>
         <div style="clear: both">
             <a href="<?php echo SITE_DIR; ?>?day=<?php echo $data['mailing_day'] ; ?>&uid=<?php echo $user['id']; ?>">Click here if the email is not displayed correctly</a>
             <br><br>If you don't want to receive these emails, please click <a href="<?php echo SITE_DIR; ?>index/signout/?mail=<?php echo $user['email']; ?> ">here</a>

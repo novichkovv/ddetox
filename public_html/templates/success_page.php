@@ -100,7 +100,7 @@
                 </div>
                 <div class="panel-body text-center">
 <!--                    <h3>Watch this video to learn your next steps</h3>-->
-                    <a href="http://shop.drcolbert.com/index.php/21-day-detox-online-system.html" class="success-btn">
+                    <a href="<?php echo PACKAGE_URL; ?>" class="success-btn">
                         I Want to Order My 21 Day Detox Package
                     </a>
                     <a href="<?php echo SITE_DIR; ?>" class="success-btn">
