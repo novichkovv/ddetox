@@ -95,17 +95,15 @@
         <div class="col-md-4 col-xs-12">
             <div class="panel panel-default" id="main-panel" style="background-color: #8CBF02">
                 <div class="panel-heading text-center" style="background-color: #8CBF02; border: none;">
-                    <h3 style="font-family: Impact; font-size: 40px;">Congatulations</h3>
+                    <h3 style="font-family: Impact; font-size: 40px; color: #ffffff;">CONGRATULATIONS</h3>
                     <span style="color: #fff;">YOU HAVE SUCCESSFULLY SIGNED UP FOR<br><span style="font-weight: bold; font-size: 22px;">DR. COLBERT'S 21 DAY DETOX</span> </span>
                 </div>
                 <div class="panel-body text-center">
-                    <h3>Watch this video to learn your next steps</h3>
-                    <br><br><br><br>
-                    <a class="btn btn-primary" href="http://shop.drcolbert.com/index.php/21-day-detox-package.html" style="color: white;">
+<!--                    <h3>Watch this video to learn your next steps</h3>-->
+                    <a href="http://shop.drcolbert.com/index.php/21-day-detox-package.html" class="success-btn">
                         I Want to Order My 21 Day Detox Package
                     </a>
-                    <br><br>
-                    <a class="btn btn-primary" href="<?php echo SITE_DIR; ?>" style="color: white;">
+                    <a href="<?php echo SITE_DIR; ?>" class="success-btn">
                         I Want to Access My Detox Information
                     </a>
                 </div>

@@ -17,6 +17,22 @@ body {
     z-index: -100;
     background-size: cover;
 }
+.success-btn {
+    display: block;
+    color: white;
+    width: 100%;
+    padding: 6% 20px;
+    background-color: #6BA0CF;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.success-btn:hover {
+    color: #ffffff;
+    box-shadow: 0 0 3px #5a71b2 inset;
+    text-decoration: none;
+    background-color: #6293be;
+}
+
 #bg {
     position: fixed;
     background: url(../images/bg.png) repeat;
