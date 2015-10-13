@@ -56,6 +56,7 @@ class index_controller extends controller
 
         if(!$this->check_auth) {
             $this->render('skip_nav', true);
+            $this->render('video', $this->model('system_config')->getByField('config_key', 'sign_up_page_video')['config_value']);
             $this->view_only('sign_in_page');
             //$this->view('under_construction_page');
         } else {
@@ -71,6 +72,7 @@ class index_controller extends controller
             if(!isset($_GET['next_steps'])) {
                 $this->view('index');
             } else {
+                $this->render('next_steps_video', $this->model('system_config')->getByField('config_key', 'next_steps_page_video')['config_value']);
                 $this->view('next_steps_page');
             }
         }

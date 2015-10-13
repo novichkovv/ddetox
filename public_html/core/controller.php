@@ -24,6 +24,7 @@ abstract class controller extends base
         $this->controller_name = $controller;
         $this->check_auth = $this->checkAuth();
         $this->action_name = $action;
+        define('PACKAGE_URL', $this->model('system_config')->getByField('config_key', 'package_url')['config_value']);
     }
 
     /**

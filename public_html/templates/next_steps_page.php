@@ -86,7 +86,7 @@
             <?php if($data['mailing_day'] > 3)echo '<h1>DAY ' . ($data['mailing_day']  - 3) . '</h1>'; ?>
             <h3>Your Next Steps</h3>
             <div class="video-container">
-                <iframe id="video_frame" src="https://www.youtube.com/embed/qfM3M2CKX50?rel=0&enablejsapi=1" frameborder="0" width="560" height="315" allowfullscreen="allowfullscreen">        </iframe>
+                <iframe id="video_frame" src="https://www.youtube.com/embed/<?php echo $next_steps_video; ?>?rel=0&enablejsapi=1" frameborder="0" width="560" height="315" allowfullscreen="allowfullscreen">        </iframe>
                 <script>
                     $ = jQuery.noConflict();
                     $(".video-container").click(function()
