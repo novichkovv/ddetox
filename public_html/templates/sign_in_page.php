@@ -17,14 +17,6 @@
     <link rel="shortcut icon" href="<?php echo SITE_DIR; ?>images/favicon.ico" />
 </head>
 <body>
-<!--<iframe src="//www.youtube.com/embed/JMJXvsCLu6s?rel=0&enablejsapi=1" frameborder="0" allowfullscreen id="Youtube"></iframe>-->
-<!--<div id="playYoutube">���������������</div>-->
-<!--<div id="pauseYoutube">�����</div>-->
-
-<!--<script src="//www.youtube.com/player_api"></script>-->
-<script>
-
-</script>
 <video autoplay="" class="hidden-xs" poster="images/flowers.jpg" id="bg_video">
     <source src="<?php echo SITE_DIR; ?>images/water.mp4" type="video/webm">
 </video>
@@ -133,6 +125,6 @@
         </div>
     </div>
 </div>
-<div style="width: 100%; height: 800px; margin-top: 80px; background-color: #fff;"></div>
+<!--<div style="width: 100%; height: 800px; margin-top: 80px; background-color: #fff;"></div>-->
 </body>
 </html>

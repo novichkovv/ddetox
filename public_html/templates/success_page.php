@@ -17,7 +17,14 @@
     <link rel="shortcut icon" href="<?php echo SITE_DIR; ?>images/favicon.ico" />
 </head>
 <body>
-<!--<script src="//www.youtube.com/player_api"></script>-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.5&appId=788945274461581";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 <video autoplay="" class="hidden-xs" poster="images/flowers.jpg" id="bg_video">
     <source src="<?php echo SITE_DIR; ?>images/water.mp4" type="video/webm">
 </video>
@@ -66,31 +73,6 @@
                 $("#page_title").animate({'color' : 'black'}, 3000);
                 console.log($("#page_title"));
             });
-//            function onYouTubePlayerAPIReady() {
-//                player = new YT.Player('video_frame', {
-//                    events: {
-//                        'onReady': onPlayerReady,
-//                        'onStateChange': stateChange
-//                    }
-//                });
-//            }
-//            function onPlayerReady(event) {
-//                var height = $("#video_frame").height();
-//                $("#main-panel").height(height);
-//                $("#play_btn").click(function()
-//                {
-//                    $(this).fadeOut(100);
-//                    player.playVideo();
-//                })
-//            }
-//            function stateChange(event) {
-//                if(event.data == 1) {
-//                    UppodCurtain('video_frame',0.9);
-//                }
-//                if(event.data == 2) {
-//                    CurtainClose('video_frame');
-//                }
-//            }
         </script>
         <div class="col-md-4 col-xs-12">
             <div class="panel panel-default" id="main-panel" style="background-color: #8CBF02">
@@ -106,11 +88,11 @@
                     <a href="<?php echo SITE_DIR; ?>?next_steps" class="success-btn">
                         I Want to Access My Detox Information
                     </a>
+                    <div data-href="http://divinehealthdetox.com" data-layout="button_count"></div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div style="width: 100%; height: 800px; margin-top: 80px; background-color: #fff;"></div>
 </body>
 </html>
