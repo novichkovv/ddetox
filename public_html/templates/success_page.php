@@ -22,7 +22,7 @@
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.5&appId=788945274461581";
+        js.src = "//connect.facebook.net/en_EN/sdk.js#xfbml=1&version=v2.5&appId=788945274461581";
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 <video autoplay="" class="hidden-xs" poster="images/flowers.jpg" id="bg_video">
@@ -88,7 +88,7 @@
                     <a href="<?php echo SITE_DIR; ?>?next_steps" class="success-btn">
                         I Want to Access My Detox Information
                     </a>
-                    <div data-href="http://divinehealthdetox.com" data-layout="button_count"></div>
+                    <div class="fb-share-button" data-href="http://divinehealthdetox.com" data-layout="button_count"></div>
                 </div>
             </div>
         </div>
