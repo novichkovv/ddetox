@@ -27,14 +27,10 @@
         </a>
     </div>
     <div class="pull-right" style="font-family: Impact; padding: 20px 40px;">
-<!--        <h3 style="color: #666; margin-left: 20px;">Questions About the Detox?<br>-->
             CALL US FREE: &nbsp;&nbsp;&nbsp;<span style="color: #4a8bc5; font-size: 30px;">407.732.6952<span>
     </div>
 </div>
 <div class="clearfix" style="background-color: #fff;"></div>
-
-<!-- <div class="text-center">Go to Web Site</a></div>-->
-
 <div id="bg">
 </div>
 <div class="container">
@@ -58,31 +54,6 @@
                 var height = $("#video_frame").height();
                 $("#main-panel").height(height);
             });
-//                function onYouTubePlayerAPIReady() {
-//                    player = new YT.Player('video_frame', {
-//                        events: {
-//                            'onReady': onPlayerReady,
-//                            'onStateChange': stateChange
-//                        }
-//                    });
-//                }
-//                function onPlayerReady(event) {
-//                    var height = $("#video_frame").height();
-//                    $("#main-panel").height(height);
-//                    $("#play_btn").click(function()
-//                    {
-//                        $(this).fadeOut(100);
-//                        player.playVideo();
-//                    })
-//                }
-//                function stateChange(event) {
-//                    if(event.data == 1) {
-//                        UppodCurtain('video_frame',0.9);
-//                    }
-//                    if(event.data == 2) {
-//                        CurtainClose('video_frame');
-//                    }
-//                }
         </script>
         <div class="col-md-4 col-xs-12">
             <div class="panel panel-default" id="main-panel" style="background-color: #8CBF02">
@@ -95,11 +66,6 @@
                         <div class="row">
                             <div class="col-sm-10 col-sm-offset-1 col-xs-12">
                                 <div class="text-danger text-center"><h3><?php echo $warning; ?></h3></div>
-<!--                                <ul id="description">-->
-<!--                                    <li>RESTORE your health to a youthful state</li>-->
-<!--                                    <li>REBUILD your immune system</li>-->
-<!--                                    <li>RENEW your mind by riding yourself of harmful toxins</li>-->
-<!--                                </ul>-->
                                 <div class="form-group">
                                     <input type="text" class="form-control input-lg" name="user[login]" placeholder="Enter Your First Name" value="<?php echo $user['login']; ?>" />
                                 </div>
@@ -125,6 +91,24 @@
         </div>
     </div>
 </div>
-<!--<div style="width: 100%; height: 800px; margin-top: 80px; background-color: #fff;"></div>-->
+<script type="text/javascript">
+    adroll_adv_id = "XM3SHKW6KBEXZENOSGYMWT";
+    adroll_pix_id = "X6KE4ONVTRASHLN65VKOU7";
+    (function () {
+        var _onload = function(){
+            if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+            if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+            var scr = document.createElement("script");
+            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+            scr.setAttribute('async', 'true');
+            scr.type = "text/javascript";
+            scr.src = host + "/j/roundtrip.js";
+            ((document.getElementsByTagName('head') || [null])[0] ||
+            document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+        };
+        if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+        else {window.attachEvent('onload', _onload)}
+    }());
+</script>
 </body>
 </html>
