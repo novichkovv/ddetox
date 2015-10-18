@@ -52,7 +52,9 @@
             $(document).ready(function()
             {
                 var height = $("#video_frame").height();
-                $("#main-panel").height(height);
+                if(height > 375) {
+                    $("#main-panel").height(height);
+                }
             });
         </script>
         <div class="col-md-4 col-xs-12">
