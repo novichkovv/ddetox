@@ -2,15 +2,18 @@
 <div class="row">
 
     <div class="col-md-12">
-        <h1 class="page-header">Salad Recipes</h1>
+        <h1 class="page-header">Salad Recipes
+            <?php if(!$_GET['recipe']): ?>
+                <small class="text-mute"> <a href="<?php echo SITE_DIR; ?>image/?recipe=salads" target="_blank"><i class="glyphicon glyphicon-print"></i> Print Recipes</a> </small>
+            <?php endif; ?>
+        </h1>
     </div>
 
 </div>
 
 <div class="row">
-
-    <div class="col-md-6">
-        <h1>Rad Rainbow Raw Pad Thai</h1>
+    <div class="col-lg-6">
+        <h2>Rad Rainbow Raw Pad Thai</h2>
         <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/pad-thai.jpg" alt="Rad Rainbow Raw Pad Thai" width="300" height="446" align="right" />
         <h3>Ingredients</h3>
         <ul><li>1 medium zucchini, julienned or spiraled</li>
@@ -36,8 +39,8 @@
         </ol>
 
     </div>
-    <div class="col-md-6">
-        <h1>Warm Spring Salad</h1>
+    <div class="col-lg-6">
+        <h2>Warm Spring Salad</h2>
         <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/warm-salad.jpg" alt="Warm Salad" width="300" height="446" align="right" />
         <h3>Ingredients</h3>
         <ul><li>1 cup uncooked quinoa (or try speltberries, but note they are not GF)</li>
@@ -72,8 +75,8 @@
 
 <div class="row">
 
-    <div class="col-md-6">
-        <h1>My Go-To Kale Salad </h1>
+    <div class="col-lg-6">
+        <h2>My Go-To Kale Salad </h2>
         <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/kale.jpg" alt="My Go-To Kale Salad " width="300" height="445" align="right" />
         <h3>Ingredients</h3>
         <ul><li>4 cups (packed) torn kale leaves, stems removed</li>
@@ -95,8 +98,8 @@
             <li>While the salad marinates, chop the vegetables. Mix into kale and serve, topped with hemp seeds if you desire.</li> </ol>
 
     </div>
-    <div class="col-md-6">
-        <h1>Speedy Three-Bean Salad </h1>
+    <div class="col-lg-6">
+        <h2>Speedy Three-Bean Salad </h2>
         <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/speedy.jpeg" alt="Speedy Three-Bean Salad " width="300" height="299" align="right" />
         <h3>Ingredients</h3>
         <ul><li>1 cup chopped green beans, stems removed</li>
@@ -136,8 +139,8 @@
 
 <div class="row">
 
-    <div class="col-md-6">
-        <h1>Dinosaur Dill Crunch Salad with Salt & Vinegar Chickpeas </h1>
+    <div class="col-lg-6">
+        <h2>Dinosaur Dill Crunch Salad with Salt & Vinegar Chickpeas </h2>
         <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/dinosaur.jpg" alt="Dinosaur Dill Crunch Salad with Salt & Vinegar Chickpeas " width="300" height="201" align="right" />
         <h3>Ingredients</h3>
         <ul><li>1 (15-oz) can chickpeas, drained and rinsed</li>
@@ -167,8 +170,8 @@
         </ol>
 
     </div>
-    <div class="col-md-6">
-        <h1>Detox Salad </h1>
+    <div class="col-lg-6">
+        <h2>Detox Salad </h2>
         <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/detox.jpg" alt="Detox Salad" width="300" height="452" align="right" />
         <h3>Ingredients</h3>
         <ul><li>2 heads broccoli (1 bunch), stems removed</li>
@@ -208,8 +211,8 @@
 
 <div class="row">
 
-    <div class="col-md-6">
-        <h1>High Protein Quinoa Almond Berry Salad </h1>
+    <div class="col-lg-6">
+        <h2>High Protein Quinoa Almond Berry Salad </h2>
         <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/quinoa.jpeg" alt="High Protein Quinoa Almond Berry Salad " width="300" height="395" align="right" />
         <h3>Ingredients</h3>
         <ul>

@@ -4,7 +4,7 @@
  * @license		http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU/GPL version 2
  */
 
-class Controller {
+class Controllerf {
 	protected $_model;
 	protected $_controller;
 	protected $_action;

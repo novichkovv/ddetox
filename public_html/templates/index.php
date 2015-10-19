@@ -71,14 +71,20 @@
     </div>
 </div>
 <div class="row">
-    <div class="text-center" style="max-width: 100%; overflow: hidden;">
-        <?php if(strtotime($user['sdate']) + 4*24*60*60 > strtotime(date('Y-m-d 06:00:00'))): ?>
-            <h3 style="color: #2c82ee; font-size: 25px; margin-top: 40px;">The 21 Day Detox Challnege will Begin in</h3>
-            <input id="reg_date" value="<?php echo (strtotime($user['sdate']) + 6*3600); ?>000" type="hidden">
-            <div id="countdown"></div>
-            <p id="note"></p>
-        <?php endif; ?>
+    <div class="col-md-8 col-md-offset-2">
+        <div class="text-center" style="max-width: 100%; overflow: hidden;">
+            <?php if(strtotime($user['sdate']) + 4*24*60*60 > strtotime(date('Y-m-d 06:00:00'))): ?>
+                <h3 style="color: #2c82ee; font-size: 25px; margin-top: 40px;">The 21 Day Detox Challnege will Begin in</h3>
+                <input id="reg_date" value="<?php echo (strtotime($user['sdate']) + 6*3600); ?>000" type="hidden">
+                <div id="countdown"></div>
+                <p id="note"></p>
+            <?php endif; ?>
+        </div>
     </div>
+    <div class="col-md-2">
+        <a target="_blank" href="<?php echo SITE_DIR; ?>image/?img=<?php echo SITE_DIR; ?>images/2.png">Print Shopping List</a>
+    </div>
+
 </div>
 <div class="container" style="text-align: center;">
     <?php if($data['video']): ?>
@@ -153,40 +159,40 @@
         </a>
     <?php endif ?>
     <?php if($day == 2): ?>
-        <h1 style="margin: 15px; font-size: 33px; color: #3d6884;""><?php echo $data['subject']; ?></h1>
-        <div style="margin: auto;">
-            <div class="col-sm-7 col-xs-7 col-xs-offset-3 col-sm-offset-0">
-                <br><br>
-                <span style="font-weight: 400; color: #0782C1; font-size: 20px;">Each 21 Day Detox Package Includes:</span>
-                <ul style="color: #175373; list-style:none; text-align:left; padding: 10px;  font-size: 22px;">
-                    <li>
-                        <img src="<?php echo SITE_DIR; ?>images/checkmark.png">Maxone
-                    </li>
-                    <li>
-                        <img src="<?php echo SITE_DIR; ?>images/checkmark.png">Fiber Formula
-                    </li>
-                    <li>
-                        <img src="<?php echo SITE_DIR; ?>images/checkmark.png">Plant Protein
-                    </li>
-                    <li>
-                        <img src="<?php echo SITE_DIR; ?>images/checkmark.png">Green Supremefood
-                    </li>
-                </ul>
-            </div>
-            <div class="col-sm-5">
-                <a href="<?php echo PACKAGE_URL; ?>"  target="_blank">
-                    <img src="<?php echo SITE_DIR; ?>images/detoxpack_2_1.jpg"  style="width: 100%; float: left">
-                </a>
-            </div>
-            <a href="<?php echo PACKAGE_URL; ?>"  target="_blank">
-                <img src="<?php echo SITE_DIR; ?>images/button.png" style="min-width: 400px; max-width: 500px; width: 100%;margin-bottom: 30px;border-radius: 5px;box-shadow: 0 0 2px inset;" />
-            </a>
-        </div>
-        <div style="clear: both;">
-            <a href="<?php echo PACKAGE_URL; ?>"  target="_blank">
-                <img style="min-width: 500px; max-width: 700px; width: 100%;" src="<?php echo SITE_DIR; ?>images/detoxpromobanner.jpg" />
-            </a>
-        </div>
+<!--        <h1 style="margin: 15px; font-size: 33px; color: #3d6884;"">--><?php //echo $data['subject']; ?><!--</h1>-->
+<!--        <div style="margin: auto;">-->
+<!--            <div class="col-sm-7 col-xs-7 col-xs-offset-3 col-sm-offset-0">-->
+<!--                <br><br>-->
+<!--                <span style="font-weight: 400; color: #0782C1; font-size: 20px;">Each 21 Day Detox Package Includes:</span>-->
+<!--                <ul style="color: #175373; list-style:none; text-align:left; padding: 10px;  font-size: 22px;">-->
+<!--                    <li>-->
+<!--                        <img src="--><?php //echo SITE_DIR; ?><!--images/checkmark.png">Maxone-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <img src="--><?php //echo SITE_DIR; ?><!--images/checkmark.png">Fiber Formula-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <img src="--><?php //echo SITE_DIR; ?><!--images/checkmark.png">Plant Protein-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <img src="--><?php //echo SITE_DIR; ?><!--images/checkmark.png">Green Supremefood-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--            <div class="col-sm-5">-->
+<!--                <a href="--><?php //echo PACKAGE_URL; ?><!--"  target="_blank">-->
+<!--                    <img src="--><?php //echo SITE_DIR; ?><!--images/detoxpack_2_1.jpg"  style="width: 100%; float: left">-->
+<!--                </a>-->
+<!--            </div>-->
+<!--            <a href="--><?php //echo PACKAGE_URL; ?><!--"  target="_blank">-->
+<!--                <img src="--><?php //echo SITE_DIR; ?><!--images/button.png" style="min-width: 400px; max-width: 500px; width: 100%;margin-bottom: 30px;border-radius: 5px;box-shadow: 0 0 2px inset;" />-->
+<!--            </a>-->
+<!--        </div>-->
+<!--        <div style="clear: both;">-->
+<!--            <a href="--><?php //echo PACKAGE_URL; ?><!--"  target="_blank">-->
+<!--                <img style="min-width: 500px; max-width: 700px; width: 100%;" src="--><?php //echo SITE_DIR; ?><!--images/detoxpromobanner.jpg" />-->
+<!--            </a>-->
+<!--        </div>-->
     <?php endif ?>
     <?php if($day == 3): ?>
         <a href="<?php echo PACKAGE_URL; ?>" target="_blank">

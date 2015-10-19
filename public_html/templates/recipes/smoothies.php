@@ -1,13 +1,17 @@
 <div class="container" id="recipe_page">
     <div class="row">
         <div class="col-md-12">
-            <h1 class="page-header">Smoothie Recipes</h1>
+            <h1 class="page-header">Smoothie Recipes
+                <?php if(!$_GET['recipe']): ?>
+                    <small class="text-mute"> <a href="<?php echo SITE_DIR; ?>image/?recipe=smoothies" target="_blank"><i class="glyphicon glyphicon-print"></i> Print Recipes</a> </small>
+                <?php endif; ?>
+            </h1>
         </div>
     </div>
     <div class="row">
 
-        <div class="col-md-6 offset3">
-            <h1>Rik's Coco Cacao</h1>
+        <div class="col-lg-6 offset3">
+            <h2>Rik's Coco Cacao</h2>
             <img src="<?php echo SITE_DIR; ?>images/recipes/rikscocosmoothie.jpg" alt="Rik's Coco Cacao Smoothie" width="250" height="250" align="right" />
             <h3>Ingredients</h3>
             <ul><li>2 cups of ice</li>
@@ -21,8 +25,8 @@
             <p>Combine in a blender; blend until smooth. </p>
 
         </div>
-        <div class="col-md-6">
-            <h1>Cucumber, Honeydew, and Mint Smoothie</h1>
+        <div class="col-lg-6">
+            <h2>Cucumber, Honeydew, and Mint Smoothie</h2>
             <img src="<?php echo SITE_DIR; ?>images/recipes/honeydew-cucumber.jpg" alt="Cucumber, Honeydew, and Mint Smoothie" width="300" height="374" align="right" />
             <h3>Ingredients</h3>
             <ul><li>1/2 English cucumber, peeled and chopped</li>
@@ -39,8 +43,8 @@
 
     <div class="row">
 
-        <div class="col-md-6">
-            <h1>Antioxidant Smoothie</h1>
+        <div class="col-lg-6">
+            <h2>Antioxidant Smoothie</h2>
             <img src="<?php echo SITE_DIR; ?>images/recipes/antioxidant_smoothie.jpg" alt="Antioxidant Smoothie" width="241" height="300" align="right" />
             <h3>Ingredients</h3>
             <ul><li>2 cups mixed frozen berries (9 ounces)</li>
@@ -49,8 +53,8 @@
             <p>Combine berries, juice, and 1 cup water in a blender; blend until smooth. </p>
 
         </div>
-        <div class="col-md-6">
-            <h1>Carrot, Mango, and Herb Smoothie </h1>
+        <div class="col-lg-6">
+            <h2>Carrot, Mango, and Herb Smoothie </h2>
             <img src="<?php echo SITE_DIR; ?>images/recipes/carrot_mango_smoothie.jpg" alt="Antioxidant Smoothie" width="241" height="300" align="right" />
 
             <h3>Ingredients</h3>
@@ -69,8 +73,8 @@
 
     <div class="row">
 
-        <div class="col-md-6">
-            <h1>Green Smoothie</h1>
+        <div class="col-lg-6">
+            <h2>Green Smoothie</h2>
             <img src="<?php echo SITE_DIR; ?>images/recipes/green_smoothie.jpg" alt="Green Smoothie" width="241" height="302" align="right" />
             <h3>Ingredients</h3>
             <ul><li>1 cup kale or collard greens firmly packed, stems removed, coarsely chopped (4 ounces)</li>
@@ -82,8 +86,8 @@
             </p>
 
         </div>
-        <div class="col-md-6">
-            <h1>Mango-Coconut Smoothie </h1>
+        <div class="col-lg-6">
+            <h2>Mango-Coconut Smoothie </h2>
             <img src="<?php echo SITE_DIR; ?>images/recipes/mango_smoothie.jpg" alt="Mango-Coconut Smoothie" width="241" height="302" align="right" />
 
             <h3>Ingredients</h3>
@@ -103,8 +107,8 @@
 
     <div class="row">
 
-        <div class="col-md-6">
-            <h1>Orange-Berry Smoothie</h1>
+        <div class="col-lg-6">
+            <h2>Orange-Berry Smoothie</h2>
             <img src="<?php echo SITE_DIR; ?>images/recipes/orange-berry.jpg" alt="Orange-Berry Smoothie" width="241" height="302" align="right" />
             <h3>Ingredients</h3>
             <ul><li>2 navel oranges, peel and pith removed, cut into chunks</li>
@@ -114,8 +118,8 @@
             <p>Combine berries, juice, and 1 cup water in a blender; blend until smooth. </p>
 
         </div>
-        <div class="col-md-6">
-            <h1>Beet and Carrot Smoothie </h1>
+        <div class="col-lg-6">
+            <h2>Beet and Carrot Smoothie </h2>
             <img src="<?php echo SITE_DIR; ?>images/recipes/beet-carrot.jpg" alt="Beet and Carrot Smoothie" width="241" height="302" align="right" />
 
             <h3>Ingredients</h3>

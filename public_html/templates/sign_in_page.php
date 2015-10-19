@@ -83,7 +83,9 @@
                         <div class="row">
                             <div class="col-md-12 text-center">
                                 <div class="form-group text-center">
-                                    <input type="submit" class="btn btn-lg btn-primary" name="sign_in_btn" value="JOIN THE 21 DAY DETOX" />
+                                    <button type="submit" class="btn btn-lg btn-primary" name="sign_in_btn" style="display: block; margin: auto;">JOIN THE 21 DAY DETOX<br>
+                                        <span style="font-size: 25px;">IT'S FREE</span>
+                                    </button>
                                 </div>
                             </div>
                         </div>
