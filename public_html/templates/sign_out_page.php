@@ -31,6 +31,7 @@
         </div>
     </div>
 </div>
+<?php require_once(TEMPLATE_DIR . 'google_analytics.php'); ?>
 <script type="text/javascript">
     adroll_adv_id = "XM3SHKW6KBEXZENOSGYMWT";
     adroll_pix_id = "X6KE4ONVTRASHLN65VKOU7";

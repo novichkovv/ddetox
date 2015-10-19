@@ -83,7 +83,9 @@
                         <div class="row">
                             <div class="col-md-12 text-center">
                                 <div class="form-group text-center">
-                                    <input type="submit" class="btn btn-lg btn-primary" name="sign_in_btn" value="JOIN THE 21 DAY DETOX" />
+                                    <button type="submit"  name="sign_in_btn" style="border: none; background: none;">
+                                        <img style="width: 100%;" src="<?php echo SITE_DIR; ?>images/join_button.jpg">
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -93,6 +95,7 @@
         </div>
     </div>
 </div>
+<?php require_once(TEMPLATE_DIR . 'google_analytics.php'); ?>
 <script type="text/javascript">
     adroll_adv_id = "XM3SHKW6KBEXZENOSGYMWT";
     adroll_pix_id = "X6KE4ONVTRASHLN65VKOU7";

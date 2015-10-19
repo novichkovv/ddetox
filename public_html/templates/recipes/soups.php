@@ -2,43 +2,20 @@
 <div class="row">
 
     <div class="col-md-12">
-        <h1 class="page-header">Soup Recipes</h1>
-        <p></p>
+        <h1 class="page-header">Soup Recipes
+            <?php if(!$_GET['recipe']): ?>
+                <small class="text-mute"> <a href="<?php echo SITE_DIR; ?>image/?recipe=soups" target="_blank"><i class="glyphicon glyphicon-print"></i> Print Recipes</a> </small>
+            <?php endif; ?>
+        </h1>
     </div>
 
 </div>
 
 <div class="row">
 
-    <div class="col-md-8 offset2">
-        <h1>Creamy Vegan Carrot Soup with Coconut Recipe</h1>
-<!--        <img class="recipe_image" src="http://www.drcolbert.com/media/wysiwyg/carrot200.gif" alt="Hot and Sour Soup" width="171" height="200" align="right" />-->
-        <p>This creamy carrot soup recipe uses coconut milk instead of dairy or soy milk for a creamy soy-free tropically flavored soup. This carrot soup recipe is so good, I literally couldn't stop taking bites as I was trying to photograph it! If you're looking for a nutritious vegan carrot soup recipe, you won't be disappointed with this yummy vegan, dairy-free and soy-free carrot soup. Serve hot for a meal, or, chill and serve as a simple yet elegant appetizer soup.</p>
-        <h3>Ingredients</h3>
-        <ul><li>2-3 large carrots, chopped small</li>
-            <li>1 onion, chopped small</li>
-            <li>1 tsp fresh ginger, minced</li>
-            <li>1 1/2 tsp curry powder</li>
-            <li>1 3/4 cup vegetable broth</li>
-            <li>1 14 ounce can coconut milk</li>
-            <li>sea salt, to taste</li> </ul>
-        <h3>Preparation</h3>
-        <ol>
-            <li>Simmer the carrots, onions, ginger and curry powder in vegetable broth for 20-25 minutes, until carrots are soft. Allow to cool slightly, and then puree in blender, working in batches if eneded. Return to heat and stir in coconut milk until well combined. Season generously with sea salt, to taste.</li>
-
-            <li>Serve hot, or, chill until cold and serve as a gourmet vegetarian and vegan appetizer soup. This carrot soup will thicken as it cools, so if serving this vegan carrot soup cold, you may want to add a bit extra liquid.</li>
-        </ol>
-    </div>
-
-</div>
-
-<br><hr />
-
-<div class="row">
-
-    <div class="col-md-6">
-        <h1>Hot and Sour Soup</h1>
-        <img class="recipe_image" src="<?php echo SITE_DIR; ?>images/recipes/hot-sour-soup.jpg" alt="Hot and Sour Soup" width="300" height="300" align="right" />
+    <div class="col-md-12">
+        <h2>Hot and Sour Soup</h2>
+        <img class="recipe_image" src="<?php echo SITE_DIR; ?>images/recipes/hot-sour-soup.jpg" alt="Hot and Sour Soup" width="300" height="300" align="left" />
         <h3>Ingredients</h3>
         <ul><li>5 dried shiitake mushrooms (about 1/4 ounce)</li>
             <li>5 dried wood ear mushrooms (about 1/4 ounce)</li>
@@ -60,9 +37,9 @@
                 Combine broth, 2 cups water, ginger, and garlic in a large saucepan over medium-high heat; bring to a boil. Add mushrooms. Reduce heat, and simmer 5 minutes. Add vinegar, soy sauce; bring to a boil. Reduce heat, and simmer 5 minutes.</li><li>
                 Stir 1/4 cup water into broth mixture; bring to a boil. Reduce heat; simmer 3 minutes or until soup thickens slightly, stirring frequently. Slowly pour egg whites into broth mixture in a steady stream, stirring constantly but gently with a wooden spoon. Remove from heat; stir in onions, cilantro, and sesame oil. </li></ol>
     </div>
-    <div class="col-md-6">
-        <h1>Roasted Butternut Soup</h1>
-        <img class="recipe_image" src="<?php echo SITE_DIR; ?>images/recipes/butternut_soup.jpg" alt="Roasted Butternut Soup" width="300" height="226" align="right" />
+    <div class="col-md-12">
+        <h2>Roasted Butternut Soup</h2>
+        <img class="recipe_image" src="<?php echo SITE_DIR; ?>images/recipes/butternut_soup.jpg" alt="Roasted Butternut Soup" width="300" height="226" align="left" />
         <h3>Ingredients</h3>
         <ul><li>1 (2 1/2-pound) butternut squash</li>
             <li>Cooking spray</li>
@@ -96,9 +73,9 @@
 
 <div class="row">
 
-    <div class="col-md-6">
-        <h1>Red Lentil-Pumpkin Soup </h1>
-        <img class="recipe_image" src="<?php echo SITE_DIR; ?>images/recipes/red-lentil-pumpkin-soup.jpg" alt="Red Lentil-Pumpkin Soup " width="300" height="300" align="right" />
+    <div class="col-md-12">
+        <h2>Red Lentil-Pumpkin Soup </h2>
+        <img class="recipe_image" src="<?php echo SITE_DIR; ?>images/recipes/red-lentil-pumpkin-soup.jpg" alt="Red Lentil-Pumpkin Soup " width="300" height="300" align="left" />
         <h3>Ingredients</h3>
         <ul><li>2 teaspoons coconut oil</li>
             <li>1 cup chopped onion</li>
@@ -124,9 +101,12 @@
             <li>Stir in ginger and lemon juice. Ladle 1 1/2 cups soup into each of 4 bowls; top each serving with 1 tablespoon pumpkinseeds, and 1 tablespoon cilantro. </li>
         </ol>
     </div>
-    <div class="col-md-6">
-        <h1>Black Bean Soup</h1>
-        <img class="recipe_image" src="<?php echo SITE_DIR; ?>images/recipes/black-bean.JPG" alt="Black Bean Soup" width="299" height="300" align="right" />
+</div>
+    <br><hr />
+<div class="row">
+    <div class="col-md-12">
+        <h2>Black Bean Soup</h2>
+        <img class="recipe_image" src="<?php echo SITE_DIR; ?>images/recipes/black-bean.JPG" alt="Black Bean Soup" width="299" height="300" align="left" />
         <h3>Ingredients</h3>
         <ul><li>1 tablespoon coconut oil</li>
             <li>1 small onion, chopped</li>
@@ -149,15 +129,11 @@
     </div>
 
 </div>
-
-
-<br><hr><br>
-
+    <br><hr />
 <div class="row">
-
-    <div class="col-md-6">
-        <h1>Lentil Soup</h1>
-        <img class="recipe_image" src="<?php echo SITE_DIR; ?>images/recipes/lentil-soup-recipe.jpg" alt="Black Bean Soup" width="300" height="301" align="right" />
+    <div class="col-md-12">
+        <h2>Lentil Soup</h2>
+        <img class="recipe_image" src="<?php echo SITE_DIR; ?>images/recipes/lentil-soup-recipe.jpg" alt="Black Bean Soup" width="300" height="301" align="left" />
         <h3>Ingredients</h3>
         <ul><li>1 tsp coconut oil</li>
             <li>1 onion, diced</li>
@@ -177,9 +153,12 @@
             </li>
         </ol>
     </div>
-    <div class="col-md-6">
-        <h1>Basic Vegetarian Miso Soup </h1>
-        <img class="recipe_image" src="<?php echo SITE_DIR; ?>images/recipes/Miso-Soup.jpg" alt="Black Bean Soup" width="300" height="218" align="right" />
+</div>
+    <br><hr />
+<div class="row">
+    <div class="col-md-12">
+        <h2>Basic Vegetarian Miso Soup </h2>
+        <img class="recipe_image" src="<?php echo SITE_DIR; ?>images/recipes/Miso-Soup.jpg" alt="Black Bean Soup" width="300" height="218" align="left" />
         <h3>Ingredients</h3>
         <ul><li>4 cups water</li>
             <li>1/3 cup miso</li>
@@ -197,17 +176,12 @@
         </ol>
 
     </div>
-
 </div>
-
-
-<br><hr><br>
-
+    <br><hr />
 <div class="row">
-
-    <div class="col-md-6">
-        <h1>Bean Vegetable Soup</h1>
-        <img class="recipe_image" src="<?php echo SITE_DIR; ?>images/recipes/0601px-bean-barley-soup-l.jpg" alt="Black Bean Soup" width="300" height="300" align="right" />
+    <div class="col-md-12">
+        <h2>Bean Vegetable Soup</h2>
+        <img class="recipe_image" src="<?php echo SITE_DIR; ?>images/recipes/0601px-bean-barley-soup-l.jpg" alt="Black Bean Soup" width="300" height="300" align="left" />
         <h3>Ingredients</h3>
         <ul><li>1/2 onion, diced</li>
             <li>2 ribs celery, diced</li>
@@ -231,9 +205,12 @@
 
         </ol>
     </div>
-    <div class="col-md-6">
-        <h1>Garden Vegetable Soup </h1>
-        <img class="recipe_image" src="<?php echo SITE_DIR; ?>images/recipes/garden.jpg" alt="Black Bean Soup" width="300" height="300" align="right" />
+</div>
+    <br><hr />
+<div class="row">
+    <div class="col-md-12">
+        <h2>Garden Vegetable Soup </h2>
+        <img class="recipe_image" src="<?php echo SITE_DIR; ?>images/recipes/garden.jpg" alt="Black Bean Soup" width="300" height="300" align="left" />
 
         <h3>Ingredients</h3>
         <ul><li>4 tablespoons olive oil</li>
@@ -257,10 +234,11 @@
         </ol>
     </div>
 </div>
+    <br><hr />
 <div class="row">
-    <div class="col-md-6">
-        <h1>Indian Cabbage Soup Recipe</h1>
-        <img class="recipe_image" src="<?php echo SITE_DIR; ?>images/recipes/img_9423.jpg" alt="Black Bean Soup" width="300" height="200" align="right" />
+    <div class="col-md-12">
+        <h2>Indian Cabbage Soup Recipe</h2>
+        <img class="recipe_image" src="<?php echo SITE_DIR; ?>images/recipes/img_9423.jpg" alt="Black Bean Soup" width="300" height="200" align="left" />
         <h3>Ingredients</h3>
         <ul><li>1 pound cabbage, chopped</li>
             <li>2 onions, chopped</li>
@@ -280,4 +258,27 @@
         </ol>
     </div>
 </div>
+    <br><hr />
+<div class="row">
+        <div class="col-lg-8 offset2">
+            <h2>Creamy Vegan Carrot Soup with Coconut Recipe</h2>
+            <!--        <img class="recipe_image" src="http://www.drcolbert.com/media/wysiwyg/carrot200.gif" alt="Hot and Sour Soup" width="171" height="200" align="left" />-->
+            <p>This creamy carrot soup recipe uses coconut milk instead of dairy or soy milk for a creamy soy-free tropically flavored soup. This carrot soup recipe is so good, I literally couldn't stop taking bites as I was trying to photograph it! If you're looking for a nutritious vegan carrot soup recipe, you won't be disappointed with this yummy vegan, dairy-free and soy-free carrot soup. Serve hot for a meal, or, chill and serve as a simple yet elegant appetizer soup.</p>
+            <h3>Ingredients</h3>
+            <ul><li>2-3 large carrots, chopped small</li>
+                <li>1 onion, chopped small</li>
+                <li>1 tsp fresh ginger, minced</li>
+                <li>1 1/2 tsp curry powder</li>
+                <li>1 3/4 cup vegetable broth</li>
+                <li>1 14 ounce can coconut milk</li>
+                <li>sea salt, to taste</li> </ul>
+            <h3>Preparation</h3>
+            <ol>
+                <li>Simmer the carrots, onions, ginger and curry powder in vegetable broth for 20-25 minutes, until carrots are soft. Allow to cool slightly, and then puree in blender, working in batches if eneded. Return to heat and stir in coconut milk until well combined. Season generously with sea salt, to taste.</li>
+
+                <li>Serve hot, or, chill until cold and serve as a gourmet vegetarian and vegan appetizer soup. This carrot soup will thicken as it cools, so if serving this vegan carrot soup cold, you may want to add a bit extra liquid.</li>
+            </ol>
+        </div>
+    </div>
+    <br><hr />
 </div>

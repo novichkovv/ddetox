@@ -49,7 +49,7 @@
 <div class="container">
     <div class="row" style="margin-top: 80px;">
         <div class="col-md-12">
-            <h3 id="page_title" style="color: #333; font-size: 20px; Font-family: Tahoma;">Watch this Video for Your Next Steps</h3>
+            <h3 id="page_title" style="color: #333; font-size: 34px; Font-family: Tahoma;">Watch this Video for Your Next Steps</h3>
         </div>
     </div>
     <div class="row">
@@ -100,6 +100,7 @@
         </div>
     </div>
 </div>
+<?php require_once(TEMPLATE_DIR . 'google_analytics.php'); ?>
 <script type="text/javascript">
     adroll_adv_id = "XM3SHKW6KBEXZENOSGYMWT";
     adroll_pix_id = "X6KE4ONVTRASHLN65VKOU7";

@@ -17,5 +17,6 @@
         else {window.attachEvent('onload', _onload)}
     }());
 </script>
+<?php require_once(TEMPLATE_DIR . 'google_analytics.php'); ?>
 </body>
 </html>
