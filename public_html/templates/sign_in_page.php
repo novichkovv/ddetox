@@ -83,8 +83,8 @@
                         <div class="row">
                             <div class="col-md-12 text-center">
                                 <div class="form-group text-center">
-                                    <button type="submit" class="btn btn-lg btn-primary" name="sign_in_btn" style="display: block; margin: auto;">JOIN THE 21 DAY DETOX<br>
-                                        <span style="font-size: 25px;">IT'S FREE</span>
+                                    <button type="submit"  name="sign_in_btn" style="border: none; background: none;">
+                                        <img style="width: 100%;" src="<?php echo SITE_DIR; ?>images/join_button.jpg">
                                     </button>
                                 </div>
                             </div>
