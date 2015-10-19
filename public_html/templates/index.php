@@ -71,7 +71,7 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-6 col-md-offset-3">
         <div class="text-center" style="max-width: 100%; overflow: hidden;">
             <?php if(strtotime($user['sdate']) + 4*24*60*60 > strtotime(date('Y-m-d 06:00:00'))): ?>
                 <h3 style="color: #2c82ee; font-size: 25px; margin-top: 40px;">The 21 Day Detox Challnege will Begin in</h3>
@@ -81,10 +81,9 @@
             <?php endif; ?>
         </div>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-3 text-center" style="padding-top: 80px; font-size: 30px;">
         <a target="_blank" href="<?php echo SITE_DIR; ?>image/?img=<?php echo SITE_DIR; ?>images/2.png">Print Shopping List</a>
     </div>
-
 </div>
 <div class="container" style="text-align: center;">
     <?php if($data['video']): ?>
