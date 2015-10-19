@@ -12,9 +12,9 @@
 </div>
 
 <div class="row">
-    <div class="col-lg-6">
+    <div class="col-md-12">
         <h2>Rad Rainbow Raw Pad Thai</h2>
-        <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/pad-thai.jpg" alt="Rad Rainbow Raw Pad Thai" width="300" height="446" align="right" />
+        <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/pad-thai.jpg" alt="Rad Rainbow Raw Pad Thai" width="300" height="446" align="left" />
         <h3>Ingredients</h3>
         <ul><li>1 medium zucchini, julienned or spiraled</li>
             <li>2 large carrots, julienned</li>
@@ -39,9 +39,12 @@
         </ol>
 
     </div>
-    <div class="col-lg-6">
+</div>
+    <br><hr />
+<div class="row">
+    <div class="col-md-12">
         <h2>Warm Spring Salad</h2>
-        <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/warm-salad.jpg" alt="Warm Salad" width="300" height="446" align="right" />
+        <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/warm-salad.jpg" alt="Warm Salad" width="300" height="446" align="left" />
         <h3>Ingredients</h3>
         <ul><li>1 cup uncooked quinoa (or try speltberries, but note they are not GF)</li>
             <li>1/2 tbsp extra virgin olive oil</li>
@@ -67,17 +70,12 @@
         </ol>
 
     </div>
-
 </div>
-
-<br><hr><br>
-
-
+    <br><hr />
 <div class="row">
-
-    <div class="col-lg-6">
+    <div class="col-md-12">
         <h2>My Go-To Kale Salad </h2>
-        <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/kale.jpg" alt="My Go-To Kale Salad " width="300" height="445" align="right" />
+        <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/kale.jpg" alt="My Go-To Kale Salad " width="300" height="445" align="left" />
         <h3>Ingredients</h3>
         <ul><li>4 cups (packed) torn kale leaves, stems removed</li>
             <li>1 tbsp hemp, flax, or avocado oil (or use extra virgin olive oil in a pinch)
@@ -98,9 +96,12 @@
             <li>While the salad marinates, chop the vegetables. Mix into kale and serve, topped with hemp seeds if you desire.</li> </ol>
 
     </div>
-    <div class="col-lg-6">
+</div>
+    <br><hr />
+<div class="row">
+    <div class="col-md-12">
         <h2>Speedy Three-Bean Salad </h2>
-        <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/speedy.jpeg" alt="Speedy Three-Bean Salad " width="300" height="299" align="right" />
+        <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/speedy.jpeg" alt="Speedy Three-Bean Salad " width="300" height="299" align="left" />
         <h3>Ingredients</h3>
         <ul><li>1 cup chopped green beans, stems removed</li>
             <li>1 (15-oz) can chickpeas (I use Eden Organic BPA-free), or 1.5 cups cooked</li>
@@ -133,15 +134,12 @@
     </div>
 
 </div>
-
-<br><hr><br>
-
-
+    <br><hr />
 <div class="row">
 
-    <div class="col-lg-6">
+    <div class="col-md-12">
         <h2>Dinosaur Dill Crunch Salad with Salt & Vinegar Chickpeas </h2>
-        <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/dinosaur.jpg" alt="Dinosaur Dill Crunch Salad with Salt & Vinegar Chickpeas " width="300" height="201" align="right" />
+        <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/dinosaur.jpg" alt="Dinosaur Dill Crunch Salad with Salt & Vinegar Chickpeas " width="300" height="201" align="left" />
         <h3>Ingredients</h3>
         <ul><li>1 (15-oz) can chickpeas, drained and rinsed</li>
             <li>2 cups white vinegar</li>
@@ -170,9 +168,12 @@
         </ol>
 
     </div>
-    <div class="col-lg-6">
+</div>
+    <br><hr />
+<div class="row">
+    <div class="col-md-12">
         <h2>Detox Salad </h2>
-        <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/detox.jpg" alt="Detox Salad" width="300" height="452" align="right" />
+        <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/detox.jpg" alt="Detox Salad" width="300" height="452" align="left" />
         <h3>Ingredients</h3>
         <ul><li>2 heads broccoli (1 bunch), stems removed</li>
             <li>1 head cauliflower, stems removed</li>
@@ -184,6 +185,7 @@
             <li>4-6 tbsp fresh lemon juice, to taste</li>
             <li>kosher salt (1/4-1/2 tsp salt)</li>
             <li>kelp granules or Herbamare (optional),</li>
+        </ul>
 <!--            <li>Can drizzle on maple syrup </li> </ul>-->
         <h3>Preparation</h3>
         <ol>
@@ -206,14 +208,11 @@
     </div>
 
 </div>
-
-<br><hr><br>
-
+    <br><hr />
 <div class="row">
-
-    <div class="col-lg-6">
+    <div class="col-md-12">
         <h2>High Protein Quinoa Almond Berry Salad </h2>
-        <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/quinoa.jpeg" alt="High Protein Quinoa Almond Berry Salad " width="300" height="395" align="right" />
+        <img class="recipe_image"  src="<?php echo SITE_DIR; ?>images/recipes/quinoa.jpeg" alt="High Protein Quinoa Almond Berry Salad " width="300" height="395" align="left" />
         <h3>Ingredients</h3>
         <ul>
             <li>Quinoa</li>

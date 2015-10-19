@@ -268,7 +268,7 @@ body {
     margin-bottom: 6px;
 }
 .recipe_image {
-    margin: 0 0 30px 30px;
+    margin: 0 80px 30px 0;
 }
 #recipe_page ul {
     font-family: Tahoma;
