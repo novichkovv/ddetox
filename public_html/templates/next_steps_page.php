@@ -1,4 +1,4 @@
-<div  id="slider" class="row  hidden-xs">
+<div  id="slider" class="row hidden-xs">
     <div class="container">
         <div class="col-md-2 col-sm-3 col-xs-5">
             <section class="slide1 wow bounceInLeft">
