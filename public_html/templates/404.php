@@ -3,3 +3,4 @@
     <h3>PAGE NOT FOUND</h3>
     <h4><a href="<?php echo SITE_DIR; ?>">GO TO HOMEPAGE</a></h4>
 </div>
+<?php require_once(TEMPLATE_DIR . 'google_analytics.php'); ?>
