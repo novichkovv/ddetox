@@ -57,5 +57,3 @@ foreach ($list as $k => $sku) {
 foreach($products as $product) {
     $model->insert($product);
 }
-
-print_r($model->getAll());

@@ -8,7 +8,7 @@
                         <img class="product_image" src="<?php echo $product['image']; ?>" alt="<?php echo $product['name']; ?>"/>
                     </div>
                     <div class="product_prices">
-                        <?php if($product['special_price']): ?>
+                        <?php if($product['special_price'] != 0): ?>
                             <div class="product_special_price">
                                 $<?php echo number_format($product['price'], 2, '.', ' '); ?>
                             </div>
@@ -16,7 +16,7 @@
                                 $<?php echo number_format($product['special_price'], 2, '.', ' '); ?>
                             </div>
                         <?php endif; ?>
-                        <?php if(!$product['special_price']): ?>
+                        <?php if($product['special_price'] == 0): ?>
                             <div class="product_price">
                                 $<?php echo number_format($product['price'], 2, '.', ' '); ?>
                             </div>
