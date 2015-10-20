@@ -195,7 +195,7 @@
     <?php endif ?>
     <?php if($day == 3): ?>
         <a href="<?php echo PACKAGE_URL; ?>" target="_blank">
-            <img src="<?php echo SITE_DIR; ?>images/1.png" style="min-width: 450px; width: 90%; max-width: 728px; margin-bottom: 30px;" />
+            <img src="<?php echo SITE_DIR; ?>images/1.png" style="width: 90%; max-width: 728px; margin-bottom: 30px;" />
         </a>
     <?php endif ?>
 </div>
